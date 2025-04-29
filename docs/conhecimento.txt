@@ -1,0 +1,72 @@
+## observacoes gerais:
+
+- API do TinyERP tem uma limitação de 120 RPM, sendo 60 GET e 60 PUT
+- estão na pasta /docs os arquivos com a documentação da API
+- O objetivo final do projeto é criar um banco de dados local, que possa ser exportado e/ ou acessado para produção de relatórios e dashboard para analise das ordens de serviço
+
+
+## Situações das Ordens de Serviço
+- Finalizada
+- Não aprovada
+- Cancelada
+- Orçada
+- Em andamento
+- Aprovada
+- Serviço concluído
+- Em aberto
+
+
+##. **Estrutura de Múltiplos Itens**: O banco de dados precisará suportar múltiplos itens (produtos e serviços) por ordem de serviço, com uma relação de 1:N.
+
+
+## Campos API Tiny
+
+# campos de filtragem de dados
+| Campo API Tiny | Tipo | Descrição |
+|---------------|------|-----------|---------------------------|
+| id | integer | ID único da ordem de serviço | 
+| numeroOrdemServico | string | Número da OS | 
+| data | string | Data de criação | 
+| situacao | string | Situação atual da OS (Ex: "4 - Não Aprovada") | 
+
+#demais campos
+| dataPrevista | string | Data prevista para conclusão | 
+| totalPecas | string | Valor total das peças | 
+| totalServicos | string | Valor total dos serviços | 
+| totalOrdemServico | string | Valor total da OS | 
+| contato.id | integer | ID do cliente/contato | 
+| contato.nome | string | Nome do cliente/contato | 
+| idProduto | integer | ID do produto | 
+| descricao | string | Descrição do produto/serviço |
+| quantidadeProduto | number | Quantidade do produto |
+| Valor unitário | number | Valor unitário do item |
+| Tipo | string | Tipo do item (P=Produto, S=Serviço) | 
+| Total item | number | Valor total do item | 
+| Desconto item | number | Desconto aplicado ao item |
+| Desconto serviço | number | Desconto aplicado ao serviço | 
+| Desconto Geral | 
+| dataConclusao | string | Data de conclusão da ordem | 
+| equipamento | string | Descrição do equipamento | 
+| equipamentoSerie | string | Número de série ou IMEI do equipamento |
+| descricaoProblema | string | Descrição do problema relatado | 
+| observacoes | string | Observações gerais | 
+| observacoesServico | string | Observações específicas do serviço | 
+| observacoesInternas | string | Observações de uso interno | 
+| tecnico | string | Nome do técnico responsável | 
+| marcadores | string |  Tags da Ordem de serviço | 
+| orcar | string | Indicador se precisa orçamento | 
+| orcado | string | Indicador se já foi orçado | 
+| alqComissao | number | Alíquota de comissão | 
+| vlrComissao | number | Valor da comissão | 
+| idForma | integer | ID da forma de pagamento | 
+| idContaContabil | integer | ID da conta contábil | 
+| desconto | string | Valor do desconto aplicado | 
+| idListaPreco | integer | ID da lista de preços | 
+| idLocalPrestacao | integer | ID do local da prestação |
+| idDeposito | integer | ID do depósito |
+| vendedor.id | integer | ID do vendedor | 
+| categoria.id | integer | ID da categoria | 
+| categoria.descricao | string | Descrição da categoria | 
+| formaPagamento.id | integer | ID da forma de pagamento |
+| formaPagamento.nome | string | Nome da forma de pagamento | 
+| itens | array | Lista de itens (produtos/serviços) | 
