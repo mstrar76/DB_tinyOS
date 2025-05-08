@@ -32,22 +32,26 @@ The primary goal is to extract detailed service order data from TinyERP via its 
     - Created `src/db_utils.py` for database connection handling.
     - Created `src/process_data.py` with logic to read JSON data and insert/update into the database.
 - **Data Import:** Successfully extracted 120 finalized service orders from April 2025 using `src/fetch_orders_april.py` and saved to `orders_april_finalizadas.json`. These orders were then successfully processed and inserted into the PostgreSQL database using `src/process_data.py`.
+- **Web Interface Data Display:** Successfully configured the web interface (`web_interface/`) to connect to and display April service orders from the Supabase PostgreSQL database.
 
 ## Current Plan & Next Steps
 
-1.  **Full Extraction & Scheduling:**
-    *   Adapt scripts to handle API pagination and rate limits to fetch *all* 31k+ orders (not just April's).
+1.  **Full Extraction & Database Completion:**
+    *   Modify the script to capture all service orders from 2013 to today to complete the database.
+    *   Adapt scripts to handle API pagination and rate limits to fetch *all* 31k+ orders.
     *   Set up a mechanism (e.g., `cron`) for daily data updates.
-2.  **Dockerization:**
+2.  **Optimize Report Access Interface:**
+    *   Optimize the web interface for efficient access and display of the full report data.
+3.  **Dockerization:**
     *   Create `Dockerfile` for the Python application.
     *   Create `docker-compose.yml` to manage the Python app and PostgreSQL containers.
-3.  **Address `marcadores` and `equipamentoSerie`:**
+4.  **Address `marcadores` and `equipamentoSerie`:**
     *   Follow up on the support ticket with Tiny ERP regarding the API issues with these fields.
     *   Once a solution is available, update the extraction and processing scripts to correctly handle this data.
 
 ## Web Interface Plan (Supabase Backend)
 
-4.  **Web Interface Development:**
+5.  **Web Interface Development:**
     *   **Purpose:** Create a web interface to view, filter, and customize the display of service orders, connecting directly to the Supabase PostgreSQL database.
     *   **Backend:** **Supabase PostgreSQL Database** (replaces local Flask backend).
         *   Database schema replicated and initial data populated.

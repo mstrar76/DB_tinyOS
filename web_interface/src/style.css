@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles beyond Tailwind */
+
+/* Ensure table layout is fixed for column resizing */
+.resizable-table {
+  table-layout: fixed;
+  width: 100%; /* Ensure table takes full width */
+}
+
+/* Style for table headers to allow positioning of resize handles */
+.resizable-table th {
+  position: relative;
+  padding-right: 10px; /* Add padding to make space for the handle */
+}
+
+/* Style for the resize handle */
+.resize-handle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 5px; /* Make the handle narrow */
+  cursor: col-resize;
+  /* Optional: Add a background color or border for visibility during development */
+  /* background-color: rgba(0, 0, 255, 0.2); */
+}
+
+/* Add a hover effect for better usability */
+.resize-handle:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+}

@@ -121,17 +121,20 @@ const dynamicFieldSelect = document.getElementById('dynamic-field-select') as HT
 const dynamicFieldValue = document.getElementById('dynamic-field-value') as HTMLInputElement;
 const clearFiltersButton = document.getElementById('clear-filters') as HTMLButtonElement;
 const applyFiltersButton = document.getElementById('apply-filters') as HTMLButtonElement;
-const columnCheckboxesContainer = document.getElementById('column-checkboxes') as HTMLDivElement;
+const columnButtonsContainer = document.getElementById('column-buttons') as HTMLDivElement;
 const tableHeader = document.getElementById('table-header') as HTMLTableRowElement;
 const tableBody = document.getElementById('table-body') as HTMLTableSectionElement;
+
+// Variable to store the currently displayed service orders
+let currentServiceOrders: ServiceOrder[] = [];
 
 // Initialize the UI when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
   // Setup status options
   setupStatusOptions();
 
-  // Setup column checkboxes
-  setupColumnCheckboxes();
+  // Setup column buttons
+  setupColumnButtons();
 
   // Setup event listeners
   setupEventListeners();
@@ -150,40 +153,52 @@ function setupStatusOptions(): void {
   });
 }
 
-// Setup column checkboxes for selection
-function setupColumnCheckboxes(): void {
-  // Clear existing checkboxes first
-  columnCheckboxesContainer.innerHTML = '';
+// Setup column buttons for selection
+function setupColumnButtons(): void {
+  // Clear existing buttons first
+  columnButtonsContainer.innerHTML = '';
 
-  // Create a checkbox for each column
-  COLUMNS.forEach(column => {
-    const checkboxDiv = document.createElement('div');
-    checkboxDiv.className = 'flex items-start';
+  // Filter out the 'id' column as it should not be selectable
+  const selectableColumns = COLUMNS.filter(column => column.id !== 'id');
 
-    const checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.id = `column-${column.id}`;
-    checkbox.className = 'h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mt-1';
-    checkbox.checked = column.checked;
-    checkbox.dataset.columnId = column.id;
+  selectableColumns.forEach(column => {
+    // Skip 'numero_ordem_servico' as it should always be visible and not have a toggle button
+    if (column.id === 'numero_ordem_servico') {
+      // Ensure it's checked by default
+      const osColumn = COLUMNS.find(c => c.id === 'numero_ordem_servico');
+      if (osColumn) {
+        osColumn.checked = true;
+      }
+      return;
+    }
 
-    const label = document.createElement('label');
-    label.htmlFor = `column-${column.id}`;
-    label.className = 'ml-2 block text-sm text-gray-700';
-    label.textContent = column.displayName;
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.id = `column-btn-${column.id}`;
+    // Add classes for button styling (using Tailwind)
+    button.className = `px-3 py-1 text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
+      column.checked ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+    }`;
+    button.textContent = column.displayName;
+    button.dataset.columnId = column.id;
 
-    checkboxDiv.appendChild(checkbox);
-    checkboxDiv.appendChild(label);
-    columnCheckboxesContainer.appendChild(checkboxDiv);
-
-    // Add event listener to update table when checkbox changes
-    checkbox.addEventListener('change', () => {
+    // Add event listener to toggle column visibility
+    button.addEventListener('click', () => {
       const columnIndex = COLUMNS.findIndex(c => c.id === column.id);
       if (columnIndex !== -1) {
-        COLUMNS[columnIndex].checked = checkbox.checked;
+        // Toggle the checked state
+        COLUMNS[columnIndex].checked = !COLUMNS[columnIndex].checked;
+        // Update button style based on the new state
+        button.className = `px-3 py-1 text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
+          COLUMNS[columnIndex].checked ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+        }`;
+        // Update the table header and repopulate the table immediately
         updateTableHeader();
+        populateTable(currentServiceOrders);
       }
     });
+
+    columnButtonsContainer.appendChild(button);
   });
 }
 
@@ -334,8 +349,58 @@ function updateTableHeader(): void {
     const th = document.createElement('th');
     th.className = 'px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider';
     th.textContent = column.displayName;
+
+    // Add resize handle
+    const resizeHandle = document.createElement('div');
+    resizeHandle.className = 'resize-handle';
+    resizeHandle.dataset.columnId = column.id; // Store column ID for reference
+
+    // Append handle to the header
+    th.appendChild(resizeHandle);
+
     tableHeader.appendChild(th);
+
+    // Add event listener for resizing
+    resizeHandle.addEventListener('mousedown', startResize);
   });
+}
+
+// Variables to track resizing state
+let currentResizer: HTMLElement | null = null;
+let startX: number = 0;
+let startWidth: number = 0;
+let currentColumn: HTMLTableCellElement | null = null;
+
+// Function to start resizing
+function startResize(e: MouseEvent): void {
+  currentResizer = e.target as HTMLElement;
+  currentColumn = currentResizer.parentElement as HTMLTableCellElement;
+  startX = e.clientX;
+  startWidth = currentColumn.offsetWidth;
+
+  // Add event listeners to the document for dragging
+  document.addEventListener('mousemove', resizeColumn);
+  document.addEventListener('mouseup', stopResize);
+}
+
+// Function to handle column resizing
+function resizeColumn(e: MouseEvent): void {
+  if (currentColumn) {
+    const diffX = e.clientX - startX;
+    // Ensure minimum width (e.g., 50px)
+    currentColumn.style.width = `${Math.max(50, startWidth + diffX)}px`;
+  }
+}
+
+// Function to stop resizing
+function stopResize(): void {
+  // Remove event listeners from the document
+  document.removeEventListener('mousemove', resizeColumn);
+  document.removeEventListener('mouseup', stopResize);
+
+  // Reset state
+  currentResizer = null;
+  currentColumn = null;
 }
 
 // Build query parameters for API request (No longer needed for Supabase direct access)
@@ -386,14 +451,17 @@ async function fetchData(): Promise<void> {
       throw new Error(error.message);
     }
 
-    // Explicitly type the data variable
-    const serviceOrders: ServiceOrder[] = data || [];
+    // Explicitly type the data variable, ensuring it's not null
+    const serviceOrders: ServiceOrder[] = (data !== null) ? (data as unknown as ServiceOrder[]) : [];
+
+    // Store the fetched data
+    currentServiceOrders = serviceOrders;
 
     // Update the table header
     updateTableHeader();
 
     // Populate the table
-    populateTable(serviceOrders);
+    populateTable(currentServiceOrders);
 
   } catch (error: any) { // Explicitly type error for better handling
     console.error('Error fetching data:', error);

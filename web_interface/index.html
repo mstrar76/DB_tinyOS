@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ordens de Serviço - TinyERP</title>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <div id="app" class="container mx-auto px-4 py-8">
+      <header class="mb-8">
+        <h1 class="text-3xl font-bold text-gray-800">Ordens de Serviço - TinyERP</h1>
+        <p class="text-gray-600">Consulta e visualização de ordens de serviço</p>
+      </header>
+
+      <main>
+        <!-- Filter Section -->
+        <section id="filter-section" class="mb-8 p-6 bg-white rounded-lg shadow">
+          <h2 class="text-xl font-semibold mb-4">Filtros</h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Date Filter -->
+            <div class="filter-group">
+              <label for="date-filter" class="block text-sm font-medium text-gray-700 mb-1">Período</label>
+              <select id="date-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                <option value="day">Hoje</option>
+                <option value="week">Última Semana</option>
+                <option value="month">Último Mês</option>
+                <option value="custom">Período Personalizado</option>
+              </select>
+            </div>
+            
+            <!-- Custom Date Range (initially hidden, will be shown with JavaScript when "custom" is selected) -->
+            <div id="custom-date-range" class="hidden filter-group">
+              <div class="grid grid-cols-2 gap-2">
+                <div>
+                  <label for="start-date" class="block text-sm font-medium text-gray-700 mb-1">Início</label>
+                  <input type="date" id="start-date" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div>
+                  <label for="end-date" class="block text-sm font-medium text-gray-700 mb-1">Fim</label>
+                  <input type="date" id="end-date" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+              </div>
+            </div>
+
+            <!-- Status Filter -->
+            <div class="filter-group">
+              <label for="status-filter" class="block text-sm font-medium text-gray-700 mb-1">Status</label>
+              <select id="status-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                <option value="">Todos</option>
+                <!-- Status options will be populated dynamically by TypeScript -->
+              </select>
+            </div>
+
+            <!-- Dynamic Field Filter -->
+            <div class="filter-group">
+              <label for="dynamic-field-select" class="block text-sm font-medium text-gray-700 mb-1">Campo Adicional</label>
+              <select id="dynamic-field-select" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                <option value="">Selecione um campo</option>
+                <option value="numero_ordem_servico">Número da OS</option>
+                <option value="tecnico">Técnico</option>
+                <option value="equipamento">Equipamento</option>
+                <option value="linha_dispositivo">Linha/Dispositivo</option>
+                <option value="tipo_servico">Tipo de Serviço</option>
+                <option value="origem_cliente">Origem do Cliente</option>
+              </select>
+            </div>
+
+            <!-- Dynamic Field Value (initially disabled, will be enabled with JavaScript when a field is selected) -->
+            <div class="filter-group">
+              <label for="dynamic-field-value" class="block text-sm font-medium text-gray-700 mb-1">Valor</label>
+              <input type="text" id="dynamic-field-value" disabled class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="Selecione um campo primeiro">
+            </div>
+          </div>
+
+          <!-- Filter Actions -->
+          <div class="flex justify-end mt-4 space-x-2">
+            <button id="clear-filters" class="px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Limpar Filtros
+            </button>
+            <button id="apply-filters" class="px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Aplicar Filtros
+            </button>
+          </div>
+        </section>
+
+        <!-- Data Table Section -->
+        <section id="data-table-section" class="p-6 bg-white rounded-lg shadow overflow-x-auto">
+          <div class="flex justify-between items-center mb-4">
+            <h2 class="text-xl font-semibold">Ordens de Serviço</h2>
+            <!-- Column selection buttons will be populated here by TypeScript -->
+            <div id="column-buttons" class="flex flex-wrap gap-2">
+              <!-- Buttons will be populated here -->
+            </div>
+          </div>
+          
+          <!-- Table will be populated dynamically by TypeScript -->
+          <table id="data-table" class="min-w-full divide-y divide-gray-200 resizable-table">
+            <thead class="bg-gray-50">
+              <tr id="table-header">
+                <!-- Table headers will be populated dynamically by TypeScript -->
+              </tr>
+            </thead>
+            <tbody id="table-body" class="bg-white divide-y divide-gray-200">
+              <!-- Table rows will be populated dynamically by TypeScript -->
+              <tr>
+                <td colspan="100%" class="px-6 py-4 text-center text-gray-500">
+                  Selecione filtros e clique em "Aplicar Filtros" para visualizar os dados.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
