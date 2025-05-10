@@ -64,7 +64,6 @@ const STATUS_OPTIONS = [
 
 // Column definitions
 const COLUMNS: ColumnMetadata[] = [
-  { id: 'id', displayName: 'ID', checked: true },
   { id: 'numero_ordem_servico', displayName: 'Número OS', checked: true },
   { id: 'situacao', displayName: 'Status', checked: true },
   { id: 'data_emissao', displayName: 'Data Emissão', checked: true,
@@ -497,11 +496,21 @@ function populateTable(data: ServiceOrder[]): void {
   // Get visible columns
   const visibleColumns = COLUMNS.filter(column => column.checked);
   
+  // Calcula totais
+  let totalOrdem = 0;
+  let totalServico = 0;
+  let totalPecas = 0;
+
   // Create a row for each service order
   data.forEach(order => {
     const tr = document.createElement('tr');
     tr.className = 'hover:bg-gray-50';
     
+    // Soma os valores se existirem
+    totalOrdem += typeof order.total_ordem_servico === 'number' ? order.total_ordem_servico : 0;
+    totalServico += typeof order.total_servicos === 'number' ? order.total_servicos : 0;
+    totalPecas += typeof order.total_pecas === 'number' ? order.total_pecas : 0;
+
     // Add cells for each visible column
     visibleColumns.forEach(column => {
       const td = document.createElement('td');
@@ -518,6 +527,42 @@ function populateTable(data: ServiceOrder[]): void {
     
     tableBody.appendChild(tr);
   });
+
+  // Atualiza rodapé
+  const totalOrders = data.length;
+  const formatCurrency = (v: number) => `R$ ${v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+  const elTotalOrders = document.getElementById('total-orders');
+  const elTotalOrdem = document.getElementById('total-valor-ordem');
+  const elTotalServico = document.getElementById('total-valor-servico');
+  const elTotalPecas = document.getElementById('total-valor-pecas');
+
+  if (elTotalOrders) elTotalOrders.textContent = `Total de ordens: ${totalOrders}`;
+
+  // Exibe ou oculta os totais conforme as colunas visíveis
+  if (elTotalOrdem) {
+    if (visibleColumns.some(col => col.id === 'total_ordem_servico')) {
+      elTotalOrdem.style.display = '';
+      elTotalOrdem.textContent = `Valor Total: ${formatCurrency(totalOrdem)}`;
+    } else {
+      elTotalOrdem.style.display = 'none';
+    }
+  }
+  if (elTotalServico) {
+    if (visibleColumns.some(col => col.id === 'total_servicos')) {
+      elTotalServico.style.display = '';
+      elTotalServico.textContent = `Valor Serviços: ${formatCurrency(totalServico)}`;
+    } else {
+      elTotalServico.style.display = 'none';
+    }
+  }
+  if (elTotalPecas) {
+    if (visibleColumns.some(col => col.id === 'total_pecas')) {
+      elTotalPecas.style.display = '';
+      elTotalPecas.textContent = `Valor Peças: ${formatCurrency(totalPecas)}`;
+    } else {
+      elTotalPecas.style.display = 'none';
+    }
+  }
 }
 
 // Initialize the page - first time setup
