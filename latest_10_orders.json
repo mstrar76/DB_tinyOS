@@ -1,0 +1,418 @@
+{
+  "itens": [
+    {
+      "id": 582526765,
+      "situacao": "3",
+      "data": "2025-04-29",
+      "dataPrevista": "2025-04-29 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31114",
+      "cliente": {
+        "nome": "Gladimir Filipa Kauling",
+        "codigo": "2123",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(xx) 99552-5932",
+        "email": "kgladimir@gmail.com",
+        "endereco": {
+          "endereco": "Rua Petit Carneiro",
+          "numero": "555",
+          "complemento": "",
+          "bairro": "\u00c1gua Verde",
+          "municipio": "Curitiba",
+          "cep": "80.240-050",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579526479
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 13 Azul"
+        },
+        {
+          "descricao": "TXmidia"
+        },
+        {
+          "descricao": "Linha iPhone"
+        }
+      ]
+    },
+    {
+      "id": 582522878,
+      "situacao": "3",
+      "data": "2025-04-28",
+      "dataPrevista": "2025-04-28 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31109",
+      "cliente": {
+        "nome": "Caroline Carvalho",
+        "codigo": "2121",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "070.482.909-60",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(xx) 99667-4183",
+        "email": "carolcdelima@gmail.com",
+        "endereco": {
+          "endereco": "Rua Nicolau Serrato Sobrinho",
+          "numero": "1189",
+          "complemento": "",
+          "bairro": "Novo Mundo",
+          "municipio": "Curitiba",
+          "cep": "81.010-400",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579526092
+      },
+      "marcadores": []
+    },
+    {
+      "id": 582522622,
+      "situacao": "3",
+      "data": "2025-04-28",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31108",
+      "cliente": {
+        "nome": "Erika Thais Casares ",
+        "codigo": "2120",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "003.157.729-64",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99243-8011",
+        "email": "Thaisthis@gmail.com",
+        "endereco": {
+          "endereco": "Travessa Frei Caneca",
+          "numero": "11",
+          "complemento": "",
+          "bairro": "Centro",
+          "municipio": "Curitiba",
+          "cep": "80.010-090",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579526067
+      },
+      "marcadores": [
+        {
+          "descricao": "origem:social"
+        },
+        {
+          "descricao": "iPhone 11"
+        },
+        {
+          "descricao": "tela premium"
+        }
+      ]
+    },
+    {
+      "id": 582521916,
+      "situacao": "3",
+      "data": "2025-04-28",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31103",
+      "cliente": {
+        "nome": "Henrique Gavron dos santos",
+        "codigo": "2116",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "083.764.549-27",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "",
+        "email": "henrysenju@gmail.com",
+        "endereco": {
+          "endereco": "Rua Pastor Carlos Frank",
+          "numero": "1841",
+          "complemento": "",
+          "bairro": "Boqueir\u00e3o",
+          "municipio": "Curitiba",
+          "cep": "81.750-420",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579526014
+      },
+      "marcadores": [
+        {
+          "descricao": "TXmidia"
+        },
+        {
+          "descricao": "Linha iPhone"
+        },
+        {
+          "descricao": "iPhone 12 pro max"
+        },
+        {
+          "descricao": "analise"
+        }
+      ]
+    },
+    {
+      "id": 582520715,
+      "situacao": "3",
+      "data": "2025-04-28",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31102",
+      "cliente": {
+        "nome": "Bento Junior ",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "859.358.599-04",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "(41) 3014-6171",
+        "celular": "(41) 99957-6171",
+        "email": "juniormelli@hotmail.com",
+        "endereco": {
+          "endereco": "Rua Jo\u00e3o Negr\u00e3o",
+          "numero": "558",
+          "complemento": "",
+          "bairro": "Centro",
+          "municipio": "Curitiba",
+          "cep": "80.010-200",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 518723460
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 12"
+        },
+        {
+          "descricao": "Cliente Existente"
+        },
+        {
+          "descricao": "GARANTIA"
+        }
+      ]
+    },
+    {
+      "id": 582517068,
+      "situacao": "3",
+      "data": "2025-04-26",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31100",
+      "cliente": {
+        "nome": "Lidia moura",
+        "codigo": "2115",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "845.299.039-15",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99198-3243",
+        "email": "lidia.zyt@gmail.com",
+        "endereco": {
+          "endereco": "Rua Jeremias Maciel Perretto",
+          "numero": "1060",
+          "complemento": "",
+          "bairro": "Campo Comprido",
+          "municipio": "Curitiba",
+          "cep": "81.210-310",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579525332
+      },
+      "marcadores": [
+        {
+          "descricao": "TXmidia"
+        },
+        {
+          "descricao": "Linha iPhone"
+        },
+        {
+          "descricao": "iPhone 13 mini"
+        },
+        {
+          "descricao": "Bateria"
+        }
+      ]
+    },
+    {
+      "id": 582516980,
+      "situacao": "3",
+      "data": "2025-04-26",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31099",
+      "cliente": {
+        "nome": "Louise Lobo ",
+        "codigo": "1948",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "253.190.138-84",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99989-7177",
+        "email": "louiselobokulig@gmail.com",
+        "endereco": {
+          "endereco": "Rua Coronel Dulc\u00eddio",
+          "numero": "1596",
+          "complemento": "",
+          "bairro": "\u00c1gua Verde",
+          "municipio": "Curitiba",
+          "cep": "80.250-100",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579503764
+      },
+      "marcadores": [
+        {
+          "descricao": "TXmidia"
+        },
+        {
+          "descricao": "linha ipad"
+        },
+        {
+          "descricao": "Tela"
+        }
+      ]
+    },
+    {
+      "id": 582516955,
+      "situacao": "3",
+      "data": "2025-04-26",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31097",
+      "cliente": {
+        "nome": "Maria Ang\u00e9lica de Mello Beil",
+        "codigo": "2113",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "469.100.779-20",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99137-9696",
+        "email": "yoganibal@gmail.com",
+        "endereco": {
+          "endereco": "Rua Deputado Joaquim Linhares de Lacerda",
+          "numero": "88",
+          "complemento": "Apto 202",
+          "bairro": "Semin\u00e1rio",
+          "municipio": "Curitiba",
+          "cep": "80.240-560",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579525319
+      },
+      "marcadores": [
+        {
+          "descricao": "TXmidia"
+        },
+        {
+          "descricao": "iPhone 14 pro max"
+        },
+        {
+          "descricao": "Linha iPhone"
+        }
+      ]
+    },
+    {
+      "id": 582516934,
+      "situacao": "3",
+      "data": "2025-04-26",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31096",
+      "cliente": {
+        "nome": "Gabriel Estefano",
+        "codigo": "2112",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "099.621.429-11",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99697-5694",
+        "email": "gabrielnobrega475@gmail.com",
+        "endereco": {
+          "endereco": "Rua Presidente Arthur Costa e Silva",
+          "numero": "1443",
+          "complemento": "",
+          "bairro": "Jardim Paulista",
+          "municipio": "Campina Grande do Sul",
+          "cep": "83.430-000",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579525310
+      },
+      "marcadores": []
+    },
+    {
+      "id": 582516872,
+      "situacao": "3",
+      "data": "2025-04-26",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "valor": null,
+      "numeroOrdemServico": "31095",
+      "cliente": {
+        "nome": "Fernando de Souza Viana da silva ",
+        "codigo": "2111",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "118.505.539-80",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99535-2725",
+        "email": "pessoalfernandosouzavianasilva@gmail.com",
+        "endereco": {
+          "endereco": "Rua Paulo Kissula",
+          "numero": "500",
+          "complemento": "",
+          "bairro": "Cap\u00e3o da Imbuia",
+          "municipio": "Curitiba",
+          "cep": "82.810-530",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579525303
+      },
+      "marcadores": [
+        {
+          "descricao": "TXmidia"
+        },
+        {
+          "descricao": "Linha iPhone"
+        },
+        {
+          "descricao": "iPhone 13 Pro"
+        },
+        {
+          "descricao": "lente camera"
+        }
+      ]
+    }
+  ],
+  "paginacao": {
+    "limit": 10,
+    "offset": 0,
+    "total": 29645
+  }
+}

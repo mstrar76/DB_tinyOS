@@ -1,0 +1,38 @@
+**Assunto:** Problema na Extração de Dados via API v3 - Campos `equipamentoSerie` e `marcadores` em Ordens de Serviço
+
+**Prezados Suporte Tiny ERP,**
+
+Escrevo para reportar uma dificuldade encontrada ao utilizar a API v3 para extrair dados detalhados de Ordens de Serviço. Especificamente, estamos tendo problemas com os campos `equipamentoSerie` e `marcadores`.
+
+**Endpoint Utilizado:**
+`GET /ordem-servico/{idOrdemServico}` (Operação: `ObterOrdemServicoAction`)
+
+**Comportamento Observado:**
+
+1.  **Campo `equipamentoSerie`:**
+    *   Este campo está presente na estrutura de resposta documentada (`ObterOrdemServicoModelResponse`) para o endpoint mencionado.
+    *   No entanto, ao realizar chamadas à API para ordens de serviço que **possuem** um número de série visível na interface do Tiny ERP, a API retorna este campo com valor vazio (`""`).
+    *   Exemplo de OS onde o campo veio vazio via API, mas possui dados no sistema:
+        *   ID: 582522622 (OS: 31108) -> Série no sistema: 352912113429351
+        *   ID: 582516934 (OS: 31096) -> Série no sistema: 353043112382384592
+        *   ID: 582516872 (OS: 31095) -> Série no sistema: 356133313070004
+
+2.  **Campo `marcadores`:**
+    *   Este campo **não está presente** na estrutura de resposta documentada (`ObterOrdemServicoModelResponse`) para o endpoint `GET /ordem-servico/{idOrdemServico}`.
+    *   Consequentemente, o campo não é retornado na resposta da API ao buscar detalhes de uma ordem de serviço específica, mesmo quando a ordem possui marcadores visíveis na interface do Tiny ERP.
+    *   Notamos que o campo `marcadores` existe como parâmetro de filtro no endpoint de listagem (`GET /ordem-servico`) e também pode ser definido ao criar uma OS via API (`POST /ordem-servico`). Além disso, endpoints específicos para buscar marcadores existem para outros objetos (Notas Fiscais, Pedidos), mas não para Ordens de Serviço.
+    *   Exemplo de OS onde o campo não veio via API, mas possui dados no sistema:
+        *   ID: 582522622 (OS: 31108) -> Marcadores no sistema: "origem:social", "iPhone 11", "Tela Premium"
+        *   ID: 582516872 (OS: 31095) -> Marcadores no sistema: "TXmidia", "Linha iPhone", "iPhone 13 Pro", "lente camera"
+
+**Solicitação:**
+
+Gostaríamos de solicitar a verificação do comportamento da API para o endpoint `GET /ordem-servico/{idOrdemServico}` em relação a estes dois campos:
+*   Por que o campo `equipamentoSerie` está sendo retornado vazio mesmo quando há dados no sistema?
+*   Existe alguma forma (parâmetro adicional, endpoint diferente) de obter o campo `marcadores` ao buscar os detalhes de uma única Ordem de Serviço, similar ao que é possível para Pedidos e Notas Fiscais?
+
+Agradecemos a atenção e aguardamos um retorno.
+
+Atenciosamente,
+
+[Seu Nome/Nome da Empresa]

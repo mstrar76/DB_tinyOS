@@ -62,6 +62,11 @@ The primary goal is to extract detailed service order data from TinyERP via its 
         *   Implemented data fetching and filtering logic using Supabase query methods.
         *   Implemented column selection using Supabase's `.select()` method.
         *   UI for filter inputs, column selection (checkboxes/multi-select), and dynamic data table rendering is in place.
+        *   **Recent Improvements (July 2025):**
+            *   Redesigned column selection UI to use buttons for better visualization.
+            *   Configured table columns to update immediately upon column selection changes.
+            *   Added functionality for users to adjust table column widths by dragging headers.
+            *   Ensured 'ID' column is not displayed and 'Número OS' is always visible.
     *   **Build Tool:** Vite for frontend development and build process.
 
 ---

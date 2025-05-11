@@ -1,6 +1,7 @@
 import './style.css';
 import { supabase } from './supabaseClient';
 import { PostgrestError } from '@supabase/supabase-js';
+import { logger } from './logger';
 
 // Define types for the service order data
 interface ServiceOrder {
@@ -31,6 +32,11 @@ interface ServiceOrder {
   linha_dispositivo: string;
   tipo_servico: string;
   origem_cliente: string;
+  // Campos adicionados para dados do cliente e marcadores
+  nome_cliente: string;
+  telefone_cliente: string;
+  email_cliente: string;
+  marcadores: any[];
   // Add any other fields that may be present in the API response
   [key: string]: any;
 }
@@ -68,6 +74,18 @@ const COLUMNS: ColumnMetadata[] = [
   { id: 'situacao', displayName: 'Status', checked: true },
   { id: 'data_emissao', displayName: 'Data Emissão', checked: true,
     render: (value) => value ? new Date(value).toLocaleDateString('pt-BR') : '-' },
+  { id: 'nome_cliente', displayName: 'Nome do Cliente', checked: true,
+    render: (value) => value || '-' },
+  { id: 'telefone_cliente', displayName: 'Telefone', checked: true,
+    render: (value) => value || '-' },
+  { id: 'email_cliente', displayName: 'E-mail', checked: true,
+    render: (value) => value || '-' },
+  { id: 'marcadores', displayName: 'Marcadores', checked: true,
+    render: (value) => {
+      if (!value || !Array.isArray(value) || value.length === 0) return '-';
+      return value.map((m: any) => m.nome || '').filter(Boolean).join(', ');
+    }
+  },
   { id: 'data_prevista', displayName: 'Data Prevista', checked: false,
     render: (value) => value ? new Date(value).toLocaleDateString('pt-BR') : '-' },
   { id: 'data_conclusao', displayName: 'Data Conclusão', checked: false,
@@ -408,7 +426,7 @@ function stopResize(): void {
 
 // Fetch data from Supabase
 async function fetchData(): Promise<void> {
-  console.log('fetchData function called');
+  logger.info('Iniciando busca de dados', { filters: filterState });
   try {
     // Show loading state
     tableBody.innerHTML = `
@@ -419,10 +437,42 @@ async function fetchData(): Promise<void> {
       </tr>
     `;
 
-    // Start building the Supabase query
-    let query = supabase.from('ordens_servico').select(
-      COLUMNS.filter(column => column.checked).map(column => column.id).join(',') || '*' // Select all if none checked
-    );
+    // Verificar se o cliente Supabase está inicializado
+    if (!supabase) {
+      logger.error('Cliente Supabase não inicializado');
+      throw new Error('Cliente Supabase não inicializado. Verifique as variáveis de ambiente.');
+    }
+
+    // Log das credenciais (apenas para debug, sem exibir valores sensíveis)
+    logger.debug('Verificando configuração do Supabase', {
+      urlConfigured: !!import.meta.env.VITE_SUPABASE_URL,
+      keyConfigured: !!import.meta.env.VITE_SUPABASE_ANON_KEY,
+      tableTarget: 'ordens_servico'
+    });
+
+    // Start building the Supabase query com join apenas para obter dados do cliente
+    // Simplificando para evitar erro de relacionamento com marcadores
+    let query = supabase.from('ordens_servico').select(`
+      id,
+      numero_ordem_servico,
+      situacao,
+      data_emissao,
+      data_prevista,
+      data_conclusao,
+      total_servicos,
+      total_ordem_servico,
+      total_pecas,
+      equipamento,
+      equipamento_serie,
+      tecnico,
+      linha_dispositivo,
+      tipo_servico,
+      origem_cliente,
+      descricao_problema,
+      observacoes,
+      observacoes_internas,
+      contatos:id_contato (nome, celular, email)
+    `);
 
     // Apply filters
     if (filterState.startDate) {
@@ -436,22 +486,73 @@ async function fetchData(): Promise<void> {
     }
     if (filterState.dynamicField && filterState.dynamicValue) {
       // Use ilike for case-insensitive partial matching for text fields
-      // Adjust this logic based on the actual data types and desired matching for dynamic fields
       query = query.ilike(filterState.dynamicField, `%${filterState.dynamicValue}%`);
     }
+
+    logger.debug('Query Supabase construída', {
+      filters: {
+        startDate: filterState.startDate,
+        endDate: filterState.endDate,
+        status: filterState.status,
+        dynamicField: filterState.dynamicField,
+        dynamicValue: filterState.dynamicValue
+      },
+      columns: COLUMNS.filter(column => column.checked).map(column => column.id)
+    });
 
     // Execute the query
     const { data, error } = await query;
 
-    console.log('Supabase query data:', data);
-    console.log('Type of data:', typeof data);
-
+    logger.info('Resposta recebida do Supabase', { 
+      dataCount: data ? data.length : 0,
+      hasError: !!error 
+    });
+    
     if (error) {
-      throw new Error(error.message);
+      logger.error('Erro na consulta Supabase', { 
+        errorMessage: error.message,
+        errorCode: error.code,
+        details: error.details,
+        hint: error.hint
+      });
+      throw new Error(`Erro ao consultar o Supabase: ${error.message}`);
     }
 
-    // Explicitly type the data variable, ensuring it's not null
-    const serviceOrders: ServiceOrder[] = (data !== null) ? (data as unknown as ServiceOrder[]) : [];
+    // Processar os dados para trazer informações dos relacionamentos para o nível principal
+    const serviceOrders: ServiceOrder[] = (data || []).map((order: any) => {
+      // Extrair dados de contato para campos de nível superior
+      const processedOrder: any = {
+        ...order,
+        nome_cliente: order.contatos?.nome || '-',
+        telefone_cliente: order.contatos?.celular || '-',
+        email_cliente: order.contatos?.email || '-'
+      };
+
+      // Buscar marcadores para cada ordem de serviço
+      processedOrder.marcadores = [];
+
+      return processedOrder;
+    });
+
+    // Após montar os serviceOrders, buscar marcadores para cada ordem
+    for (const order of serviceOrders) {
+      try {
+        const { data: marcadoresData, error: marcadoresError } = await supabase
+          .from('marcadores_ordem_servico')
+          .select('descricao')
+          .eq('id_ordem_servico', order.id);
+        if (marcadoresError) {
+          logger.warn('Erro ao buscar marcadores', { ordem: order.id, error: marcadoresError.message });
+          order.marcadores = [];
+        } else {
+          // Garante um array de descrições
+          order.marcadores = (marcadoresData || []).map(m => ({ nome: m.descricao }));
+        }
+      } catch (err: any) {
+        logger.error('Exceção ao buscar marcadores', { ordem: order.id, errorMessage: err.message, stack: err.stack });
+        order.marcadores = [];
+      }
+    }
 
     // Store the fetched data
     currentServiceOrders = serviceOrders;
@@ -461,15 +562,20 @@ async function fetchData(): Promise<void> {
 
     // Populate the table
     populateTable(currentServiceOrders);
+    logger.info('Tabela populada com sucesso', { recordCount: serviceOrders.length });
 
   } catch (error: any) { // Explicitly type error for better handling
-    console.error('Error fetching data:', error);
+    logger.error('Erro ao buscar dados', { 
+      errorMessage: error.message,
+      stack: error.stack
+    });
 
     // Show error message
     tableBody.innerHTML = `
       <tr>
         <td colspan="100%" class="px-6 py-4 text-center text-red-500">
-          Erro ao buscar dados. Por favor, verifique a configuração do Supabase e tente novamente.
+          Erro ao buscar dados: ${error.message}<br>
+          Por favor, verifique a configuração do Supabase e tente novamente.
         </td>
       </tr>
     `;
@@ -535,34 +641,10 @@ function populateTable(data: ServiceOrder[]): void {
   const elTotalOrdem = document.getElementById('total-valor-ordem');
   const elTotalServico = document.getElementById('total-valor-servico');
   const elTotalPecas = document.getElementById('total-valor-pecas');
-
   if (elTotalOrders) elTotalOrders.textContent = `Total de ordens: ${totalOrders}`;
-
-  // Exibe ou oculta os totais conforme as colunas visíveis
-  if (elTotalOrdem) {
-    if (visibleColumns.some(col => col.id === 'total_ordem_servico')) {
-      elTotalOrdem.style.display = '';
-      elTotalOrdem.textContent = `Valor Total: ${formatCurrency(totalOrdem)}`;
-    } else {
-      elTotalOrdem.style.display = 'none';
-    }
-  }
-  if (elTotalServico) {
-    if (visibleColumns.some(col => col.id === 'total_servicos')) {
-      elTotalServico.style.display = '';
-      elTotalServico.textContent = `Valor Serviços: ${formatCurrency(totalServico)}`;
-    } else {
-      elTotalServico.style.display = 'none';
-    }
-  }
-  if (elTotalPecas) {
-    if (visibleColumns.some(col => col.id === 'total_pecas')) {
-      elTotalPecas.style.display = '';
-      elTotalPecas.textContent = `Valor Peças: ${formatCurrency(totalPecas)}`;
-    } else {
-      elTotalPecas.style.display = 'none';
-    }
-  }
+  if (elTotalOrdem) elTotalOrdem.textContent = `Valor Total: ${formatCurrency(totalOrdem)}`;
+  if (elTotalServico) elTotalServico.textContent = `Valor Serviços: ${formatCurrency(totalServico)}`;
+  if (elTotalPecas) elTotalPecas.textContent = `Valor Peças: ${formatCurrency(totalPecas)}`;
 }
 
 // Initialize the page - first time setup

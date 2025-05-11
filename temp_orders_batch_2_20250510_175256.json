@@ -1,0 +1,1608 @@
+{
+  "detailed_orders": [
+    {
+      "id": 580184842,
+      "situacao": "3",
+      "data": "2024-01-10",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "895",
+      "totalOrdemServico": "895",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28951",
+      "equipamento": "iPhone 11 branco ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Aparelho fica desligando ",
+      "observacoes": "Algumas marcas de uso, com pelicula quebrada \nChecklist impossivel, aparelho reiniciou \nSenha: 150806",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "10/01/24 - Raphael - Consumo da placa em ciclo, necessario restaurar para testarmos.\n11/01/24 - Luana - Não precisou fazer formataçao. foi feito o reballing no interposer e parou de reiniciar e esta em teste. \n15/01/24 - Luana - Nfc sem reparo. checklist ok .",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Graziella Miyuki Otomura Misumi",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "011.793.649-96",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(11) 95972-0118",
+        "email": "fg_misumi@hotmail.com",
+        "endereco": {
+          "endereco": "Rua Engenheiro Benedito Mário da Silva",
+          "numero": "125",
+          "complemento": "Sobrado 14",
+          "bairro": "Cajuru",
+          "municipio": "Curitiba",
+          "cep": "82970-000",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579283009
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 11"
+        },
+        {
+          "descricao": "Orçamento"
+        }
+      ]
+    },
+    {
+      "id": 580184376,
+      "situacao": "3",
+      "data": "2024-01-10",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "395",
+      "totalPecas": "395",
+      "numeroOrdemServico": "28950",
+      "equipamento": "iPhone XR preto ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada ",
+      "observacoes": "Marcas de uso, riscos e arranhões \nChecklist \nSenha: 031133",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "10/01/24 - Luana - Troca de tela efetuada, checklist ok. bateria 79%",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Samuel da Costa Vergara",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "047.081.039-48",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99737-6131",
+        "email": "samuelcvergara@hotmail.com",
+        "endereco": {
+          "endereco": "Rua Desembargador Motta",
+          "numero": "1648",
+          "complemento": "Ap 36",
+          "bairro": "Batel",
+          "municipio": "Curitiba",
+          "cep": "80.420-164",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579282966
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone XR"
+        }
+      ]
+    },
+    {
+      "id": 580183762,
+      "situacao": "3",
+      "data": "2024-01-10",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "575",
+      "totalPecas": "575",
+      "numeroOrdemServico": "28949",
+      "equipamento": "iPhone 12 Preto",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Bateria estufando ",
+      "observacoes": "Marcas de riscos e batidas, carcaça quebrada, bastante sujo, reiniciando as vezes. Impossivel checklist. \nSenha: 242630",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "10/01/24 - Luana - Aparelho com bateria estufada porem funcionando, foi efetuada a troca da bateria e checklist ok,.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Bento Junior ",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "859.358.599-04",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "(41) 3014-6171",
+        "celular": "(41) 99957-6171",
+        "email": "juniormelli@hotmail.com",
+        "endereco": {
+          "endereco": "Rua João Negrão",
+          "numero": "558",
+          "complemento": "",
+          "bairro": "Centro",
+          "municipio": "Curitiba",
+          "cep": "80.010-200",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 518723460
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 12"
+        },
+        {
+          "descricao": "Bateria"
+        }
+      ]
+    },
+    {
+      "id": 580181978,
+      "situacao": "3",
+      "data": "2024-01-10",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "350",
+      "totalPecas": "350",
+      "numeroOrdemServico": "28948",
+      "equipamento": "iPhone XS Max ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Não esta ligando ",
+      "observacoes": " Marcas de uso\nChecklist impossível\nSenha: 141985\n",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "Garantia de 90 dias em todos os serviços executados.\n",
+      "observacoesInternas": "10/01/24 - Luana - Trocado a doca e vibracal, checklist ok. por conta do desconto saira por 90 dias de garantia.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Eduardo Gomes Pimenta",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "047.580.869-07",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99964-1212",
+        "email": "eduardopimenta1405@gmail.com",
+        "endereco": {
+          "endereco": "Rua Cocos",
+          "numero": "247",
+          "complemento": "",
+          "bairro": "Uberaba",
+          "municipio": "Curitiba",
+          "cep": "81.560-040",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 577392295
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone Xs Max"
+        },
+        {
+          "descricao": "Orçamento"
+        }
+      ]
+    },
+    {
+      "id": 580179200,
+      "situacao": "3",
+      "data": "2024-01-09",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "540",
+      "totalPecas": "540",
+      "numeroOrdemServico": "28947",
+      "equipamento": "iPhone Xs 199958",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada ",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nChecklist ok\nSenha: 199955",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "09/01/24 - Luana - Troca de tela efetuada checklist ok e bateria ja foi trocada.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Gabriele Zapellini Azevedo",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "076.964.959-92",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99747-1101",
+        "email": "gabi.zap1@hotmail.com",
+        "endereco": {
+          "endereco": "Avenida Comendador Franco",
+          "numero": "2955",
+          "complemento": "",
+          "bairro": "Guabirotuba",
+          "municipio": "Curitiba",
+          "cep": "81.520-000",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579282463
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iphone Xs"
+        },
+        {
+          "descricao": "TELA SIMILAR"
+        }
+      ]
+    },
+    {
+      "id": 580170489,
+      "situacao": "3",
+      "data": "2024-01-08",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "340",
+      "totalPecas": "340",
+      "numeroOrdemServico": "28944",
+      "equipamento": "iPad Air 1 - A1475  Preto",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada, botão home esta solto",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nChecklist impossível ",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "20/12/23 - Raphael - Efetuada troca do touch. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Claiton Machado",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "393.798.090-34",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 98818-9675",
+        "email": "claiton@mps.com.br",
+        "endereco": {
+          "endereco": "Rua Sete de Abril",
+          "numero": "1280",
+          "complemento": "Ap 2",
+          "bairro": "Juvevê",
+          "municipio": "Curitiba",
+          "cep": "80.040-120",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579252498
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "vidro da tela"
+        },
+        {
+          "descricao": "lab iPads"
+        }
+      ]
+    },
+    {
+      "id": 580170172,
+      "situacao": "3",
+      "data": "2024-01-08",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "100",
+      "totalOrdemServico": "100",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28943",
+      "equipamento": "iMac 24' A1311",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Nao liga",
+      "observacoes": "Impossivel checklist, marcas de riscos, batidas e sujo.\nSenha: 996490199",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "17/11/23 - Raphael - Efetuada troca do SSD, instalação do sistema e limpeza. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Andre Aparecido Ferreira ",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "026.519.059-25",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99649-0199",
+        "email": "andreaga1978@icloud.com",
+        "endereco": {
+          "endereco": "Rua José Rodrigues Pinheiro",
+          "numero": "1570",
+          "complemento": "",
+          "bairro": "Capão Raso",
+          "municipio": "Curitiba",
+          "cep": "81130-200",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579253821
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iMac"
+        },
+        {
+          "descricao": "Lab Mac"
+        }
+      ]
+    },
+    {
+      "id": 580170110,
+      "situacao": "3",
+      "data": "2024-01-08",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "0",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28942",
+      "equipamento": "iPhone 7G Preto",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Aparelho não funciona o som, auricular nao funciona, botao Home apenas touchID ",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nChecklist Ok\n181818\n41999715128 - Caio",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "- Aparelho sem defeito",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Marli de Oliveira Freitas",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "604.879.769-91",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99611-9460",
+        "email": "marlioliveirafreitas@gmail.com",
+        "endereco": {
+          "endereco": "Rua do Herval",
+          "numero": "660",
+          "complemento": "",
+          "bairro": "Cristo Rei",
+          "municipio": "Curitiba",
+          "cep": "80.050-205",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 507769998
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 7"
+        },
+        {
+          "descricao": "Orçamento"
+        }
+      ]
+    },
+    {
+      "id": 580168544,
+      "situacao": "3",
+      "data": "2024-01-08",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "610",
+      "totalOrdemServico": "794",
+      "totalPecas": "184",
+      "numeroOrdemServico": "28941",
+      "equipamento": "iPhone 12 Preto",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Vidro traseira quebrado",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nChecklist ok. \nSenha: 101705",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Lucia Athayde Morais ",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "015.912.969-94",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "(xx) 3352-6889",
+        "celular": "(xx) 9981-6873",
+        "email": "luciaamoraes@hotmail.com",
+        "endereco": {
+          "endereco": "Avenida João Gualberto",
+          "numero": "2000",
+          "complemento": "apto 901",
+          "bairro": "Juvevê",
+          "municipio": "Curitiba",
+          "cep": "80.030-001",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 434144309
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 12"
+        },
+        {
+          "descricao": "vidro Traseiro"
+        }
+      ]
+    },
+    {
+      "id": 580168241,
+      "situacao": "3",
+      "data": "2024-01-08",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "441",
+      "totalPecas": "441",
+      "numeroOrdemServico": "28940",
+      "equipamento": "iPhone XR Preto",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Sem imagem",
+      "observacoes": "Impossivel checklist, marcas de riscos batidas. traseira quebrada. Tela trocada em 13/11/23, analise de garantia. \nSenha: 125800",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "08/01/24 - Raphael - Não se enquadra em garantia (aparelho foi molhado).\nEfetuada troca da tela. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Christopher Gabriel de Lima Pereira",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "112.244.669-18",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99152-0153",
+        "email": "christopher.gpereira06@gmail.com ",
+        "endereco": {
+          "endereco": "Rua Expedicionário Antônio Cação",
+          "numero": "34",
+          "complemento": "",
+          "bairro": "Alto Boqueirão",
+          "municipio": "Curitiba",
+          "cep": "81.850-340",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579253714
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone XR"
+        }
+      ]
+    },
+    {
+      "id": 580158330,
+      "situacao": "3",
+      "data": "2024-01-06",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "530",
+      "totalPecas": "530",
+      "numeroOrdemServico": "28939",
+      "equipamento": "iPhone 11 branco ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada ",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhoes \nChecklist impossivel \nSenha: 989795",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "06/01/24 - Raphael - Efetuada troca da tela. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Isabella Lopes ",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "197.133.947-47",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99948-7735",
+        "email": "isabellaanunciacao@gmail.com",
+        "endereco": {
+          "endereco": "Rua Francis Bacon",
+          "numero": "203",
+          "complemento": "",
+          "bairro": "Santa Cândida",
+          "municipio": "Curitiba",
+          "cep": "82.720-240",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579280725
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 11"
+        },
+        {
+          "descricao": "TELA SIMILAR"
+        }
+      ]
+    },
+    {
+      "id": 580156434,
+      "situacao": "3",
+      "data": "2024-01-05",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "549.7",
+      "totalPecas": "549.7",
+      "numeroOrdemServico": "28937",
+      "equipamento": "iPhone 11 preto ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada\n",
+      "observacoes": "Aparelho com a traseira quebrada, marcas de batidas, bateria em manutenção\nChecklist ok\nSenha: 359421",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "05/01/24 - Raphael - Efetuada troca da tela. Bastante sujo intermanete.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Gustavo Bernardim Duarte Silva",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "072.318.339-26",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99630-1280",
+        "email": "gustavobernardim@me.com",
+        "endereco": {
+          "endereco": "Estrada das Olarias",
+          "numero": "550",
+          "complemento": "",
+          "bairro": "Atuba",
+          "municipio": "Curitiba",
+          "cep": "82.630-160",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579280268
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 11"
+        }
+      ]
+    },
+    {
+      "id": 580156138,
+      "situacao": "3",
+      "data": "2024-01-05",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "420",
+      "totalPecas": "420",
+      "numeroOrdemServico": "28936",
+      "equipamento": "iPhone X Branco",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Nao funciona o touch\n",
+      "observacoes": "marcas de uso, traseira quebrada.\nSenha: 362161",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "05/01/24 - Raphael  - Efetuada troca da tela, impossivel checklist inativo por 8 horas. Já passou em outras assistencias. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Sara Ingrid Chulka",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "107.253.519-00",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99734-3617",
+        "email": "saraingridc01@gmail.com",
+        "endereco": {
+          "endereco": "Avenida Brasília",
+          "numero": "484",
+          "complemento": "",
+          "bairro": "Campo Pequeno",
+          "municipio": "Colombo",
+          "cep": "83.404-670",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579280232
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone X"
+        }
+      ]
+    },
+    {
+      "id": 580151309,
+      "situacao": "3",
+      "data": "2024-01-04",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "0",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28934",
+      "equipamento": "Apple Watch S5 44mm",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Vidro quebrado ",
+      "observacoes": "Relógio com marcas de uso, riscos e batidas \nCom pulseira branca ",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "06/01/24 - Raphael - Touch parou de funcionar durante a troca do vidro (só telas), tentamos trocar o flex extensor da tela mas não resolveu  o defeito. Defeito na placa. Sem reparo.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "0000-00-00",
+      "vendedor": null,
+      "contato": {
+        "nome": "DUO DO Brasil Eireli ME",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "J",
+        "cpfCnpj": "23.309.583/0002-13",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "(xx) 98823-1311",
+        "celular": "(xx) 98844-0443",
+        "email": "duoservicecuritiba@gmail.com",
+        "endereco": {
+          "endereco": "Avenida Senador Salgado Filho",
+          "numero": "1385",
+          "complemento": "",
+          "bairro": "Guabirotuba",
+          "municipio": "Curitiba",
+          "cep": "81.510-000",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 545657085
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "Apple Watch"
+        }
+      ]
+    },
+    {
+      "id": 580150663,
+      "situacao": "3",
+      "data": "2024-01-04",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "2490",
+      "totalOrdemServico": "2490",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28933",
+      "equipamento": "MacBook Air \"Core i5\" 1.6 13\" (Late 2018) Rose",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Não liga",
+      "observacoes": "Marcas de riscos e batidas, amassado nos cantos, levou na autorizada e diagnosticaram placa. \nSenha: 190119",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "10/01/24 - Luana - Aparelho entrando em curto, reparo na placa.\n10/01/24 - Luana - reparo na placa efetuado, necessita da troca de bateria pois esta afetando o funcionamento do aparelho em si.\naparentemente tudo funcionando.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Parmes Amada Stier Ramires Dirksen",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "045.111.509-07",
+        "inscricaoEstadual": "",
+        "rg": "0579165142",
+        "telefone": "",
+        "celular": "(41) 99764-4982",
+        "email": "parmesamanda@gmail.com ",
+        "endereco": {
+          "endereco": "Rua José Lins do Rego",
+          "numero": "786",
+          "complemento": "",
+          "bairro": "Bairro Alto",
+          "municipio": "Curitiba",
+          "cep": "82.820-230",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579279525
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "Macbook Air"
+        },
+        {
+          "descricao": "Lab Mac"
+        },
+        {
+          "descricao": "Aguardando Peças"
+        }
+      ]
+    },
+    {
+      "id": 580150258,
+      "situacao": "3",
+      "data": "2024-01-04",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "220",
+      "totalPecas": "220",
+      "numeroOrdemServico": "28932",
+      "equipamento": "Iphone XR ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada ",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhoes \nChecklist parcial \nSenha: 131081",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "04/01/24 - Raphael - Efetuada troca da tela. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Karen Leticia Firman",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "073.097.189-92",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(xx) 99628-7649",
+        "email": "kalfirman@hotmail.com",
+        "endereco": {
+          "endereco": "Avenida Presidente Getúlio Vargas",
+          "numero": "2350",
+          "complemento": "",
+          "bairro": "Água Verde",
+          "municipio": "Curitiba",
+          "cep": "80.240-040",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 547487236
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone XR"
+        }
+      ]
+    },
+    {
+      "id": 580147054,
+      "situacao": "3",
+      "data": "2024-01-03",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "510",
+      "totalPecas": "510",
+      "numeroOrdemServico": "28931",
+      "equipamento": "iPhone XS",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada ",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nChecklist ok\nSenha: 151100",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "03/01/24 - Luana - Troca de tela efetuada e checklist ok.(77% saude da bateria)",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Barbara Rissetti",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "036.514.739-70",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "(41) 99192-4302",
+        "celular": "(41) 99643-9913",
+        "email": "barbara.rissetti@gmail.com",
+        "endereco": {
+          "endereco": "Avenida Jacob Valenga",
+          "numero": "2800",
+          "complemento": "",
+          "bairro": "Vila Franca",
+          "municipio": "Piraquara",
+          "cep": "83.305-000",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579278944
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iphone Xs"
+        },
+        {
+          "descricao": "TELA SIMILAR"
+        }
+      ]
+    },
+    {
+      "id": 580146878,
+      "situacao": "3",
+      "data": "2024-01-03",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "360",
+      "totalPecas": "360",
+      "numeroOrdemServico": "28930",
+      "equipamento": "iPhone XR Preto",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Bateria ruim, estufada ",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nSensor de proximidade nao funciona, faceID ruim nao configura \nChecklist ok\nSenha: 101595",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "03/01/23 - Raphael - Efetuada troca da bateria, flex da auricular esta com um pequeno dano o que impede o funcionamento da auricular, demais funções ok. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Matheus Costa Itiberê da Cunha",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "J",
+        "cpfCnpj": "",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "",
+        "email": "",
+        "endereco": {
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "bairro": "",
+          "municipio": "",
+          "cep": "",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579278953
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone XR"
+        },
+        {
+          "descricao": "Bateria"
+        }
+      ]
+    },
+    {
+      "id": 580146351,
+      "situacao": "3",
+      "data": "2024-01-03",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "350",
+      "totalPecas": "350",
+      "numeroOrdemServico": "28928",
+      "equipamento": "Iphone x ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada ",
+      "observacoes": "Aparelho com varias marcas de uso, riscos e arranhões \nAlto falante com bastante residuos, lente da câmera quebrada\nChecklist impossível \nSenha: 2050",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Luan Silva Martins",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "083.406.739-04",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99881-3294",
+        "email": "luan.fnsc@gmail.com",
+        "endereco": {
+          "endereco": "Travessa da Lapa",
+          "numero": "34",
+          "complemento": "",
+          "bairro": "Centro",
+          "municipio": "Curitiba",
+          "cep": "80.010-190",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 562957673
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone X"
+        },
+        {
+          "descricao": "TELA SIMILAR"
+        }
+      ]
+    },
+    {
+      "id": 580145956,
+      "situacao": "3",
+      "data": "2024-01-03",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "390",
+      "totalPecas": "390",
+      "numeroOrdemServico": "28927",
+      "equipamento": "iPhone XR branco ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Tela quebrada ",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nChecklist parcial \nSenha: 199822",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "03/01/2024 - Luana - Tela trocada e checklist ok, aparelho remanufaturado.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Fabiula da Silva",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "030.759.122-04",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(96) 99914-5521",
+        "email": "biula199819@gmail.com",
+        "endereco": {
+          "endereco": "Rua Frederico Cantarelli",
+          "numero": "603",
+          "complemento": "",
+          "bairro": "Bigorrilho",
+          "municipio": "Curitiba",
+          "cep": "80710-240",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579278809
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone XR"
+        }
+      ]
+    },
+    {
+      "id": 580145119,
+      "situacao": "3",
+      "data": "2024-01-03",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "820",
+      "totalOrdemServico": "820",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28925",
+      "equipamento": "iPhone 13 Pro ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Traseira quebrada ",
+      "observacoes": "Aparelho com algumas marcas de uso, pelicula quebrada \nChecklist ok\nSenha 016825",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Eduardo Nassar",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "011.382.859-43",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99133-0508",
+        "email": "eduardostephanes@gmail.com",
+        "endereco": {
+          "endereco": "Avenida do Batel",
+          "numero": "1597",
+          "complemento": "",
+          "bairro": "Batel",
+          "municipio": "Curitiba",
+          "cep": " 80420-090",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579278749
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 13 Pro"
+        }
+      ]
+    },
+    {
+      "id": 580144307,
+      "situacao": "3",
+      "data": "2024-01-03",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "271.9",
+      "totalPecas": "271.9",
+      "numeroOrdemServico": "28924",
+      "equipamento": "iPhone 7 Plus Rose ",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Parou de funcionar, bateria ja esta bem ruim, cliente informa que a doca tbm estava com defeito",
+      "observacoes": "Aparelho com marcas de uso, riscos e arranhões \nChecklist impossivel\nSenha: 665612",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "03/01/24 - Raphael - Necessário troca da doca e bateria. \nRaphael - Efetuada troca da doca, bateria bem ruim começando a estufar. ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 79890337,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Paola Rocha da Gama Moreira ",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "J",
+        "cpfCnpj": "",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "",
+        "email": "",
+        "endereco": {
+          "endereco": "",
+          "numero": "",
+          "complemento": "",
+          "bairro": "",
+          "municipio": "",
+          "cep": "",
+          "uf": "SC",
+          "pais": "Brasil"
+        },
+        "id": 579278921
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": []
+    },
+    {
+      "id": 580142150,
+      "situacao": "3",
+      "data": "2024-01-02",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "0",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28922",
+      "equipamento": "Apple Watch SE 40mm Rose",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Gps não funciona e não atualiza o watch OS.",
+      "observacoes": "Apenas relógio. Maras de uso, riscos. Analise de garantia. \nSenha: 1810",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "05/01/23 - Raphael - Feito reset, gps voltou a funcionar, mas o Watch OS não atualiza, provavelmente um defeito na placa, causado pela oxidação. (não a o que fazer nesse caso). ",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "0000-00-00",
+      "vendedor": null,
+      "contato": {
+        "nome": "Karen Heua",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "051.284.389-96",
+        "inscricaoEstadual": "",
+        "rg": "",
+        "telefone": "",
+        "celular": "(41) 99900-8184",
+        "email": "kaheua@gmail.com",
+        "endereco": {
+          "endereco": "Rua Maria Luiza",
+          "numero": "129",
+          "complemento": "",
+          "bairro": "Parque da Fonte",
+          "municipio": "São José dos Pinhais",
+          "cep": "83.050-580",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579270731
+      },
+      "tecnico": "",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "GARANTIA"
+        }
+      ]
+    },
+    {
+      "id": 580140584,
+      "situacao": "3",
+      "data": "2024-01-02",
+      "dataPrevista": "0000-00-00 00:00:00",
+      "totalServicos": "0",
+      "totalOrdemServico": "0",
+      "totalPecas": "0",
+      "numeroOrdemServico": "28921",
+      "equipamento": "iPhone 11 Preto",
+      "equipamentoSerie": "",
+      "descricaoProblema": "Respingou agua e esta em modo re resturação",
+      "observacoes": "Impossivel checklist, marcas de riscos e batidas. Tela quebrada na parte de baixo. \nSenha: 301135",
+      "orcar": "N",
+      "orcado": "N",
+      "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+      "observacoesInternas": "02/01/24 - Raphael - Erro 4013 ao restaurar., necessário reparo de placa, impossivel testar demais perifericos. \n03/01//24 - Luana - Aparelho com problemas no wifi, nand, face id..solucionado o erro 4013 porem ainda com os demais erros.\n11/01/24 - Luana - aparelho foi para o Luz porem sem reparo, aparelho deu erro 4013, saiu daqui desligado pois cliente insistiu em buscar.",
+      "alqComissao": 0,
+      "vlrComissao": 0,
+      "idForma": 1,
+      "idContaContabil": 0,
+      "desconto": "0,00",
+      "idListaPreco": 0,
+      "idLocalPrestacao": "0",
+      "idDeposito": 0,
+      "dataConclusao": "",
+      "vendedor": null,
+      "contato": {
+        "nome": "Vera Lucia Tenorio de Araujo",
+        "codigo": "",
+        "fantasia": "",
+        "tipoPessoa": "F",
+        "cpfCnpj": "428.332.729-87",
+        "inscricaoEstadual": "",
+        "rg": "1692959-0",
+        "telefone": "",
+        "celular": "(41) 99999-7869",
+        "email": "verinha369@hotmail.com ",
+        "endereco": {
+          "endereco": "Rua Almir Nelson de Almeida",
+          "numero": "290",
+          "complemento": "",
+          "bairro": "Campo Comprido",
+          "municipio": "Curitiba",
+          "cep": "81.230-220",
+          "uf": "PR",
+          "pais": "Brasil"
+        },
+        "id": 579278230
+      },
+      "tecnico": "Luana",
+      "categoria": {
+        "id": 84554620,
+        "descricao": "Instalação peças"
+      },
+      "formaPagamento": {
+        "id": 1,
+        "nome": ""
+      },
+      "marcadores": [
+        {
+          "descricao": "iPhone 11"
+        },
+        {
+          "descricao": "lab placas"
+        },
+        {
+          "descricao": "Lab Luz"
+        }
+      ]
+    }
+  ]
+}
