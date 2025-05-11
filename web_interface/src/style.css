@@ -4,10 +4,28 @@
 
 /* Custom styles beyond Tailwind */
 
+/* Container for table with fixed header */
+.table-container {
+  width: 100%;
+  overflow-y: auto;
+  max-height: calc(100vh - 180px); /* Ajuste conforme necessário para sua interface */
+}
+
 /* Ensure table layout is fixed for column resizing */
 .resizable-table {
   table-layout: fixed;
   width: 100%; /* Ensure table takes full width */
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Fixed header styles */
+.resizable-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white; /* Garantir que o fundo seja sólido */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1); /* Adicionar sombra sutil para separação visual */
 }
 
 /* Style for table headers to allow positioning of resize handles */
@@ -24,11 +42,64 @@
   bottom: 0;
   width: 5px; /* Make the handle narrow */
   cursor: col-resize;
-  /* Optional: Add a background color or border for visibility during development */
-  /* background-color: rgba(0, 0, 255, 0.2); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Line indicator for resize handles */
+.resize-handle::after {
+  content: "";
+  height: 70%;
+  width: 1px;
+  background-color: #cbd5e0; /* Cor da linha indicativa (cinza claro) */
+  display: block;
 }
 
 /* Add a hover effect for better usability */
-.resize-handle:hover {
-  background-color: rgba(0, 0, 255, 0.3);
+.resize-handle:hover::after {
+  background-color: #4f46e5; /* Cor da linha ao passar o mouse (indigo) */
+  width: 2px; /* Aumenta a espessura ao passar o mouse */
+}
+
+/* Add subtle highlight when resizing */
+.resize-active {
+  background-color: rgba(79, 70, 229, 0.1); /* Fundo sutil para coluna em redimensionamento */
+}
+
+/* Styles for draggable column headers */
+.resizable-table th {
+  user-select: none; /* Prevent text selection during drag */
+}
+
+.resizable-table th.draggable {
+  cursor: grab;
+}
+
+.resizable-table th.dragging {
+  cursor: grabbing;
+  opacity: 0.8;
+  background-color: rgba(79, 70, 229, 0.15);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Drop indicator styles */
+.column-drop-indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #4f46e5;
+  z-index: 20;
+  pointer-events: none;
+  transition: transform 0.15s ease;
+}
+
+/* Drop target highlight */
+.drop-target-left {
+  box-shadow: inset 3px 0 0 #4f46e5;
+}
+
+.drop-target-right {
+  box-shadow: inset -3px 0 0 #4f46e5;
 }

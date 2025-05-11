@@ -23,9 +23,11 @@
             <div class="filter-group">
               <label for="date-filter" class="block text-sm font-medium text-gray-700 mb-1">Período</label>
               <select id="date-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
-                <option value="day">Hoje</option>
                 <option value="week">Última Semana</option>
                 <option value="month">Último Mês</option>
+                <option value="current_month">Este Mês</option>
+                <option value="current_year">Este Ano</option>
+                <option value="last_year">Último Ano</option>
                 <option value="custom">Período Personalizado</option>
               </select>
             </div>
@@ -86,7 +88,7 @@
         </section>
 
         <!-- Data Table Section -->
-        <section id="data-table-section" class="p-6 bg-white rounded-lg shadow overflow-x-auto">
+        <section id="data-table-section" class="p-6 bg-white rounded-lg shadow">
           <div class="flex justify-between items-center mb-4">
             <h2 class="text-xl font-semibold">Ordens de Serviço</h2>
             <!-- Column selection buttons will be populated here by TypeScript -->
@@ -95,22 +97,25 @@
             </div>
           </div>
           
-          <!-- Table will be populated dynamically by TypeScript -->
-          <table id="data-table" class="min-w-full divide-y divide-gray-200 resizable-table">
-            <thead class="bg-gray-50">
-              <tr id="table-header">
-                <!-- Table headers will be populated dynamically by TypeScript -->
-              </tr>
-            </thead>
-            <tbody id="table-body" class="bg-white divide-y divide-gray-200">
-              <!-- Table rows will be populated dynamically by TypeScript -->
-              <tr>
-                <td colspan="100%" class="px-6 py-4 text-center text-gray-500">
-                  Selecione filtros e clique em "Aplicar Filtros" para visualizar os dados.
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <!-- Container for table with fixed header -->
+          <div class="table-container overflow-x-auto">
+            <!-- Table will be populated dynamically by TypeScript -->
+            <table id="data-table" class="min-w-full divide-y divide-gray-200 resizable-table">
+              <thead class="bg-gray-50">
+                <tr id="table-header">
+                  <!-- Table headers will be populated dynamically by TypeScript -->
+                </tr>
+              </thead>
+              <tbody id="table-body" class="bg-white divide-y divide-gray-200">
+                <!-- Table rows will be populated dynamically by TypeScript -->
+                <tr>
+                  <td colspan="100%" class="px-6 py-4 text-center text-gray-500">
+                    Selecione filtros e clique em "Aplicar Filtros" para visualizar os dados.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
       </main>
     </div>

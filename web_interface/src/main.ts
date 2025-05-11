@@ -1,6 +1,5 @@
 import './style.css';
 import { supabase } from './supabaseClient';
-import { PostgrestError } from '@supabase/supabase-js';
 import { logger } from './logger';
 
 // Define types for the service order data
@@ -120,7 +119,7 @@ interface FilterState {
 
 // Create and initialize the filter state
 let filterState: FilterState = {
-  dateFilter: 'day', // Default to "today"
+  dateFilter: 'week', // Default to "last week"
   startDate: null,
   endDate: null,
   status: '',
@@ -147,6 +146,9 @@ let currentServiceOrders: ServiceOrder[] = [];
 
 // Initialize the UI when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+  // Load saved column configuration
+  loadColumnConfiguration();
+  
   // Setup status options
   setupStatusOptions();
 
@@ -159,6 +161,77 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize date inputs with default values
   initializeDateInputs();
 });
+
+// Load column configuration from localStorage
+function loadColumnConfiguration(): void {
+  try {
+    // Load column visibility settings
+    const savedColumnVisibility = localStorage.getItem('columnVisibility');
+    if (savedColumnVisibility) {
+      const visibilitySettings = JSON.parse(savedColumnVisibility) as Record<string, boolean>;
+      
+      // Apply saved visibility settings to COLUMNS array
+      COLUMNS.forEach(column => {
+        if (visibilitySettings.hasOwnProperty(column.id)) {
+          column.checked = visibilitySettings[column.id];
+        }
+      });
+      
+      logger.info('Configuração de visibilidade das colunas carregada do localStorage');
+    }
+    
+    // Load column order settings
+    const savedColumnOrder = localStorage.getItem('columnOrder');
+    if (savedColumnOrder) {
+      const orderSettings = JSON.parse(savedColumnOrder) as string[];
+      
+      // Create a new ordered array based on saved order
+      const orderedColumns = [];
+      
+      // First add columns in the saved order
+      for (const columnId of orderSettings) {
+        const column = COLUMNS.find(col => col.id === columnId);
+        if (column) {
+          orderedColumns.push(column);
+        }
+      }
+      
+      // Then add any columns that weren't in the saved order (new columns)
+      for (const column of COLUMNS) {
+        if (!orderSettings.includes(column.id)) {
+          orderedColumns.push(column);
+        }
+      }
+      
+      // Replace the COLUMNS array contents while preserving the reference
+      COLUMNS.splice(0, COLUMNS.length, ...orderedColumns);
+      
+      logger.info('Ordem das colunas carregada do localStorage');
+    }
+  } catch (error) {
+    logger.error('Erro ao carregar configuração das colunas', { error });
+  }
+}
+
+// Save column configuration to localStorage
+function saveColumnConfiguration(): void {
+  try {
+    // Save column visibility settings
+    const visibilitySettings: Record<string, boolean> = {};
+    COLUMNS.forEach(column => {
+      visibilitySettings[column.id] = column.checked;
+    });
+    localStorage.setItem('columnVisibility', JSON.stringify(visibilitySettings));
+    
+    // Save column order settings (only IDs in order)
+    const columnOrder = COLUMNS.map(column => column.id);
+    localStorage.setItem('columnOrder', JSON.stringify(columnOrder));
+    
+    logger.info('Configuração das colunas salva no localStorage');
+  } catch (error) {
+    logger.error('Erro ao salvar configuração das colunas', { error });
+  }
+}
 
 // Setup status dropdown options
 function setupStatusOptions(): void {
@@ -201,19 +274,28 @@ function setupColumnButtons(): void {
 
     // Add event listener to toggle column visibility
     button.addEventListener('click', () => {
-      const columnIndex = COLUMNS.findIndex(c => c.id === column.id);
-      if (columnIndex !== -1) {
-        // Toggle the checked state
-        COLUMNS[columnIndex].checked = !COLUMNS[columnIndex].checked;
-        // Update button style based on the new state
+      // Toggle the checked state of the column
+      const columnToToggle = COLUMNS.find(c => c.id === button.dataset.columnId);
+      if (columnToToggle) {
+        columnToToggle.checked = !columnToToggle.checked;
+        
+        // Update button styling
         button.className = `px-3 py-1 text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
-          COLUMNS[columnIndex].checked ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+          columnToToggle.checked ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
         }`;
-        // Update the table header and repopulate the table immediately
+        
+        // Update the table header
         updateTableHeader();
-        populateTable(currentServiceOrders);
+        
+        // Save the updated configuration
+        saveColumnConfiguration();
+        
+        // Re-render the table if there's data
+        if (currentServiceOrders.length > 0) {
+          populateTable(currentServiceOrders);
+        }
       }
-    });
+    }); 
 
     columnButtonsContainer.appendChild(button);
   });
@@ -298,12 +380,9 @@ function toggleCustomDateRange(): void {
     // Calculate start and end dates based on selection
     const today = new Date();
     let startDate = new Date();
+    let endDate = new Date(today);
 
     switch (filterState.dateFilter) {
-      case 'day':
-        // Today (start and end date are the same)
-        startDate = new Date(today);
-        break;
       case 'week':
         // Last 7 days
         startDate.setDate(today.getDate() - 7);
@@ -312,14 +391,28 @@ function toggleCustomDateRange(): void {
         // Last 30 days
         startDate.setDate(today.getDate() - 30);
         break;
+      case 'current_month':
+        // This month (from 1st day of current month)
+        startDate = new Date(today.getFullYear(), today.getMonth(), 1);
+        break;
+      case 'current_year':
+        // This year (from January 1st of current year)
+        startDate = new Date(today.getFullYear(), 0, 1);
+        break;
+      case 'last_year':
+        // Last year (full previous year)
+        startDate = new Date(today.getFullYear() - 1, 0, 1);
+        endDate = new Date(today.getFullYear() - 1, 11, 31);
+        break;
       default:
-        startDate = new Date(today);
+        // Default to last 7 days if unknown filter
+        startDate.setDate(today.getDate() - 7);
         break;
     }
 
     // Update filter state
     filterState.startDate = formatDateForInput(startDate);
-    filterState.endDate = formatDateForInput(today);
+    filterState.endDate = formatDateForInput(endDate);
   }
 }
 
@@ -327,9 +420,9 @@ function toggleCustomDateRange(): void {
 function clearFilters(): void {
   // Reset filter state
   filterState = {
-    dateFilter: 'day',
-    startDate: formatDateForInput(new Date()),
-    endDate: formatDateForInput(new Date()),
+    dateFilter: 'week', // Default to last week instead of day
+    startDate: null,
+    endDate: null,
     status: '',
     dynamicField: '',
     dynamicValue: ''
@@ -343,7 +436,7 @@ function clearFilters(): void {
   dynamicFieldValue.disabled = true;
   dynamicFieldValue.placeholder = 'Selecione um campo primeiro';
 
-  // Hide custom date range
+  // Hide custom date range and calculate date range based on filter
   toggleCustomDateRange();
 
   // Clear the table and show message
@@ -361,16 +454,26 @@ function updateTableHeader(): void {
   // Clear existing headers
   tableHeader.innerHTML = '';
 
+  // Create drop indicator (hidden initially)
+  if (!dropIndicator) {
+    dropIndicator = document.createElement('div');
+    dropIndicator.className = 'column-drop-indicator';
+    dropIndicator.style.display = 'none';
+    document.querySelector('.table-container')?.appendChild(dropIndicator);
+  }
+
   // Add headers for selected columns
-  COLUMNS.filter(column => column.checked).forEach(column => {
+  COLUMNS.filter(column => column.checked).forEach((column, index) => {
     const th = document.createElement('th');
-    th.className = 'px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider';
+    th.className = 'px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider draggable';
     th.textContent = column.displayName;
+    th.dataset.columnId = column.id; // Store column ID for reference
+    th.dataset.columnIndex = index.toString(); // Store column index for reordering
 
     // Add resize handle
     const resizeHandle = document.createElement('div');
     resizeHandle.className = 'resize-handle';
-    resizeHandle.dataset.columnId = column.id; // Store column ID for reference
+    resizeHandle.dataset.columnId = column.id;
 
     // Append handle to the header
     th.appendChild(resizeHandle);
@@ -379,6 +482,15 @@ function updateTableHeader(): void {
 
     // Add event listener for resizing
     resizeHandle.addEventListener('mousedown', startResize);
+
+    // Add event listeners for drag and drop reordering
+    th.setAttribute('draggable', 'true');
+    th.addEventListener('dragstart', handleDragStart);
+    th.addEventListener('dragover', handleDragOver);
+    th.addEventListener('dragenter', handleDragEnter);
+    th.addEventListener('dragleave', handleDragLeave);
+    th.addEventListener('drop', handleDrop);
+    th.addEventListener('dragend', handleDragEnd);
   });
 }
 
@@ -388,12 +500,24 @@ let startX: number = 0;
 let startWidth: number = 0;
 let currentColumn: HTMLTableCellElement | null = null;
 
+// Variables to track column reordering state
+let draggedColumn: HTMLTableCellElement | null = null;
+let draggedColumnIndex: number = -1;
+let dropTargetColumn: HTMLTableCellElement | null = null;
+let dropIndicator: HTMLElement | null = null;
+let dropPosition: 'left' | 'right' | null = null;
+
 // Function to start resizing
 function startResize(e: MouseEvent): void {
   currentResizer = e.target as HTMLElement;
   currentColumn = currentResizer.parentElement as HTMLTableCellElement;
   startX = e.clientX;
   startWidth = currentColumn.offsetWidth;
+
+  // Add a class for visual feedback during resizing
+  if (currentColumn) {
+    currentColumn.classList.add('resize-active');
+  }
 
   // Add event listeners to the document for dragging
   document.addEventListener('mousemove', resizeColumn);
@@ -415,9 +539,221 @@ function stopResize(): void {
   document.removeEventListener('mousemove', resizeColumn);
   document.removeEventListener('mouseup', stopResize);
 
+  // Remove visual feedback class
+  if (currentColumn) {
+    currentColumn.classList.remove('resize-active');
+  }
+
   // Reset state
   currentResizer = null;
   currentColumn = null;
+}
+
+// Function to handle the start of a column drag
+function handleDragStart(e: DragEvent): void {
+  if (!e.target || !(e.target as HTMLElement).closest('th')) return;
+  
+  const th = (e.target as HTMLElement).closest('th') as HTMLTableCellElement;
+  if (!th || ((e.target as HTMLElement).classList.contains('resize-handle'))) {
+    // Prevenir o drag se o usuário clicou no manipulador de redimensionamento
+    e.preventDefault();
+    return;
+  }
+  
+  // Set drag data and visualization
+  draggedColumn = th;
+  draggedColumnIndex = parseInt(th.dataset.columnIndex || '-1', 10);
+  
+  // Add visual indicator
+  th.classList.add('dragging');
+  
+  // Set drag operation data
+  if (e.dataTransfer) {
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/plain', th.dataset.columnId || '');
+    
+    // Create a drag image that looks like the header
+    const dragIcon = document.createElement('div');
+    dragIcon.textContent = th.textContent || '';
+    dragIcon.className = 'px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm';
+    dragIcon.style.width = `${th.offsetWidth}px`;
+    dragIcon.style.opacity = '0.8';
+    dragIcon.style.position = 'absolute';
+    dragIcon.style.top = '-1000px';
+    document.body.appendChild(dragIcon);
+    e.dataTransfer.setDragImage(dragIcon, 10, 10);
+    setTimeout(() => {
+      document.body.removeChild(dragIcon);
+    }, 0);
+  }
+  
+  logger.info('Iniciando arrasto de coluna', { columnId: th.dataset.columnId, columnIndex: draggedColumnIndex });
+}
+
+// Function to handle dragover event (required for drop to work)
+function handleDragOver(e: DragEvent): void {
+  if (!draggedColumn || !e.target) return;
+  
+  e.preventDefault();
+  if (e.dataTransfer) {
+    e.dataTransfer.dropEffect = 'move';
+  }
+  
+  const th = (e.target as HTMLElement).closest('th') as HTMLTableCellElement;
+  if (!th || th === draggedColumn) return;
+  
+  // Calculate drop position (left or right side of the target)
+  const rect = th.getBoundingClientRect();
+  const midpoint = rect.left + rect.width / 2;
+  const position = e.clientX < midpoint ? 'left' : 'right';
+  
+  // Update visual indicator if position changed
+  if (th !== dropTargetColumn || position !== dropPosition) {
+    resetDropTargets();
+    dropTargetColumn = th;
+    dropPosition = position;
+    
+    // Update drop indicator position
+    if (dropIndicator && dropPosition) {
+      dropIndicator.style.display = 'block';
+      const indicatorX = position === 'left' ? rect.left : rect.right;
+      dropIndicator.style.transform = `translateX(${indicatorX}px)`;
+      
+      // Add visual highlight class to target
+      th.classList.add(position === 'left' ? 'drop-target-left' : 'drop-target-right');
+    }
+  }
+}
+
+// Function to handle drag enter event
+function handleDragEnter(e: DragEvent): void {
+  if (!draggedColumn || !e.target) return;
+  e.preventDefault();
+}
+
+// Function to handle drag leave event
+function handleDragLeave(e: DragEvent): void {
+  if (!e.target || !dropTargetColumn) return;
+  
+  // Check if we're leaving the current drop target
+  const relatedTarget = e.relatedTarget as HTMLElement;
+  if (!relatedTarget || !dropTargetColumn.contains(relatedTarget)) {
+    resetDropTargets();
+  }
+}
+
+// Function to reset all drop target indicators
+function resetDropTargets(): void {
+  // Hide the drop indicator
+  if (dropIndicator) {
+    dropIndicator.style.display = 'none';
+  }
+  
+  // Remove highlight classes
+  if (dropTargetColumn) {
+    dropTargetColumn.classList.remove('drop-target-left', 'drop-target-right');
+    dropTargetColumn = null;
+  }
+  
+  dropPosition = null;
+}
+
+// Function to handle drop event
+function handleDrop(e: DragEvent): void {
+  if (!draggedColumn || !dropTargetColumn || !e.target || draggedColumnIndex < 0) {
+    resetDropTargets();
+    return;
+  }
+  
+  e.preventDefault();
+  e.stopPropagation();
+  
+  const targetIndex = parseInt(dropTargetColumn.dataset.columnIndex || '-1', 10);
+  if (targetIndex < 0 || targetIndex === draggedColumnIndex) {
+    resetDropTargets();
+    return;
+  }
+  
+  // Adjust target index based on drop position and relative positions
+  let newIndex = targetIndex;
+  if (dropPosition === 'right') {
+    // If dropping on right side, move after the target
+    newIndex = targetIndex + (targetIndex > draggedColumnIndex ? 0 : 1);
+  } else {
+    // If dropping on left side, move before the target
+    newIndex = targetIndex - (targetIndex < draggedColumnIndex ? 0 : 1);
+  }
+  
+  // Ensure index is within bounds
+  const visibleColumns = COLUMNS.filter(column => column.checked);
+  newIndex = Math.max(0, Math.min(newIndex, visibleColumns.length - 1));
+  
+  // Reorder the columns array
+  reorderColumns(draggedColumnIndex, newIndex);
+  
+  // Update the UI
+  updateTableHeader();
+  
+  // If there's data already loaded, redraw the table
+  if (currentServiceOrders.length > 0) {
+    populateTable(currentServiceOrders);
+  }
+  
+  resetDropTargets();
+  logger.info('Coluna reordenada', { from: draggedColumnIndex, to: newIndex });
+}
+
+// Function to handle drag end event
+function handleDragEnd(): void {
+  if (!draggedColumn) return;
+  
+  // Clean up
+  draggedColumn.classList.remove('dragging');
+  resetDropTargets();
+  
+  // Reset state
+  draggedColumn = null;
+  draggedColumnIndex = -1;
+}
+
+// Function to reorder columns in the COLUMNS array
+function reorderColumns(fromIndex: number, toIndex: number): void {
+  // Get only the visible columns
+  const visibleColumns = COLUMNS.filter(column => column.checked);
+  
+  // Perform the reordering within visible columns
+  if (fromIndex >= 0 && fromIndex < visibleColumns.length && 
+      toIndex >= 0 && toIndex < visibleColumns.length && 
+      fromIndex !== toIndex) {
+    
+    // Get the column to move
+    const columnToMove = visibleColumns[fromIndex];
+    
+    // Create a new array with the column moved to the new position
+    const newVisibleOrder = visibleColumns.filter((_, idx) => idx !== fromIndex);
+    newVisibleOrder.splice(toIndex, 0, columnToMove);
+    
+    // Create a new array for all columns
+    const newOrder = [];
+    
+    // First add all checked columns in their new order
+    for (const col of newVisibleOrder) {
+      newOrder.push(col);
+    }
+    
+    // Then add all unchecked columns in their original order
+    for (const col of COLUMNS) {
+      if (!col.checked) {
+        newOrder.push(col);
+      }
+    }
+    
+    // Replace all items in COLUMNS with the new order, preserving the reference
+    COLUMNS.splice(0, COLUMNS.length, ...newOrder);
+    
+    // Save the updated configuration
+    saveColumnConfiguration();
+  }
 }
 
 // Build query parameters for API request (No longer needed for Supabase direct access)
