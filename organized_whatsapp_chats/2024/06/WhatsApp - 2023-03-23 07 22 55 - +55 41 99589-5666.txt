@@ -1,0 +1,192 @@
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:22:55 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:22:55 from CP/Q8KAGIAA= (+554195895666) - Lida
+
+Olá, gostaria de ver quanto custa para arrumar meu aparelho APPLE
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:30:10 to +55 41 99589-5666 - Recebida
+
+Olá, 😊 Eu sou o Marcelo, e estou aqui para te ajudar com as informações que você precisa sobre seu Apple.  Poderia informar o modelo e problema que precisa reparar?
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:30:50 from CNrU8KAGIAA= (+554195895666) - Lida
+
+Tenho um MacBook Air modelo A1237, Processador 1,6GHz Intel core 2duo 
+Memória 2Gb 667 MHz DDR2 SDRAM
+Gráficos Intel GMA X3100 144mb
+MacOsX lion 10.7.5
+Ele tava rodando o patch do catalina, mas aí parou nessa tela ao ligar. Já fiz vários tutoriais e não sai, não consigo apagar o utilitário de disco pra instalar de novo. Nem o próprio Lion que é o dele de fábrica. Daí queria saber se você tem como da um jeito, se consegue atualizar, etc. E quanto ficaria em média?
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:31:01 from COXU8KAGIAA= (+554195895666) - Lida
+
+897c1481-51dd-424a-96bb-f3fed3fef24c.thumb (Imagem)
+66.70 KB
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:31:03 from COfU8KAGIAA= (+554195895666) - Lida
+
+fe335510-63ea-4fea-b4ee-9e71e71d2e43.thumb (Imagem)
+69.32 KB
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:32:05 to +55 41 99589-5666 - Recebida
+
+vc quer instalar o sistema até a versão suportada, ou uma mais recente?
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:32:38 from CMbV8KAGIAA= (+554195895666) - Lida
+
+Recente de preferência 😅
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:32:47 to +55 41 99589-5666 - Recebida
+
+2gb é pouco para rodar os sistemas mais recentes...
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:33:02 to +55 41 99589-5666 - Recebida
+
+e vc instalou SSD nele? ou esta com HDD?
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:33:21 to +55 41 99589-5666 - Recebida
+
+fica R$ 350 a formataçao
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:33:29 from CPnV8KAGIAA= (+554195895666) - Lida
+
+Hdd. Nunca mexi nele
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:34:24 to +55 41 99589-5666 - Recebida
+
+seria recomendavel instalar mais RAM e fazer o upgrade para um SSD...
+pelo sua situaçao, provavelmente o HDD esta morrendo
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:34:52 to +55 41 99589-5666 - Recebida
+
+só q infelizmente para este modelo não conseguinos peças
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:35:15 to +55 41 99589-5666 - Recebida
+
+o HDD é de um tipo raro, de 1.8polegadas…com conector ZIF
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:35:38 to +55 41 99589-5666 - Recebida
+
+Acho q talvez na china seja possivel encontrar...
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:35:59 to +55 41 99589-5666 - Recebida
+
+pode passar o serial dele, para mim confirmar qual versao ele utiliza
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:39:14 from CNLY8KAGIAA= (+554195895666) - Lida
+
+➜ Respondendo para você, 2023-03-23 07:35:59: « pode passar o serial dele, para mim confirmar qual versao ele utiliza »
+
+No momento não consigo, que não tá comigo em mãos. Mas assim, ainda sem o Ssd por enquanto, só com o que ele tem, consegue colocar em uma versão boa de usar sem ser o lion? Uso ele pra edição de loja usando Photoshop, Shopify, pacote Office, e YouTube apenas. Não exijo dele na real, daí mais lá na frente a gente pode atualizar pro ssd
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:39:46 from CPLY8KAGIAA= (+554195895666) - Lida
+
+O que sugere?
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:39:49 to +55 41 99589-5666 - Recebida
+
+a questão é que pela descriçao, foi o HDD q pifou
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:42:57 from CLHa8KAGIAA= (+554195895666) - Lida
+
+Entendi
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:43:10 from CL7a8KAGIAA= (+554195895666) - Lida
+
+➜ Respondendo para você, 2023-03-23 07:35:38: « Acho q talvez na china seja possivel encontrar... »
+
+Por onde posso pedir?
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:46:21 to +55 41 99589-5666 - Recebida
+
+então, mesmo lá esta dificil, para este modelo
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:47:22 to +55 41 99589-5666 - Recebida
+
+dei uma procurada agora...
+pois pela descriçao do equipamento, o seu é a primeira versão...
+encontrei adaptaçao para o segundo apenas...
+a dificuldade, é que a interface do seu ainda nem é SATA…é IDE zif...
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:52:58 to +55 41 99589-5666 - Recebida
+
+pode tentar no aliexpress… com esta descriçao...
+
+1 8 inch zif pata ssd MacBook air
+
+mas aparecem bastante versões que não são compativeis…tem q prestar atençao
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:53:15 from CJvf8KAGIAA= (+554195895666) - Lida
+
+Entendi
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:55:34 from CKbg8KAGIAA= (+554195895666) - Lida
+
+Se caso você conseguir, me manda o link que eu peço e fecho com você às mudanças e atualizado
+
+----------------------------------------------------
++55 41 99589-5666
+2023-03-23 07:55:41 from CK3g8KAGIAA= (+554195895666) - Lida
+
+Atualização**
+
+----------------------------------------------------
++55 41 99589-5666
+2024-06-26 13:34:43 notification
+
++554195895666 alterou o número de telefone para um novo número
+

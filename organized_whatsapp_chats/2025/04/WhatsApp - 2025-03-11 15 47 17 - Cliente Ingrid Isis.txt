@@ -1,0 +1,444 @@
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:47:17 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:47:17 to Cliente Ingrid Isis - Recebida
+
+Oi Marcelo
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:47:21 to Cliente Ingrid Isis - Recebida
+
+Leticia da Itelas, tudo bem?
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:47:36 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Oi Leticia
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:47:38 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Tudo
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:47:40 to Cliente Ingrid Isis - Lida
+
+Segue o orçamento do reparo em placa do 13 mini por escrito
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:47:42 to Cliente Ingrid Isis - Lida
+
+📋 *Resultado da Análise Técnica - iPhone 13 Mini*  
+
+📌 *Cliente:* Marcelo  
+📌 *Dispositivo:* iPhone 13 Mini  
+📌 *Problema Relatado:* Aparelho caiu na água e ficou inacessível.  
+
+🔎 **Diagnóstico Técnico:**  
+- O aparelho chegou **desligado** e, ao abrir, verificamos que os **selos de umidade estão ativados**, indicando infiltração de líquido.  
+- Antes de tentar ligar, identificamos um **consumo travado de 1.085A**, sinalizando um **curto na placa**.  
+- No momento, **não é possível testar os demais componentes**, pois a placa precisa ser reparada primeiro.  
+
+📌 **Orçamento para Reparo na Placa:**  
+💳 *Parcelado:* **R$ 1.118,70** (até 12x no crédito)  
+💵 *À vista:* **R$ 990,00** (Pix, débito ou dinheiro)  
+
+⏰ *Tempo de execução:* **7 a 10 dias úteis**  
+🛡️ *Garantia:* **1 ano**  
+
+Aguardamos sua autorização para prosseguir com o reparo. Caso tenha dúvidas, estamos à disposição! 😊📱
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:48:32 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Pode prosseguir. Só peço por favor dê uma prioridade, pois ela usa para trabalhar ele
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 15:57:30 to Cliente Ingrid Isis - Lida
+
+faremos o possivel pra entregar o quanto antes 😁
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-11 16:08:46 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Obrigado
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-18 13:12:08 to Cliente Ingrid Isis - Lida
+
+Oii, marcelo?
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-18 13:12:11 to Cliente Ingrid Isis - Lida
+
+Leticia da itelas
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-18 13:12:19 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Boa tarde.
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-18 13:12:28 to Cliente Ingrid Isis - Lida
+
+passando pra avisar que ficará pronto mais pro fim da tarde
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-18 13:12:42 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Perfeito. Passo ai depois. Obrigado
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-18 13:17:05 to Cliente Ingrid Isis - Lida
+
+beleza
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:37:04 to Cliente Ingrid Isis - Lida
+
+Marcello, boa tarde! tudo bem com vocês?
+
+Concluímos as análises e intervenções no seu aparelho, e gostaríamos de te atualizar com transparência sobre o que encontramos:
+
+🔍 Resumo técnico da tentativa de reparo: • O aparelho chegou desligado, com sinais claros de oxidação interna — os selos de umidade estavam ativados.
+• O consumo inicial antes do power estava travado em 1.085A, indicando defeito em placa.
+• Após separar as placas, foram encontrados diversos pontos de oxidação avançada, com componentes deteriorados.
+
+⚙️ Realizamos diversas intervenções: • Substituímos capacitores e resistores danificados em vários setores (câmeras, carga, RF).
+• Fizemos a troca do CI de carga e da PMU das câmeras, o que normalizou o pulso de boot da cara A.
+• Identificamos que a placa de RF também apresentava consumo anormal, mesmo após várias tentativas de reparo. Optamos então por realizar o swap da placa.
+
+📶 Após essa substituição: • O consumo foi estabilizado, e o aparelho voltou a emitir sinal de boot.
+• No entanto, o sinal do Wi-Fi oscilava bastante, quase sempre fraco.
+• O aparelho reconhece o IMEI e faz ligações, mas o IMEI se perde de forma intermitente, mesmo após regravação com sucesso.
+
+😔 Apesar de todo o esforço técnico, o dano por oxidação foi severo e o aparelho segue com comportamentos instáveis.
+Por isso, infelizmente, o equipamento será devolvido sem reparo funcional.
+
+Agora precisamos apenas de um tempinho para remontar o aparelho com todo cuidado, e em breve ele estará pronto para retirada.
+
+Agradecemos muito pela sua compreensão. Seguimos à disposição para qualquer dúvida ou orientação que você precisar 🙏💙
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:42:01 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Boa tarde. Foi grande a luta. Agradeço muito. Na semana proxima eu passo ai . Obrigado
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:42:36 to Cliente Ingrid Isis - Lida
+
+Sentimos muito por isso!!! Mas tentamos de tudo, claro sem problemas
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:43:29 to Cliente Ingrid Isis - Lida
+
+Ela conseguiu a recuperação de senha?
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:43:54 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Até esqueci de ver sobre isso. Vou ver agora
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:45:59 to Cliente Ingrid Isis - Lida
+
+boa!!
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:47:29 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Pelo menos ele liga. Ai com a senha conseguimos passar para o 11 que ela está.
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:50:20 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Ele disse não chegou nada no email
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:50:25 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Que coisa isso
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:52:11 to Cliente Ingrid Isis - Reproduzida
+
+8a8419ae-213c-41e9-95c8-f3a515064263.opus (Áudio)
+00:51
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:53:11 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Não é ela . É o marcello
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:53:21 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Ela disse não chegou nada
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:59:53 to Cliente Ingrid Isis - Lida
+
+Ah...ok
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 15:59:55 to Cliente Ingrid Isis - Lida
+
+kk
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 16:00:37 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Se deixar ele funcionando ajuda na tentativa
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 16:03:07 to Cliente Ingrid Isis - Lida
+
+Para deixar ele ligando teriamos que cobrar algum valor, pois o aparelho esta funcional, só não tem o wifi estável...Mas 5g funciona.  e o Face ID também não. 
+Pois iriamos retirar os componentes dele.
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 16:04:07 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Veja o que pode fazer e na segunda conversamos
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 16:06:38 to Cliente Ingrid Isis - Lida
+
+ok, conversamos
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 16:06:44 to Cliente Ingrid Isis - Lida
+
+Vou ver para você
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-03-21 16:07:00 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Obrigado! Bom final de semana!
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:26:58 to Cliente Ingrid Isis - Lida
+
+Oiii
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:27:00 to Cliente Ingrid Isis - Lida
+
+tudo bem?
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:27:12 to Cliente Ingrid Isis - Lida
+
+Parece que o celular de voces ta chegando do outro laboratório
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:43:24 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Bom dia! Tudo e contigo? Legal ! Me mande notícias!
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:45:17 to Cliente Ingrid Isis - Lida
+
+mando sim, se tiver já tudo ok
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:45:21 to Cliente Ingrid Isis - Lida
+
+conseguem passar aqui hoje?
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:46:49 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Hoje não consigo, na segunda passo ai
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:47:16 to Cliente Ingrid Isis - Lida
+
+sem problemas, aproveitamos pra testar bem ele
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:47:49 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Será resolveu?
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:53:29 to Cliente Ingrid Isis - Lida
+
+resolveu sim
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:53:32 to Cliente Ingrid Isis - Lida
+
+ta prontinho ❤️
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:54:08 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Que legal! Segunda passo buscar. Obrigado! Bom final de semana para vocês
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-05 11:58:15 to Cliente Ingrid Isis - Lida
+
+combinado, aguardamos voces! Excelente final de semana
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 10:39:40 to Cliente Ingrid Isis - Lida
+
+eiii passando pra avisar que aparelho ta pronto
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 10:39:51 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Que otimo
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 10:39:57 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Já passo pegar
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 10:40:23 to Cliente Ingrid Isis - Lida
+
+beleza
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:21:58 to Cliente Ingrid Isis - Lida
+
+Oi.
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:22:11 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Oi!
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:22:12 to Cliente Ingrid Isis - Lida
+
+Consegue confirmar o e-mail
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:22:22 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Da Ingrid?
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:22:25 to Cliente Ingrid Isis - Lida
+
+Isso
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:22:34 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Deixa ver se entro aqui
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:22:43 to Cliente Ingrid Isis - Lida
+
+Só o endereço mesmo.
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:23:35 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Ah tá
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:23:45 from Cliente Ingrid Isis (+554196374762) - Lida
+
+68fceaee-8c4c-48f5-b7fc-435348dfc35d.jpg (Imagem)
+186.21 KB
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:23:49 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Esse
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:25:57 to Cliente Ingrid Isis - Lida
+
+Isso, deu certo. Só que eu terei que levar ele no laboratório novamente pois o Face ID ficou com alinhamento errado. Mas até amanhã deve ficar pronto
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:26:14 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Perfeito
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:26:18 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Aguardo
+
+----------------------------------------------------
+Cliente Ingrid Isis
+2025-04-07 15:26:45 from Cliente Ingrid Isis (+554196374762) - Lida
+
+Obrigado!
+

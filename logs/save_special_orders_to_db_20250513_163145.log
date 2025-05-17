@@ -1,0 +1,54 @@
+{"timestamp": "2025-05-13 16:31:45,152", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Usando arquivo de resultados: order_api_responses/orders_verification_results_20250513_162303.json"}}
+{"timestamp": "2025-05-13 16:31:45,152", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Encontradas 17 ordens para processar (canceladas ou finalizadas)"}}
+{"timestamp": "2025-05-13 16:31:46,510", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30406 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:47,637", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30406 (ID: 581931199) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:47,800", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30406 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:48,004", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30429 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:48,802", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30429 (ID: 581943151) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:48,962", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30429 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:49,169", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30520 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:50,277", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30520 (ID: 582012938) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:50,435", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30520 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:50,641", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30575 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:51,765", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30575 (ID: 582064554) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:51,924", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30575 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:52,131", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30634 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:53,081", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30634 (ID: 582111790) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:53,240", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30634 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:53,446", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30664 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:54,556", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30664 (ID: 582135018) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:54,715", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30664 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:54,922", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30689 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:55,881", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30689 (ID: 582160452) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:56,039", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30689 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:56,245", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30684 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:57,201", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30684 (ID: 582156094) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:57,359", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30684 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:57,565", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30701 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:31:58,672", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30701 (ID: 582166694) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:31:58,830", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30701 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:31:59,037", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30736 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:00,151", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30736 (ID: 582188593) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:32:00,312", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30736 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:00,520", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30735 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:01,634", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30735 (ID: 582188527) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:32:01,794", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30735 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:01,999", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 30977 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:03,118", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30977 (ID: 582404689) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:32:03,278", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 30977 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:03,486", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 31043 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:04,442", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31043 (ID: 582475272) processada com sucesso", "situacao": "3"}}
+{"timestamp": "2025-05-13 16:32:04,603", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31043 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:04,809", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 31071 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:05,761", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31071 (ID: 582498702) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:32:05,919", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31071 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:06,125", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 31115 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:07,234", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31115 (ID: 582527486) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:32:07,394", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31115 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:07,602", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 31116 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:08,715", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31116 (ID: 582530103) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:32:08,875", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31116 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:09,081", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Detalhes da ordem 31139 carregados do arquivo"}}
+{"timestamp": "2025-05-13 16:32:10,195", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31139 (ID: 582561902) processada com sucesso", "situacao": "7"}}
+{"timestamp": "2025-05-13 16:32:10,354", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Ordem 31139 salva no banco de dados com sucesso"}}
+{"timestamp": "2025-05-13 16:32:10,560", "level": "INFO", "service": "save_special_orders_to_db", "message": {"message": "Processamento conclu\u00eddo", "ordens_processadas": 17, "sucessos": 17, "erros": 0}}

@@ -129,13 +129,6 @@ O sistema de logging estruturado foi implementado para atender às necessidades 
 
 4. **Contextualização**: Os logs podem incluir dados adicionais para fornecer contexto, como parâmetros de filtro, dados de resposta ou detalhes de erros.
 
-## Funcionalidades do Rodapé Fixo
-
-- O rodapé da interface web é fixo e permanece sempre visível, mesmo ao rolar a página.
-- Os totais de valores (Valor Total, Valor Serviços, Valor Peças) só aparecem no rodapé quando as respectivas colunas estão visíveis na tabela. Se uma coluna de valor não estiver selecionada, o total correspondente não será exibido no rodapé.
-- O rodapé é responsivo e se adapta ao tamanho da tela, garantindo boa visualização em diferentes dispositivos.
-- O total de ordens exibidas permanece sempre visível no rodapé.
-
 ## Execução da Interface Web
 
 Para iniciar o servidor de desenvolvimento:

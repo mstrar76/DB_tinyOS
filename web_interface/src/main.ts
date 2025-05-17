@@ -491,6 +491,11 @@ function updateTableHeader(): void {
     th.addEventListener('dragleave', handleDragLeave);
     th.addEventListener('drop', handleDrop);
     th.addEventListener('dragend', handleDragEnd);
+
+    // Add event listener for sorting
+    th.addEventListener('click', () => {
+      sortTable(column.id);
+    });
   });
 }
 
@@ -506,6 +511,10 @@ let draggedColumnIndex: number = -1;
 let dropTargetColumn: HTMLTableCellElement | null = null;
 let dropIndicator: HTMLElement | null = null;
 let dropPosition: 'left' | 'right' | null = null;
+
+// Variáveis para controlar a ordenação (definidas apenas uma vez no topo do arquivo)
+let currentSortColumn: string | null = null;
+let currentSortDirection: 'asc' | 'desc' = 'asc';
 
 // Function to start resizing
 function startResize(e: MouseEvent): void {
@@ -627,8 +636,13 @@ function handleDragOver(e: DragEvent): void {
 
 // Function to handle drag enter event
 function handleDragEnter(e: DragEvent): void {
+  // Precisamos verificar se o draggedColumn existe
   if (!draggedColumn || !e.target) return;
+  
+  // Importante para permitir o drop
   e.preventDefault();
+  
+  // Aqui podemos adicionar lógica adicional se necessário
 }
 
 // Function to handle drag leave event
@@ -756,9 +770,43 @@ function reorderColumns(fromIndex: number, toIndex: number): void {
   }
 }
 
-// Build query parameters for API request (No longer needed for Supabase direct access)
-// function buildQueryParams(): URLSearchParams { ... }
-
+// Function to sort the table by a column
+function sortTable(columnId: string): void {
+  if (currentSortColumn === columnId) {
+    currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+  } else {
+    currentSortColumn = columnId;
+    currentSortDirection = 'asc';
+  }
+  currentServiceOrders.sort((a, b) => {
+    const aValue = a[columnId];
+    const bValue = b[columnId];
+    if (aValue == null) return currentSortDirection === 'asc' ? -1 : 1;
+    if (bValue == null) return currentSortDirection === 'asc' ? 1 : -1;
+    if (typeof aValue === 'number' && typeof bValue === 'number') {
+      return currentSortDirection === 'asc' ? aValue - bValue : bValue - aValue;
+    }
+    if (typeof aValue === 'string' && typeof bValue === 'string') {
+      return currentSortDirection === 'asc'
+        ? aValue.localeCompare(bValue, 'pt-BR')
+        : bValue.localeCompare(aValue, 'pt-BR');
+    }
+    // Datas (strings com prefixo 'data_')
+    if (columnId.includes('data_')) {
+      const aDate = new Date(aValue);
+      const bDate = new Date(bValue);
+      if (!isNaN(aDate.getTime()) && !isNaN(bDate.getTime())) {
+        return currentSortDirection === 'asc'
+          ? aDate.getTime() - bDate.getTime()
+          : bDate.getTime() - aDate.getTime();
+      }
+    }
+    // Fallback
+    return 0;
+  });
+  updateTableHeader();
+  populateTable(currentServiceOrders);
+}
 
 // Fetch data from Supabase
 async function fetchData(): Promise<void> {
@@ -786,8 +834,8 @@ async function fetchData(): Promise<void> {
       tableTarget: 'ordens_servico'
     });
 
-    // Start building the Supabase query com join apenas para obter dados do cliente
-    // Simplificando para evitar erro de relacionamento com marcadores
+    // Start building the Supabase query com join para obter dados do cliente e marcadores
+    // Buscando todos os dados relacionados em uma única consulta para evitar o problema N+1
     let query = supabase.from('ordens_servico').select(`
       id,
       numero_ordem_servico,
@@ -807,7 +855,8 @@ async function fetchData(): Promise<void> {
       descricao_problema,
       observacoes,
       observacoes_internas,
-      contatos:id_contato (nome, celular, email)
+      contatos:id_contato (nome, celular, email),
+      marcadores_ordem_servico(descricao)
     `);
 
     // Apply filters
@@ -863,32 +912,16 @@ async function fetchData(): Promise<void> {
         telefone_cliente: order.contatos?.celular || '-',
         email_cliente: order.contatos?.email || '-'
       };
-
-      // Buscar marcadores para cada ordem de serviço
-      processedOrder.marcadores = [];
-
+      
+      // Processar marcadores da consulta única (sem consultas adicionais)
+      if (order.marcadores_ordem_servico && Array.isArray(order.marcadores_ordem_servico)) {
+        processedOrder.marcadores = order.marcadores_ordem_servico.map((m: { descricao: string }) => ({ nome: m.descricao }));
+      } else {
+        processedOrder.marcadores = [];
+      }
+      
       return processedOrder;
     });
-
-    // Após montar os serviceOrders, buscar marcadores para cada ordem
-    for (const order of serviceOrders) {
-      try {
-        const { data: marcadoresData, error: marcadoresError } = await supabase
-          .from('marcadores_ordem_servico')
-          .select('descricao')
-          .eq('id_ordem_servico', order.id);
-        if (marcadoresError) {
-          logger.warn('Erro ao buscar marcadores', { ordem: order.id, error: marcadoresError.message });
-          order.marcadores = [];
-        } else {
-          // Garante um array de descrições
-          order.marcadores = (marcadoresData || []).map(m => ({ nome: m.descricao }));
-        }
-      } catch (err: any) {
-        logger.error('Exceção ao buscar marcadores', { ordem: order.id, errorMessage: err.message, stack: err.stack });
-        order.marcadores = [];
-      }
-    }
 
     // Store the fetched data
     currentServiceOrders = serviceOrders;

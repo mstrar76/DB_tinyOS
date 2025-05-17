@@ -339,86 +339,29 @@ def fetch_and_process_orders(token, conn, cursor):
     end_year = 2025
     batch_size = 50 # Process and commit in batches
 
-    # Iterate through years and months in reverse, in 3-month chunks
-    # Start from March 2025 and go back to January 2013
-    current_year = 2025
-    current_month = 3 # Start from March 2025
+    # Explicitly define batches from 2020-01-01 to 2023-09-30 (inclusive)
+    batches = [
+        ("2021-10-01", "2021-12-31"),
+        ("2022-01-01", "2022-03-31"),
+        ("2022-04-01", "2022-06-30"),
+        ("2022-07-01", "2022-09-30"),
+        ("2022-10-01", "2022-12-31"),
+        ("2023-01-01", "2023-03-31"),
+        ("2023-04-01", "2023-06-30"),
+        ("2023-07-01", "2023-09-30")
+    ]
 
-    while current_year >= 2013:
-        # Determine the end date of the current 3-month period
-        end_month = current_month
-        end_year = current_year
-
-        # Determine the start date of the current 3-month period
-        start_month = current_month - 2
-        start_year = current_year
-        if start_month < 1:
-            start_month += 12
-            start_year -= 1
-
-        # Handle the very first period if it starts before 2013
-        if start_year < 2013:
-            start_year = 2013
-            start_month = 1
-
-        data_inicial = f"{start_year}-{start_month:02d}-01"
-
-        # Calculate the last day of the end month
-        if end_month == 12:
-             last_day = (time.mktime((end_year + 1, 1, 1, 0, 0, 0, 0, 0, 0)) - 1)
-        else:
-             last_day = (time.mktime((end_year, end_month + 1, 1, 0, 0, 0, 0, 0, 0)) - 1)
-        data_final = time.strftime("%Y-%m-%d", time.localtime(last_day))
-
-        # Skip April 2025 if it falls within this period (shouldn't with 3-month chunks starting Mar 2025)
-        # Added a check just in case the logic is adjusted or for safety.
-        if start_year <= 2025 <= end_year and 4 in range(start_month, end_month + 1):
-             if start_year == 2025 and start_month <= 4 and end_month >= 4:
-                 print(f"Skipping April 2025 as per request.")
-                 # Adjust the date range to exclude April 2025 if it's the only month in the period
-                 if start_month == 4 and end_month == 4:
-                     # This case should be skipped entirely by the outer loop logic, but added for robustness
-                     current_month -= 3
-                     if current_month < 1:
-                         current_month += 12
-                         current_year -= 1
-                     continue
-                 elif start_month == 4:
-                     # If the period starts in April, start from May instead
-                     data_inicial = f"{year}-05-01"
-                     print(f"Adjusting period to exclude April 2025: {data_inicial} to {data_final}")
-                 elif end_month == 4:
-                     # If the period ends in April, end in March instead
-                     data_final = f"{year}-03-31"
-                     print(f"Adjusting period to exclude April 2025: {data_inicial} to {data_final}")
-                 # If April is in the middle, the current logic doesn't split the period.
-                 # For simplicity, we'll skip the entire 3-month period if April 2025 is included.
-                 # A more complex approach would split the period around April.
-                 # Given the requirement is only to exclude April 2025, and we are iterating backwards in 3-month chunks,
-                 # starting from March 2025, April 2025 will not be included in any 3-month chunk.
-                 # The initial check `if year == 2025 and month == 4:` in the previous month-by-month loop was sufficient.
-                 # I will remove the complex April exclusion logic here and rely on the iteration logic.
-
-        # Re-evaluate the April 2025 skip based on the 3-month period
-        # If the period is Jan-Mar 2025, we process it.
-        # If the period is Apr-Jun 2025, we would skip it (but our loop ends at Mar 2025).
-        # If the period spans April 2025 (e.g., Mar-May 2025), we would need more complex logic to split.
-        # Given the requirement is *only* to exclude April 2025, and our loop ends at March 2025,
-        # the only month we need to explicitly skip is April 2025 itself if the loop structure included it.
-        # Since we are iterating backwards in 3-month chunks ending at March 2025, April 2025 is not included.
-        # The previous explicit check for `year == 2025 and month == 4:` is no longer necessary with this iteration logic.
-
-        print(f"Fetching orders for {data_inicial} to {data_final}...")
-
+    for start_date, end_date in batches:
+        print(f"Fetching orders for {start_date} to {end_date}...")
         params = {
             "situacao": "3",  # Finalizada
-            "dataInicialEmissao": data_inicial,
-            "dataFinalEmissao": data_final,
+            "dataInicialEmissao": start_date,
+            "dataFinalEmissao": end_date,
             "limit": 100, # API limit per page
             "offset": 0
         }
 
-        month_order_ids = [] # Renamed to period_order_ids for clarity
+        month_order_ids = [] 
         while True:
             resp = requests.get(f"{API_BASE}/ordem-servico", headers=headers, params=params)
             
@@ -435,7 +378,7 @@ def fetch_and_process_orders(token, conn, cursor):
                     break # Cannot proceed without a valid token
 
             if resp.status_code != 200:
-                print(f"Failed to fetch order list for {data_inicial} to {data_final}: {resp.status_code} {resp.text}")
+                print(f"Failed to fetch order list for {start_date} to {end_date}: {resp.status_code} {resp.text}")
                 break
 
             data = resp.json()
@@ -443,15 +386,15 @@ def fetch_and_process_orders(token, conn, cursor):
             if not items:
                 break
             current_page_ids = [item["id"] for item in items if "id" in item]
-            month_order_ids.extend(current_page_ids) # Keep name month_order_ids for now
-            print(f"Fetched {len(current_page_ids)} order IDs for {data_inicial} to {data_final} (total for period: {len(month_order_ids)})")
+            month_order_ids.extend(current_page_ids) 
+            print(f"Fetched {len(current_page_ids)} order IDs for {start_date} to {end_date} (total for period: {len(month_order_ids)})")
 
             if len(items) < params["limit"]:
                 break
             params["offset"] += params["limit"]
             time.sleep(1) # Respect API rate limits for listing
 
-        print(f"Fetching details and processing {len(month_order_ids)} orders for {data_inicial} to {data_final}...")
+        print(f"Fetching details and processing {len(month_order_ids)} orders for {start_date} to {end_date}...")
         detailed_orders_batch = []
         for idx, order_id in enumerate(month_order_ids):
             url = f"{API_BASE}/ordem-servico/{order_id}"
@@ -489,7 +432,7 @@ def fetch_and_process_orders(token, conn, cursor):
                 # Continue to the next order
 
             # Process and save in batches
-            if len(detailed_orders_batch) >= batch_size or (idx == len(month_order_ids) - 1 and detailed_orders_batch):
+            if len(detailed_orders_batch) >= 50 or (idx == len(month_order_ids) - 1 and detailed_orders_batch):
                 print(f"Processing batch of {len(detailed_orders_batch)} orders...")
                 try:
                     for order_data_item in detailed_orders_batch:
@@ -504,11 +447,6 @@ def fetch_and_process_orders(token, conn, cursor):
 
             time.sleep(1) # Respect API rate limits for details
 
-        # Move to the previous 3-month period
-        current_month -= 3
-        if current_month < 1:
-            current_month += 12
-            current_year -= 1
 
     # Process any remaining items in the last batch (if the loop finishes mid-batch)
     if detailed_orders_batch:

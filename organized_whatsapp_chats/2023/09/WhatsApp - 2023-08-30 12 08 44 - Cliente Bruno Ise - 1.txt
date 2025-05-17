@@ -1,0 +1,284 @@
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:08:44 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:08:44 from Cliente Bruno Ise (+554197616861) - Lida
+
+Bom dia! Tudo bem?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:09:01 from Cliente Bruno Ise (+554197616861) - Lida
+
+Meu nome é Bruno Carneiro, deixei meu Iphone com vocês ontem
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:09:12 from Cliente Bruno Ise (+554197616861) - Lida
+
+Tem algum retorno, por gentileza?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:12:14 to Cliente Bruno Ise - Recebida
+
+Bom dia, só um momento, estamos avaliando
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:18:36 from Cliente Bruno Ise (+554197616861) - Lida
+
+Tudo bem, obrigado!
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:22:23 to Cliente Bruno Ise - Recebida
+
+é Um defeito na placa do aparelho, será necessário reparo nela.
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:22:36 from Cliente Bruno Ise (+554197616861) - Lida
+
+Puts, entendi
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:22:55 from Cliente Bruno Ise (+554197616861) - Lida
+
+Tem algum motivo esse defeito? Provavel queda mesmo?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:23:01 from Cliente Bruno Ise (+554197616861) - Lida
+
+E quanto fica o reparo dele?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:23:02 to Cliente Bruno Ise - Recebida
+
+pode ser.
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:23:25 to Cliente Bruno Ise - Recebida
+
+ele apresenta um mal contato na conexao da bateria, e um pequeno consumo residual
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:23:41 from Cliente Bruno Ise (+554197616861) - Lida
+
+Entendi, obrigado
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:23:58 to Cliente Bruno Ise - Recebida
+
+💳 - Parcelado R$ 716,00 no crédito parcelado em até 12x
+💵 - ou com desconto à vista R$ 650,00 no débito ou dinheiro
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:24:07 to Cliente Bruno Ise - Recebida
+
+o prazo é de 3 a 7 dias uteis
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:24:22 from Cliente Bruno Ise (+554197616861) - Lida
+
+Tá bem, pode mandar bala
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:24:36 from Cliente Bruno Ise (+554197616861) - Lida
+
+Você me avisam por aqui quando ficar pronto, por favor?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:25:56 from Cliente Bruno Ise (+554197616861) - Lida
+
+Só uma dúvida, o que seria esse consumo residual que comentou?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:27:03 to Cliente Bruno Ise - Recebida
+
+o aparelgho apresenta um consumo mnimo, de 0,005 amperes quando desligado.  indica uma fuga de corrente em algum ponto
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:27:22 to Cliente Bruno Ise - Recebida
+
+mas bem dificil de localizar, e pode ou não estar relacionado com o problema principal
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:28:13 from Cliente Bruno Ise (+554197616861) - Lida
+
+Entendi, tá bem. Obrigado
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:28:21 from Cliente Bruno Ise (+554197616861) - Lida
+
+Fico no aguardo então. Bom trabalho!
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:28:59 to Cliente Bruno Ise - Recebida
+
+Obrigado! assim q tivermos novidades, entramos em contato
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:29:08 from Cliente Bruno Ise (+554197616861) - Lida
+
+A garantia quando comprado era de quantos meses?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:29:31 from Cliente Bruno Ise (+554197616861) - Lida
+
+esse problema na placa nao entra nela?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:30:03 to Cliente Bruno Ise - Recebida
+
+Garantia na época era de 3meses. Hoje estamos dando 6meses, mas mesmo assim já teria esgotado o prazo.
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:30:16 from Cliente Bruno Ise (+554197616861) - Lida
+
+Entendo, obrigado!
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:30:17 to Cliente Bruno Ise - Recebida
+
+se Estivesse no periodo seria coberto sim
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-30 12:31:28 to Cliente Bruno Ise - Recebida
+
+De nada.
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-31 10:34:19 to Cliente Bruno Ise - Recebida
+
+Bom dia Bruno, fizemos o reparo na placa com sucesso, porém sua bateria danificou quando esse defeito aconteceu, pensamos aqui em fazer um desconto para você e ficou 700 tudo incluso, bateria nova com 1 ano de garantia, e mais o reparo na placa, podemos prosseguir ?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-31 19:00:58 from Cliente Bruno Ise (+554197616861) - Lida
+
+Oi boa noite!
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-08-31 19:01:04 from Cliente Bruno Ise (+554197616861) - Lida
+
+Pode prosseguir sim, obrigado pela força!
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-13 10:37:27 from Cliente Bruno Ise (+554197616861) - Lida
+
+Bom dia! Vocês ainda vendem Fones JBL com fio?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-13 10:38:12 to Cliente Bruno Ise - Recebida
+
+Bom dia Bruno, não temos
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-13 10:38:24 from Cliente Bruno Ise (+554197616861) - Lida
+
+Tá bem, obrigado!
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-13 10:39:51 to Cliente Bruno Ise - Recebida
+
+Imagina por nada
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-22 17:57:44 from Cliente Bruno Ise (+554197616861) - Lida
+
+Boa tarde, vocês atendem amanhã?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-23 08:43:50 to Cliente Bruno Ise - Recebida
+
+Olá, bom dia. 
+trabalhamos sabado até as 13hs
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 13:05:38 from Cliente Bruno Ise (+554197616861) - Lida
+
+Salve, boa tarde! Eu deixei meu iphone XS aí, a bateria está inchada
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 13:05:58 from Cliente Bruno Ise (+554197616861) - Lida
+
+Você pode avisar por este whats quando o reparo for concluído, por gentileza?
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 13:13:42 to Cliente Bruno Ise - Recebida
+
+Claro
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 13:13:46 to Cliente Bruno Ise - Recebida
+
+Estamos testando a outra
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 13:21:56 from Cliente Bruno Ise (+554197616861) - Lida
+
+Beleza, obrigado! 🙏🏽
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 14:48:22 to Cliente Bruno Ise - Recebida
+
+Oii Bruno, deu certo! Já esta pronto
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 15:49:42 from Cliente Bruno Ise (+554197616861) - Lida
+
+Irado!
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 15:49:54 from Cliente Bruno Ise (+554197616861) - Lida
+
+Muito obrigado, próximo das 17h eu passo ai buscar
+
+----------------------------------------------------
+Cliente Bruno Ise
+2023-09-25 15:50:07 to Cliente Bruno Ise - Recebida
+
+Ta bom
+

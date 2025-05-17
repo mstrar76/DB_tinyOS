@@ -1,0 +1,86 @@
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 08:17:45 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 08:17:45 from CNmPjacGIABIAQ== (+554195526123) - Lida
+
+Bom dia, tudo certo? Ganhei um ipad porém ele ainda está logado na conta do antigo dono, não consigo restaurar ele pq não tenho acesso a senha, vcs fazem o serviço de restaurar ele? Caso sim, qual o valor?
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 10:13:03 to +55 41 99552-6123 - Recebida
+
+Bom dia, tudo bem e vc ?
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 10:13:47 to +55 41 99552-6123 - Recebida
+
+Ele não consegue te passar a senha para vc poder restaurar ?
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 10:31:53 from CMnOjacGIABIAQ== (+554195526123) - Lida
+
+não consegue, ganhei do meu pai e ele pegou de uma empresa, porém a conta está da empresa de T.I responsável, então nem a empresa quem ele pegou sabe a senha, esse é o problema
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 10:33:01 to +55 41 99552-6123 - Recebida
+
+se for só a senha da tela, é possivel.  Mas se tiver vinculado ao icloud, ou ao serviço de administracao da empresa (MDM) não tem o que fazer
+qual seria o modelo do iPad?
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 11:29:39 from CNPpjacGIABIAQ== (+554195526123) - Lida
+
+➜ Respondendo para você, 2023-08-21 10:33:01: « se for só a senha da tela, é possivel.  Mas se tiver vinculado ao icloud, ou ao serviço de a... »
+
+puts, está vinculado sim
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 11:29:42 from CNbpjacGIABIAQ== (+554195526123) - Lida
+
+é um ipad pro
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 11:29:47 from CNvpjacGIABIAQ== (+554195526123) - Lida
+
+não sei ao certo qual geração
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 12:21:38 to +55 41 99552-6123 - Recebida
+
+iPad pro não tem mesmo o que fazer...
+existe um Bypass, se não estiver atualizado…Mas não fazemos
+e não pode apagar o aparelho depois nem atualizar
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 12:34:12 from CPSHjqcGIABIAQ== (+554195526123) - Lida
+
+➜ Respondendo para você, 2023-08-21 12:21:38: « iPad pro não tem mesmo o que fazer...
+existe um Bypass, se não estiver atualizado…Mas não ... »
+
+ele não está no mais atualizado
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 12:34:14 from CPaHjqcGIABIAQ== (+554195526123) - Lida
+
+mas entendi
+
+----------------------------------------------------
++55 41 99552-6123
+2023-08-21 12:34:17 from CPmHjqcGIABIAQ== (+554195526123) - Lida
+
+obrigado pela ajuda
+

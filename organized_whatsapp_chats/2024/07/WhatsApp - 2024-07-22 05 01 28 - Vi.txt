@@ -1,0 +1,36 @@
+----------------------------------------------------
+ Vi
+2024-07-22 05:01:28 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+ Vi
+2024-07-22 05:01:28 notification
+
++2347073406102 criou a comunidade "{"context_group":null,"parent_group_name":null,"subject":" Vi","is_parent_group_general_chat":false,"show_membership_string":true,"is_open_group":true,"auto_add_disabled":true,"parent_group_jid":null,"author":"2347073406102@s.whatsapp.net","should_use_identity_header":true,"reason":0,"is_initially_empty":false}"
+
+----------------------------------------------------
+ Vi
+2024-07-22 05:01:28 notification
+
++2347073406102 adicionou você
+
+----------------------------------------------------
+ Vi
+2024-07-22 05:01:47 notification
+
++6283820819406 entrou usando o link de convite desta comunidade
+
+----------------------------------------------------
+ Vi
+2024-07-22 05:08:39 notification
+
+Evento desconhecido, id: 42
+
+----------------------------------------------------
+ Vi
+2024-07-22 08:52:51 notification
+
+CJOQ+bQGIAA= adicionou +6283820819406
+

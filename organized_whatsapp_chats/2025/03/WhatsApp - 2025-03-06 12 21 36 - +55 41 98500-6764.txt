@@ -1,0 +1,168 @@
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:21:36 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:21:36 notification
+
++554185006764 é um contato.
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:20:51 from CNP6pr4GIABIAZABAA== (+554185006764) - Lida
+
+Olá. Gostaria de um atendimento especializado iTelas para reparo de Macbook
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:21:50 to +55 41 98500-6764 - Recebida
+
+Olá, bom dia! ☀️
+
+Eu sou a Letícia, especialista em reparos Apple da iTelas, pronto para cuidar do seu aparelho com a atenção que ele merece. 
+
+Na iTelas, somos especialistas em dispositivos Apple há mais de 11 anos, cuidando com excelência de iPhones, iPads e Macs. 💎✨
+
+Nossa equipe já realizou mais de 30 mil reparos, conquistando a confiança de clientes que buscam qualidade, agilidade e um atendimento realmente personalizado. 🤝🛠️
+
+Aqui, seu aparelho estará em mãos experientes, garantindo a melhor solução e tranquilidade para você. 💻✅
+
+Para começarmos, poderia me dizer seu nome? E como podemos ajudar a resolver o seu problema hoje? 😀
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:24:35 from CLP8pr4GIABIAJABAA== (+554185006764) - Lida
+
+Ola vcs fazem recuperação de MACOS
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:24:37 from CLX8pr4GIABIAJABAA== (+554185006764) - Lida
+
+?
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:24:51 to +55 41 98500-6764 - Recebida
+
+Sim, fazemos
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:25:54 to +55 41 98500-6764 - Recebida
+
+o que aconteceu com ele? e qual o modelo?
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:25:59 from CIf9pr4GIABIAJABAA== (+554185006764) - Lida
+
+Resertei meu MAC de fabrica e ele esta pedindo uma senha de ADM de uma empresa que eu não tenho nenhum contato, mas o mac fpoi comprado nos estados unidos em uma loja de seminovos
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:27:24 to +55 41 98500-6764 - Recebida
+
+No caso ai é diferente, trata-se de remover o MDM
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:27:41 to +55 41 98500-6764 - Recebida
+
+ou talvez o firmware do EFI
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:27:46 to +55 41 98500-6764 - Recebida
+
+qual o modelo e ano dele?
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:27:59 from CP/9pr4GIABIAJABAA== (+554185006764) - Lida
+
+2018
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:28:16 from CJD+pr4GIABIAJABAA== (+554185006764) - Lida
+
+air 2018 com intel ainda
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:28:20 from CJT+pr4GIABIAJABAA== (+554185006764) - Lida
+
+não é chip M
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:28:38 to +55 41 98500-6764 - Recebida
+
+Sim,
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:28:54 to +55 41 98500-6764 - Recebida
+
+E como é a tela que esta travado?
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:29:12 from CMj+pr4GIABIAJABAA== (+554185006764) - Lida
+
+pedindo e-mail e senha do ADM
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:29:22 from CNL+pr4GIABIAJABAA== (+554185006764) - Lida
+
+falando sobre gerenciamento remoto
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:29:47 to +55 41 98500-6764 - Recebida
+
+Ah..sim MDM, preciso verificar se conseguimos fazer este desbloqueio.
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:31:36 from CNj/pr4GIABIAJABAA== (+554185006764) - Lida
+
+e tem uma ideia de valores e prazo?
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 12:32:49 to +55 41 98500-6764 - Recebida
+
+Te confirmo até o final da tarde se consegui os e os valores
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 16:20:44 from CIzrp74GIABIAZABAA== (+554185006764) - Lida
+
+Olá, algum retorno?
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 16:22:20 to +55 41 98500-6764 - Recebida
+
+Aguardando o retorno, mas bem provavel que da certo sim
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 16:22:26 to +55 41 98500-6764 - Recebida
+
+Logo mais confirmo o valor
+
+----------------------------------------------------
++55 41 98500-6764
+2025-03-06 16:54:56 to +55 41 98500-6764 - Recebida
+
+Consegui até o momento a opção de Bypass.  Não tem como garantir que se formatar novamente não volte a travar. 
+
+Neste caso o serviço, já com a instalação do MacOS, fica R$ 570,00.
+

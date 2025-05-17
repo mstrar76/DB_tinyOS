@@ -1,0 +1,73 @@
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:50:13 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:50:13 from Cliente Vicente Air 1 (+554199683444) - Lida
+
+Olá, gostaria de um atendimento especializado!
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:50:56 to Cliente Vicente Air 1 - Lida
+
+Olá, bom dia!!
+Me chamo Marcelo, vou dar continuidade no seu atendimento 😄
+Qual seu nome? 
+
+E como posso te auxiliar hoje? 🆘
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:51:53 from Cliente Vicente Air 1 (+554199683444) - Lida
+
+Bom dia Marcelo, tenho um macbook pro com um carregador magsafe 2. preciso trocar o cabo desse carregador.. voce faz esse servico?
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:52:58 to Cliente Vicente Air 1 - Lida
+
+Oi Fazemos sim .
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:53:13 to Cliente Vicente Air 1 - Lida
+
+Este reparo sai R$ 220,00 e leva cerca de 1 dia
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:53:33 from Cliente Vicente Air 1 (+554199683444) - Lida
+
+perfeito, qual é o endereço de voces?
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:54:25 to Cliente Vicente Air 1 - Lida
+
+📍Estamos Localizados na Rua João Negrão 789.
+Temos convênio com estacionamento TOP PARK, ao lado da loja. 🚙
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:54:49 from Cliente Vicente Air 1 (+554199683444) - Lida
+
+qual é o horario de atendimento?
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:55:34 to Cliente Vicente Air 1 - Lida
+
+⏰  Horário de atendimento
+Segunda à sexta: 09h às 18h.
+Sábado: das 9h às 13h.
+
+----------------------------------------------------
+Cliente Vicente Air 1
+2024-04-01 09:56:26 from Cliente Vicente Air 1 (+554199683444) - Lida
+
+Ok, vou me programar e levo para voces consertarem.. obrigado
+

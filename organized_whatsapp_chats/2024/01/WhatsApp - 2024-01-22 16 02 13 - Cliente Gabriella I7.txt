@@ -1,0 +1,78 @@
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:02:13 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:02:13 from Cliente Gabriella I7 (+554192801500) - Lida
+
+Olá Td bem?
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:02:28 to Cliente Gabriella I7 - Recebida
+
+Olá
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:02:30 to Cliente Gabriella I7 - Recebida
+
+tudo bem e vc ?
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:02:35 from Cliente Gabriella I7 (+554192801500) - Lida
+
+Tudo
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:02:43 from Cliente Gabriella I7 (+554192801500) - Lida
+
+Vocês comprariam meu iPhone 11?
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:02:55 to Cliente Gabriella I7 - Recebida
+
+esta com algum defeito ?
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:13:23 from Cliente Gabriella I7 (+554192801500) - Lida
+
+Nao
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:23:56 to Cliente Gabriella I7 - Recebida
+
+ahh sim, teriamos que fazer uma avaliação
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:54:44 from Cliente Gabriella I7 (+554192801500) - Lida
+
+Estão comprando para revenda por mais ou menos quanto?
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:55:13 to Cliente Gabriella I7 - Recebida
+
+geralmente compramos com defeito pq nao pagamos muito
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:55:26 to Cliente Gabriella I7 - Recebida
+
+Se vc vender por fora pega mais
+
+----------------------------------------------------
+Cliente Gabriella I7
+2024-01-22 16:55:33 from Cliente Gabriella I7 (+554192801500) - Lida
+
+Hummm ok
+

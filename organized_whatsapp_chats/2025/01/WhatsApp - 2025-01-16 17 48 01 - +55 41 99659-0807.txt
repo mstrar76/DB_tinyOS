@@ -1,0 +1,258 @@
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:48:01 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:48:01 notification
+
++554196590807 é um contato.
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:47:54 from CPrgpbwGIABIAZABAA== (+554196590807) - Lida
+
+Olá, tudo bem?
+Gostaria de saber se fazem o serviço de troca de HD por SSD em iMac - se sim, qual valor do serviço? Já possuo o SSD, seria somente a mão de obra.
+
+Grato
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:48:40 to +55 41 99659-0807 - Recebida
+
+Você excluir esta mensagem
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:48:59 to +55 41 99659-0807 - Lida
+
+Olá Thiago, boa tarde! ☀️
+
+Eu sou o Marcelo, especialista em reparos Apple da iTelas, pronto para cuidar do seu aparelho com a atenção que ele merece. 
+
+Na iTelas, somos especialistas em dispositivos Apple há mais de 11 anos, cuidando com excelência de iPhones, iPads e Macs. 💎✨
+
+Nossa equipe já realizou mais de 30 mil reparos, conquistando a confiança de clientes que buscam qualidade, agilidade e um atendimento realmente personalizado. 🤝🛠️
+
+Aqui, seu aparelho estará em mãos experientes, garantindo a melhor solução e tranquilidade para você. 💻✅
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:49:28 to +55 41 99659-0807 - Lida
+
+Nós realizamos sim este serviço, mas preciso saber o modelo e ano de seu mac? e qual SSD comprou
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:52:18 from CILjpbwGIABIAZABAA== (+554196590807) - Lida
+
+Olá, Marcelo, legal, um amigo me indicou vocês
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:52:29 from CI3jpbwGIABIAJABAA== (+554196590807) - Lida
+
+iMac17,1 - 2015
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:54:02 to +55 41 99659-0807 - Lida
+
+Ok, comprou um SSD sata ou NVME?
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:54:03 from COvjpbwGIABIAJABAA== (+554196590807) - Lida
+
+Coloquei o meu outro, esse é iMac16,1 - é de 21,5 polegadas
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:55:05 to +55 41 99659-0807 - Lida
+
+Tudo bem, são similares..
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:55:13 to +55 41 99659-0807 - Lida
+
+Mas queria saber qual SSD comprou?
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:56:09 to +55 41 99659-0807 - Lida
+
+POis a mão de obra fica diferente...
+Embora neste caso eu recomendo um Nvme..Dá uma bela diferença de desempenho
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 17:58:50 from CIrmpbwGIABIAJABAA== (+554196590807) - Lida
+
+Eu já tinha ele aqui, lacrado, é sata, Kingston A400
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:00:04 to +55 41 99659-0807 - Lida
+
+de quantos Gb?
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:01:20 from CKDnpbwGIABIAJABAA== (+554196590807) - Lida
+
+240, essa maquina é só para textos, deixo tudo no iCloud
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:01:30 to +55 41 99659-0807 - Reproduzida
+
+cdd8d161-cc04-4fdf-8a6c-cba7c4980441.opus (Áudio)
+01:20
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:04:03 from CMPopbwGIABIAJABAA== (+554196590807) - Reproduzida
+
+9e47d0dc-ff3a-42b5-bced-2461796d6254.opus (Áudio)
+00:47
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:05:32 from CJzppbwGIABIAJABAA== (+554196590807) - Reproduzida
+
+25e20548-4976-4659-a0c0-71acfd2ef541.opus (Áudio)
+00:15
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:08:36 to +55 41 99659-0807 - Reproduzida
+
+d2bcb0aa-fc40-4362-b8ef-c2f8a5622469.opus (Áudio)
+01:46
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:11:59 from CJ/spbwGIABIAJABAA== (+554196590807) - Lida
+
+Perfeito, e a mão de obra?
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:12:55 to +55 41 99659-0807 - Lida
+
+Mão de obra depende se for NVME ou Sata
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:13:32 from CPzspbwGIABIAJABAA== (+554196590807) - Lida
+
+O grande problema de iMac (pra mim, pra vocês é ótimo haha) é essa cola, precisamos de um técnico. Meu Mac Pro e Mac Mini eu mesmo faço todos upgrade
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:14:01 to +55 41 99659-0807 - Lida
+
+kkk
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:14:39 to +55 41 99659-0807 - Lida
+
+Com o SSD Sata, fica R$ 740,00 a instalação do SSD, sistema, e limpeza interna.
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:14:54 to +55 41 99659-0807 - Lida
+
+Podemos parcelar em 12x sem juros
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:15:34 to +55 41 99659-0807 - Lida
+
+Ou tem desconto de 10% para pagamento no Pix, débito ou dinheiro.
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:18:45 from CLXvpbwGIABIAJABAA== (+554196590807) - Lida
+
+Legal, muito obrigado pela atenção Marcelo, procuro vocês em breve para fazermos. Não precisa ser agora que já passou do horário comercial, mas me passa toda relação do serviço com os upgrades que mencionou pra eu saber o total que gastaria com vocês por favor
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:19:22 to +55 41 99659-0807 - Lida
+
+Ok, eu elaboro um orçamento certinho e envio depois.
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-16 18:20:17 from CJHwpbwGIABIAJABAA== (+554196590807) - Lida
+
+gratidão
+Assim podemos negociar
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-17 10:14:01 to +55 41 99659-0807 - Lida
+
+OI Thiago, bom dia. 
+Verifiquei aqui, e é bem provavel que sua maquina não irá suportar o Nvme
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-17 10:14:54 to +55 41 99659-0807 - Lida
+
+Consegue ir no gerenciador de disco e verificar a capacidade do disco dele? 
+Mesmo que tenha o fusion drive, ira mostrar apenas uma unidade. 
+mas pela capacidade podemos deduzir
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-17 10:17:06 from CNKwqbwGIABIAJABAA== (+554196590807) - Lida
+
+Bom dia
+Não estou em casa, mas é um HD de 1 TB
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-17 16:20:13 to +55 41 99659-0807 - Lida
+
+Provavel que não tenha o socket para NVME mesmo
+
+----------------------------------------------------
++55 41 99659-0807
+2025-01-17 16:21:19 to +55 41 99659-0807 - Lida
+
+📋 Orçamento para Upgrade de Disco e Memória RAM em iMac 2015:
+
+🔧 Serviço Inclui:
+	•	Abertura do iMac com cuidado técnico especializado.
+	•	Limpeza interna completa para garantir o melhor desempenho e durabilidade.
+	•	Instalação do novo SSD SATA de 1TB.
+	•	Upgrade da memória RAM para 16GB.
+	•	Recolagem da tela utilizando adesivo original de alta qualidade.
+
+💰 Custos Detalhados:
+	1.	Mão de Obra: R$ 600,00.
+	2.	Adesivo para Recolagem da Tela: R$ 140,00.
+	3.	SSD de 1TB SATA: R$ 650,00.
+	4.	16GB de Memória RAM: R$ 550,00.
+
+Total: R$ 1.940,00.
+
+⚠️ Observação:
+	•	O iMac 2015 não suporta SSD NVMe de fábrica. É necessário verificar a configuração atual para determinar a compatibilidade com upgrades maiores ou diferentes tipos de discos.
+	•	Caso precise confirmar os discos atuais ou realizar um diagnóstico, podemos auxiliar no processo.
+
+📅 Benefícios e Prazo:
+	•	Entrega em até 2 dias úteis, garantindo qualidade no serviço.
+	•	Upgrade realizado com peças de alta performance e seguindo rigorosos padrões técnicos.
+	•	Melhoria significativa na velocidade e no desempenho geral do iMac.
+
+📞 Próximos Passos:
+Podemos agendar uma avaliação inicial para confirmar os detalhes do seu iMac e tirar qualquer dúvida. Posso marcar para você? 😊
+

@@ -1,0 +1,67 @@
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:08:32 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:08:32 from Cliente Paulo 6s (+554192230710) - Lida
+
+Olá
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:08:35 from Cliente Paulo 6s (+554192230710) - Lida
+
+Boa tarde
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:10:55 from Cliente Paulo 6s (+554192230710) - Lida
+
+Qual o melhor protetor de tela para o iphone 15 pro max que vc tem?
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:11:00 from Cliente Paulo 6s (+554192230710) - Lida
+
+E o preço
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:15:35 notification
+
+Chamada de voz perdida à(s) 17:15
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:18:46 to Cliente Paulo 6s - Lida
+
+Oi Paulo, 
+recomendamos a Pelicula de Hidrogel com revestimento de NanoVidro
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:19:07 to Cliente Paulo 6s - Lida
+
+esta saindo R$ 120,00
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:19:23 from Cliente Paulo 6s (+554192230710) - Lida
+
+Capinha transparente
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-04-29 17:19:53 to Cliente Paulo 6s - Lida
+
+Eu tenho que ver. A capinnha não tenho certeza.
+
+----------------------------------------------------
+Cliente Paulo 6s
+2024-11-09 19:47:40 notification
+
+Cliente Paulo 6s ativou o desaparecimento das mensagens. Novas mensagens desaparecerão deste chat 24 horas após serem enviadas
+

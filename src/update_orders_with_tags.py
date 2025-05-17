@@ -41,6 +41,133 @@ def get_existing_order_ids():
     finally:
         close_db_connection(conn)
 
+def update_client_origin_from_markers(os_id, markers):
+    """Extrai a origem do cliente a partir dos marcadores e atualiza o campo origem_cliente na tabela ordens_servico."""
+    if not markers:
+        return None
+    
+    # Lista de possíveis marcadores de origem do cliente (case-insensitive, ignora acentos)
+    origin_keywords = [
+        "txmidia", "cliente existente", "indicação", "indicacao",
+        "origem:social", "origem:gpt", "origem:local"
+    ]
+    
+    # Normalizar marcadores para comparação
+    def normalize(s):
+        import unicodedata
+        return unicodedata.normalize('NFKD', s).encode('ASCII', 'ignore').decode('ASCII').lower()
+    
+    # Gerar lista normalizada mantendo o mesmo índice dos marcadores originais.
+    normalized_markers = []
+    for m in markers:
+        if isinstance(m, str):
+            normalized_markers.append(normalize(m))
+        elif isinstance(m, dict):
+            nome = m.get("nome")
+            if isinstance(nome, str):
+                normalized_markers.append(normalize(nome))
+            else:
+                normalized_markers.append("")  # placeholder para manter índice
+        else:
+            normalized_markers.append("")  # placeholder
+    
+    # Encontrar o primeiro marcador que corresponda a qualquer palavra-chave de origem
+    found = None
+    for keyword in origin_keywords:
+        for i, marker in enumerate(normalized_markers):
+            if keyword in marker:
+                # Usar o marcador original, não o normalizado
+                found = markers[i]
+                break
+        if found:
+            break
+    
+    if found:
+        conn = get_db_connection()
+        if not conn:
+            return None
+        
+        try:
+            cursor = conn.cursor()
+            cursor.execute(
+                """UPDATE ordens_servico SET origem_cliente = %s WHERE id = %s""",
+                (found, os_id)
+            )
+            conn.commit()
+            print(f"  Atualizado origem_cliente para OS {os_id}: {found}")
+            return found
+        except Exception as e:
+            print(f"  Erro ao atualizar origem_cliente para OS {os_id}: {e}")
+            conn.rollback()
+            return None
+        finally:
+            close_db_connection(conn)
+    
+    return None
+
+def process_markers_for_order(os_id, markers):
+    """Processa os marcadores de uma OS, inserindo-os nas tabelas marcadores e ordem_servico_marcadores."""
+    if not markers or not os_id:
+        return 0
+    
+    conn = get_db_connection()
+    if not conn:
+        return 0
+    
+    try:
+        cursor = conn.cursor()
+        markers_inserted = 0
+        
+        # Primeiro, limpar os marcadores existentes para esta OS
+        cursor.execute(
+            """DELETE FROM ordem_servico_marcadores WHERE id_ordem_servico = %s""",
+            (os_id,)
+        )
+        
+        for marker in markers:
+            # Extrair nome do marcador (string) caso o objeto seja um dicionário
+            if isinstance(marker, dict):
+                marker_name = marker.get("nome")
+            else:
+                marker_name = marker
+            
+            if not marker_name:
+                continue  # ignora marcadores sem nome válido
+            
+            # Verificar se o marcador já existe na tabela marcadores
+            cursor.execute(
+                """SELECT id FROM marcadores WHERE nome = %s""",
+                (marker_name,)
+            )
+            result = cursor.fetchone()
+            
+            if result:
+                marker_id = result[0]
+            else:
+                # Inserir novo marcador
+                cursor.execute(
+                    """INSERT INTO marcadores (nome) VALUES (%s) RETURNING id""",
+                    (marker_name,)
+                )
+                marker_id = cursor.fetchone()[0]
+            
+            # Inserir na tabela de junção
+            cursor.execute(
+                """INSERT INTO ordem_servico_marcadores (id_ordem_servico, id_marcador) 
+                   VALUES (%s, %s) ON CONFLICT DO NOTHING""",
+                (os_id, marker_id)
+            )
+            markers_inserted += 1
+        
+        conn.commit()
+        return markers_inserted
+    except Exception as e:
+        print(f"  Erro ao processar marcadores para OS {os_id}: {e}")
+        conn.rollback()
+        return 0
+    finally:
+        close_db_connection(conn)
+
 def fetch_orders_with_tags(token, data_inicial, data_final, situacao="3"):
     """
     Busca ordens com seus marcadores usando o endpoint de listagem.
@@ -128,15 +255,53 @@ def fetch_order_details(token, order_id):
 def process_orders_with_tags(token, orders_with_tags, existing_ids=None, batch_size=50):
     """
     Processa as ordens com marcadores, buscando detalhes completos e combinando os dados.
+    Atualiza também o campo origem_cliente baseado nos marcadores e insere os marcadores nas tabelas apropriadas.
+    
+    Retorna: (detailed_orders, stats)
+    - detailed_orders: lista de ordens detalhadas processadas
+    - stats: dicionário com estatísticas de processamento
     """
     if existing_ids is None:
         existing_ids = []
-        
-    detailed_orders = []
-    new_orders = [order for order in orders_with_tags if order["id"] not in existing_ids]
     
+    # Inicializar estatísticas
+    stats = {
+        "total_orders": len(orders_with_tags),
+        "origins_updated": 0,
+        "markers_processed": 0,
+        "total_markers": 0
+    }
+    
+    # Processar todas as ordens, não apenas as novas, para atualizar marcadores e origem_cliente
     print(f"Ordens totais obtidas: {len(orders_with_tags)}")
-    print(f"Ordens novas a serem processadas: {len(new_orders)}")
+    
+    # Primeiro, processar marcadores e atualizar origem_cliente para todas as ordens
+    print("\nProcessando marcadores e atualizando origem_cliente...")
+    for order_info in orders_with_tags:
+        order_id = order_info["id"]
+        marcadores = order_info.get("marcadores", [])
+        
+        if marcadores:
+            stats["total_markers"] += len(marcadores)
+            
+            # Inserir marcadores nas tabelas apropriadas
+            markers_processed = process_markers_for_order(order_id, marcadores)
+            stats["markers_processed"] += markers_processed
+            print(f"  OS {order_id}: {markers_processed} marcadores processados")
+            
+            # Atualizar origem_cliente baseado nos marcadores
+            origin = update_client_origin_from_markers(order_id, marcadores)
+            if origin:
+                stats["origins_updated"] += 1
+    
+    print(f"Total de campos origem_cliente atualizados: {stats['origins_updated']}")
+    print(f"Total de marcadores processados: {stats['markers_processed']} de {stats['total_markers']}\n")
+    
+    # Agora processar apenas ordens novas para detalhes completos
+    new_orders = [order for order in orders_with_tags if order["id"] not in existing_ids]
+    print(f"Ordens novas a serem processadas para detalhes completos: {len(new_orders)}")
+    
+    detailed_orders = []
     
     # Processar em lotes para gerenciar melhor o uso de memória
     for i in range(0, len(new_orders), batch_size):
@@ -169,8 +334,8 @@ def process_orders_with_tags(token, orders_with_tags, existing_ids=None, batch_s
         with open(temp_filename, "w", encoding="utf-8") as f:
             json.dump({"detailed_orders": batch_detailed}, f, ensure_ascii=False, indent=2)
         print(f"Lote {i//batch_size + 1} salvo em {temp_filename}")
-        
-    return detailed_orders
+    
+    return detailed_orders, stats
 
 def save_and_process_orders(detailed_orders, period_label):
     """Salva as ordens detalhadas em um arquivo JSON e as processa para o banco de dados."""
@@ -204,7 +369,10 @@ def save_and_process_orders(detailed_orders, period_label):
         print(f"Aviso: Não foi possível remover o arquivo temporário {temp_process_file}: {e}")
 
 def update_orders_for_period(token, data_inicial, data_final, period_label, existing_ids):
-    """Atualiza as ordens para um período específico, incluindo marcadores."""
+    """Atualiza as ordens para um período específico, incluindo marcadores.
+    
+    Retorna: dict com estatísticas do processamento
+    """
     print(f"\n{'='*50}")
     print(f"Atualizando ordens para o período: {period_label} ({data_inicial} a {data_final})")
     print(f"{'='*50}")
@@ -214,15 +382,19 @@ def update_orders_for_period(token, data_inicial, data_final, period_label, exis
     
     if not orders_with_tags:
         print(f"Nenhuma ordem encontrada para o período {period_label}.")
-        return 0
+        return {"new_orders": 0, "origins_updated": 0, "markers_processed": 0}
     
     # Buscar detalhes das ordens e combinar com os marcadores
-    detailed_orders = process_orders_with_tags(token, orders_with_tags, existing_ids)
+    detailed_orders, stats = process_orders_with_tags(token, orders_with_tags, existing_ids)
     
     # Salvar e processar as ordens
     save_and_process_orders(detailed_orders, period_label)
     
-    return len(detailed_orders)
+    # Adicionar informações adicionais às estatísticas
+    stats["new_orders"] = len(detailed_orders)
+    stats["period"] = period_label
+    
+    return stats
 
 def main():
     """Função principal para atualizar ordens de 2024 e 2025 com marcadores."""
@@ -239,34 +411,70 @@ def main():
     
     # Períodos a serem atualizados
     periods = [
-        # 2024 - Completar janeiro e fevereiro que estão faltando
+        # 2024 - Processar todos os meses de 2024
         {"data_inicial": "2024-01-01", "data_final": "2024-01-31", "label": "2024_01"},
         {"data_inicial": "2024-02-01", "data_final": "2024-02-29", "label": "2024_02"},
+        {"data_inicial": "2024-03-01", "data_final": "2024-03-31", "label": "2024_03"},
+        {"data_inicial": "2024-04-01", "data_final": "2024-04-30", "label": "2024_04"},
+        {"data_inicial": "2024-05-01", "data_final": "2024-05-31", "label": "2024_05"},
+        {"data_inicial": "2024-06-01", "data_final": "2024-06-30", "label": "2024_06"},
+        {"data_inicial": "2024-07-01", "data_final": "2024-07-31", "label": "2024_07"},
+        {"data_inicial": "2024-08-01", "data_final": "2024-08-31", "label": "2024_08"},
+        {"data_inicial": "2024-09-01", "data_final": "2024-09-30", "label": "2024_09"},
+        {"data_inicial": "2024-10-01", "data_final": "2024-10-31", "label": "2024_10"},
+        {"data_inicial": "2024-11-01", "data_final": "2024-11-30", "label": "2024_11"},
+        {"data_inicial": "2024-12-01", "data_final": "2024-12-31", "label": "2024_12"},
         
-        # 2025 - Verificar se há novas ordens finalizadas em cada mês
-        {"data_inicial": "2025-01-01", "data_final": "2025-01-31", "label": "2025_01_update"},
-        {"data_inicial": "2025-02-01", "data_final": "2025-02-29", "label": "2025_02_update"},
-        {"data_inicial": "2025-03-01", "data_final": "2025-03-31", "label": "2025_03_update"},
-        {"data_inicial": "2025-04-01", "data_final": "2025-04-30", "label": "2025_04_update"},
-        {"data_inicial": "2025-05-01", "data_final": "2025-05-10", "label": "2025_05_new"}  # Até a data atual
+        # 2025 - Processar todos os meses até maio de 2025
+        {"data_inicial": "2025-01-01", "data_final": "2025-01-31", "label": "2025_01"},
+        {"data_inicial": "2025-02-01", "data_final": "2025-02-29", "label": "2025_02"},
+        {"data_inicial": "2025-03-01", "data_final": "2025-03-31", "label": "2025_03"},
+        {"data_inicial": "2025-04-01", "data_final": "2025-04-30", "label": "2025_04"},
+        {"data_inicial": "2025-05-01", "data_final": "2025-05-13", "label": "2025_05"}  # Até a data atual
     ]
     
-    total_new_orders = 0
+    # Estatísticas globais
+    global_stats = {
+        "total_new_orders": 0,
+        "total_origins_updated": 0,
+        "total_markers_processed": 0,
+        "total_orders_processed": 0
+    }
     
     # Processar cada período
     for period in periods:
-        new_orders = update_orders_for_period(
+        print(f"\n{'='*70}")
+        print(f"Processando período: {period['label']} ({period['data_inicial']} a {period['data_final']})")
+        print(f"{'='*70}")
+        
+        period_stats = update_orders_for_period(
             token, 
             period["data_inicial"], 
             period["data_final"], 
             period["label"],
             existing_ids
         )
-        total_new_orders += new_orders if new_orders else 0
+        
+        # Atualizar estatísticas globais
+        global_stats["total_new_orders"] += period_stats.get("new_orders", 0)
+        global_stats["total_origins_updated"] += period_stats.get("origins_updated", 0)
+        global_stats["total_markers_processed"] += period_stats.get("markers_processed", 0)
+        global_stats["total_orders_processed"] += period_stats.get("total_orders", 0)
     
-    print("\n" + "="*50)
-    print(f"Atualização concluída. Total de novas ordens processadas: {total_new_orders}")
-    print("="*50)
+    # Exibir resumo final
+    print("\n" + "="*70)
+    print("RESUMO DA ATUALIZAÇÃO")
+    print("="*70)
+    print(f"Total de ordens processadas: {global_stats['total_orders_processed']}")
+    print(f"Total de novas ordens detalhadas: {global_stats['total_new_orders']}")
+    print(f"Total de campos origem_cliente atualizados: {global_stats['total_origins_updated']}")
+    print(f"Total de marcadores processados: {global_stats['total_markers_processed']}")
+    print("="*70)
+    
+    print("\nImportante: O campo 'origem_cliente' foi atualizado para todas as ordens")
+    print("com marcadores que indicam a origem do cliente (txmidia, cliente existente,")
+    print("indicação, origem:social, origem:gpt, origem:local).")
+    print("="*70)
 
 if __name__ == "__main__":
     main()

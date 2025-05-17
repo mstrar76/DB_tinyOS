@@ -1,0 +1,1721 @@
+2025-05-14 19:24:29,929 - __main__ - INFO - Database connection established.
+2025-05-14 19:24:29,930 - __main__ - INFO - Total de lotes a processar: 13
+2025-05-14 19:24:29,930 - __main__ - INFO - Buscando ordens de 2020-01-01 a 2020-06-30 com status: 1, 2, 4, 5...
+2025-05-14 19:24:31,828 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:31,828 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:32,082 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:32,083 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:32,689 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:32,690 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:32,949 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:32,950 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:32,951 - __main__ - INFO - Buscando ordens de 2020-07-01 a 2020-12-31 com status: 1, 2, 4, 5...
+2025-05-14 19:24:33,584 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:33,585 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:34,195 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:34,196 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:34,788 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:34,788 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:35,016 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:35,017 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:35,018 - __main__ - INFO - Buscando ordens de 2021-01-01 a 2021-06-30 com status: 1, 2, 4, 5...
+2025-05-14 19:24:35,625 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:35,626 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:35,854 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:35,855 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:36,097 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:36,097 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:36,686 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:36,687 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:36,687 - __main__ - INFO - Buscando ordens de 2021-07-01 a 2021-12-31 com status: 1, 2, 4, 5...
+2025-05-14 19:24:36,935 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:36,935 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:37,540 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:37,540 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:38,112 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:38,113 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:38,389 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:38,390 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:38,390 - __main__ - INFO - Buscando ordens de 2022-01-01 a 2022-06-30 com status: 1, 2, 4, 5...
+2025-05-14 19:24:38,628 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:38,629 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:39,243 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:39,243 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:39,836 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:39,837 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:40,198 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:40,198 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:40,200 - __main__ - INFO - Buscando ordens de 2022-07-01 a 2022-12-31 com status: 1, 2, 4, 5...
+2025-05-14 19:24:40,790 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:40,791 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:41,385 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:41,386 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:41,979 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:41,980 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:42,218 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:42,218 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:42,219 - __main__ - INFO - Buscando ordens de 2023-01-01 a 2023-06-30 com status: 1, 2, 4, 5...
+2025-05-14 19:24:42,808 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:42,808 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:43,043 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:43,044 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:43,376 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:43,376 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:43,942 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:43,943 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:43,944 - __main__ - INFO - Buscando ordens de 2023-07-01 a 2023-12-31 com status: 1, 2, 4, 5...
+2025-05-14 19:24:44,170 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:44,171 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:44,745 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:44,746 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:45,344 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:45,344 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:45,927 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:45,928 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:45,930 - __main__ - INFO - Buscando ordens de 2024-01-01 a 2024-06-30 com status: 1, 2, 4, 5...
+2025-05-14 19:24:46,503 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:46,503 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:47,263 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:47,264 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:47,863 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:47,863 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:48,839 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:48,840 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:48,842 - __main__ - INFO - Buscando ordens de 2024-07-01 a 2024-12-31 com status: 1, 2, 4, 5...
+2025-05-14 19:24:49,106 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:49,107 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:49,736 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:49,736 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:50,398 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:50,398 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:51,168 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:51,168 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:51,169 - __main__ - INFO - Buscando ordens de 2025-01-01 a 2025-06-30 com status: 1, 2, 4, 5...
+2025-05-14 19:24:51,872 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:51,872 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:53,586 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:53,587 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:54,198 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:54,199 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:54,893 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:54,894 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:54,895 - __main__ - INFO - Buscando ordens de 2025-07-01 a 2025-12-31 com status: 1, 2, 4, 5...
+2025-05-14 19:24:55,492 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:55,493 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:56,116 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:56,117 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:56,340 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:56,341 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:56,964 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:56,964 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:56,966 - __main__ - INFO - Buscando ordens de 2025-05-10 a 2025-05-14 com status: todos...
+2025-05-14 19:24:57,233 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:24:57,233 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:24:57,234 - __main__ - INFO - Todas as ordens foram processadas com sucesso!
+2025-05-14 19:31:49,960 - __main__ - INFO - Database connection established.
+2025-05-14 19:31:49,963 - __main__ - INFO - Total de lotes a processar: 27
+2025-05-14 19:31:49,963 - __main__ - INFO - Buscando ordens de 2013-01-01 a 2013-06-30...
+2025-05-14 19:31:51,545 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:51,546 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:51,548 - __main__ - INFO - Buscando ordens de 2013-07-01 a 2013-12-31...
+2025-05-14 19:31:51,890 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:51,890 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:51,890 - __main__ - INFO - Buscando ordens de 2014-01-01 a 2014-06-30...
+2025-05-14 19:31:52,582 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:52,583 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:52,584 - __main__ - INFO - Buscando ordens de 2014-07-01 a 2014-12-31...
+2025-05-14 19:31:52,980 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:52,980 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:52,981 - __main__ - INFO - Buscando ordens de 2015-01-01 a 2015-06-30...
+2025-05-14 19:31:53,778 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:53,779 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:53,780 - __main__ - INFO - Buscando ordens de 2015-07-01 a 2015-12-31...
+2025-05-14 19:31:54,680 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:54,680 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:54,682 - __main__ - INFO - Buscando ordens de 2016-01-01 a 2016-06-30...
+2025-05-14 19:31:55,637 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:55,637 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:55,643 - __main__ - INFO - Buscando ordens de 2016-07-01 a 2016-12-31...
+2025-05-14 19:31:56,541 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:56,541 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:56,543 - __main__ - INFO - Buscando ordens de 2017-01-01 a 2017-06-30...
+2025-05-14 19:31:57,546 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:57,547 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:57,547 - __main__ - INFO - Buscando ordens de 2017-07-01 a 2017-12-31...
+2025-05-14 19:31:58,471 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:58,472 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:58,473 - __main__ - INFO - Buscando ordens de 2018-01-01 a 2018-06-30...
+2025-05-14 19:31:59,108 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:59,108 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:59,110 - __main__ - INFO - Buscando ordens de 2018-07-01 a 2018-12-31...
+2025-05-14 19:31:59,661 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:31:59,661 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:31:59,663 - __main__ - INFO - Buscando ordens de 2019-01-01 a 2019-06-30...
+2025-05-14 19:32:00,373 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:00,373 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:00,375 - __main__ - INFO - Buscando ordens de 2019-07-01 a 2019-12-31...
+2025-05-14 19:32:01,247 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:01,247 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:01,249 - __main__ - INFO - Buscando ordens de 2020-01-01 a 2020-06-30...
+2025-05-14 19:32:01,770 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:01,770 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:01,771 - __main__ - INFO - Buscando ordens de 2020-07-01 a 2020-12-31...
+2025-05-14 19:32:02,610 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:02,610 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:02,612 - __main__ - INFO - Buscando ordens de 2021-01-01 a 2021-06-30...
+2025-05-14 19:32:03,653 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:03,653 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:03,656 - __main__ - INFO - Buscando ordens de 2021-07-01 a 2021-12-31...
+2025-05-14 19:32:04,319 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:04,320 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:04,321 - __main__ - INFO - Buscando ordens de 2022-01-01 a 2022-06-30...
+2025-05-14 19:32:05,193 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:05,193 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:05,194 - __main__ - INFO - Buscando ordens de 2022-07-01 a 2022-12-31...
+2025-05-14 19:32:06,424 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:06,425 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:06,426 - __main__ - INFO - Buscando ordens de 2023-01-01 a 2023-06-30...
+2025-05-14 19:32:07,280 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:07,281 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:07,283 - __main__ - INFO - Buscando ordens de 2023-07-01 a 2023-12-31...
+2025-05-14 19:32:08,147 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:08,148 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:08,149 - __main__ - INFO - Buscando ordens de 2024-01-01 a 2024-06-30...
+2025-05-14 19:32:09,075 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:09,075 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:09,076 - __main__ - INFO - Buscando ordens de 2024-07-01 a 2024-12-31...
+2025-05-14 19:32:10,466 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:10,466 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:10,467 - __main__ - INFO - Buscando ordens de 2025-01-01 a 2025-06-30...
+2025-05-14 19:32:11,080 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:11,080 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:11,081 - __main__ - INFO - Buscando ordens de 2025-07-01 a 2025-12-31...
+2025-05-14 19:32:11,393 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:11,393 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:11,394 - __main__ - INFO - Buscando ordens de 2025-05-10 a 2025-05-14...
+2025-05-14 19:32:13,091 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:32:13,092 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:32:13,093 - __main__ - INFO - Todas as ordens foram processadas com sucesso!
+2025-05-14 19:33:50,438 - __main__ - INFO - Database connection established.
+2025-05-14 19:33:50,440 - __main__ - INFO - Total de lotes a processar: 27
+2025-05-14 19:33:50,440 - __main__ - INFO - Buscando ordens de 2013-01-01 a 2013-06-30...
+2025-05-14 19:33:52,275 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 19:33:52,275 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 19:33:52,276 - __main__ - INFO - Buscando ordens de 2013-07-01 a 2013-12-31...
+2025-05-14 19:33:52,997 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 19:33:54,246 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 19:33:55,664 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 19:33:57,482 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 19:33:59,117 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 19:34:00,403 - __main__ - INFO - Fetched 38 orders. Processing...
+2025-05-14 19:34:00,404 - __main__ - INFO - Total de 538 ordens encontradas para processamento.
+2025-05-14 19:34:00,404 - __main__ - INFO - Processando lote de 50 ordens (1-50 de 538)...
+2025-05-14 19:34:01,342 - __main__ - ERROR - Error processing Order ID 110794380: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110794380
+                       ^
+
+2025-05-14 19:34:01,502 - __main__ - ERROR - Error processing order 110794380: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110794380
+                       ^
+
+2025-05-14 19:34:02,748 - __main__ - ERROR - Error processing Order ID 110663357: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110663357
+                       ^
+
+2025-05-14 19:34:02,908 - __main__ - ERROR - Error processing order 110663357: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110663357
+                       ^
+
+2025-05-14 19:34:04,442 - __main__ - ERROR - Error processing Order ID 110622258: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110622258
+                       ^
+
+2025-05-14 19:34:04,603 - __main__ - ERROR - Error processing order 110622258: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110622258
+                       ^
+
+2025-05-14 19:34:06,264 - __main__ - ERROR - Error processing Order ID 110558991: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110558991
+                       ^
+
+2025-05-14 19:34:06,424 - __main__ - ERROR - Error processing order 110558991: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110558991
+                       ^
+
+2025-05-14 19:34:07,810 - __main__ - ERROR - Error processing Order ID 110414057: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110414057
+                       ^
+
+2025-05-14 19:34:07,971 - __main__ - ERROR - Error processing order 110414057: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110414057
+                       ^
+
+2025-05-14 19:34:08,978 - __main__ - ERROR - Error processing Order ID 110335484: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110335484
+                       ^
+
+2025-05-14 19:34:09,138 - __main__ - ERROR - Error processing order 110335484: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110335484
+                       ^
+
+2025-05-14 19:34:11,141 - __main__ - ERROR - Error processing Order ID 110332227: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110332227
+                       ^
+
+2025-05-14 19:34:11,303 - __main__ - ERROR - Error processing order 110332227: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110332227
+                       ^
+
+2025-05-14 21:36:13,202 - __main__ - INFO - Database connection established.
+2025-05-14 21:36:13,203 - __main__ - INFO - Total de lotes a processar: 27
+2025-05-14 21:36:13,203 - __main__ - INFO - Buscando ordens de 2013-01-01 a 2013-06-30...
+2025-05-14 21:36:15,121 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-14 21:36:15,122 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-14 21:36:15,122 - __main__ - INFO - Buscando ordens de 2013-07-01 a 2013-12-31...
+2025-05-14 21:36:15,887 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 21:36:17,526 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 21:36:19,313 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 21:36:20,726 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 21:36:22,180 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-14 21:36:23,873 - __main__ - INFO - Fetched 38 orders. Processing...
+2025-05-14 21:36:23,873 - __main__ - INFO - Total de 538 ordens encontradas para processamento.
+2025-05-14 21:36:23,874 - __main__ - INFO - Processando lote de 50 ordens (1-50 de 538)...
+2025-05-14 21:36:24,868 - __main__ - ERROR - Error processing Order ID 110794380: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110794380
+                       ^
+
+2025-05-14 21:36:25,030 - __main__ - ERROR - Error processing order 110794380: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110794380
+                       ^
+
+2025-05-14 21:36:26,358 - __main__ - ERROR - Error processing Order ID 110663357: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110663357
+                       ^
+
+2025-05-14 21:36:26,519 - __main__ - ERROR - Error processing order 110663357: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110663357
+                       ^
+
+2025-05-14 21:36:27,753 - __main__ - ERROR - Error processing Order ID 110622258: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110622258
+                       ^
+
+2025-05-14 21:36:27,912 - __main__ - ERROR - Error processing order 110622258: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110622258
+                       ^
+
+2025-05-14 21:36:29,085 - __main__ - ERROR - Error processing Order ID 110558991: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110558991
+                       ^
+
+2025-05-14 21:36:29,245 - __main__ - ERROR - Error processing order 110558991: relation "ordem_servico" does not exist
+LINE 1: SELECT id FROM ordem_servico WHERE id = 110558991
+                       ^
+
+2025-05-15 11:16:45,785 - __main__ - INFO - Database connection established.
+2025-05-15 11:16:45,787 - __main__ - INFO - Total de lotes a processar: 27
+2025-05-15 11:16:45,787 - __main__ - INFO - Buscando ordens de 2013-01-01 a 2013-06-30...
+2025-05-15 11:16:46,528 - __main__ - WARNING - No orders found in response or unexpected response structure: dict_keys(['itens', 'paginacao'])
+2025-05-15 11:16:46,528 - __main__ - INFO - Total de 0 ordens encontradas para processamento.
+2025-05-15 11:16:46,529 - __main__ - INFO - Buscando ordens de 2013-07-01 a 2013-12-31...
+2025-05-15 11:16:46,889 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:16:47,831 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:16:49,269 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:16:50,510 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:16:51,625 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:16:52,922 - __main__ - INFO - Fetched 38 orders. Processing...
+2025-05-15 11:16:52,922 - __main__ - INFO - Total de 538 ordens encontradas para processamento.
+2025-05-15 11:16:52,922 - __main__ - INFO - Processando lote de 50 ordens (1-50 de 538)...
+2025-05-15 11:16:53,182 - __main__ - ERROR - Error processing Order ID 110794380: not all arguments converted during string formatting
+2025-05-15 11:16:53,183 - __main__ - ERROR - Error processing order 110794380: not all arguments converted during string formatting
+2025-05-15 11:16:54,030 - __main__ - ERROR - Error processing Order ID 110663357: not all arguments converted during string formatting
+2025-05-15 11:16:54,031 - __main__ - ERROR - Error processing order 110663357: not all arguments converted during string formatting
+2025-05-15 11:16:54,951 - __main__ - ERROR - Error processing Order ID 110622258: not all arguments converted during string formatting
+2025-05-15 11:16:54,952 - __main__ - ERROR - Error processing order 110622258: not all arguments converted during string formatting
+2025-05-15 11:16:55,611 - __main__ - ERROR - Error processing Order ID 110558991: not all arguments converted during string formatting
+2025-05-15 11:16:55,611 - __main__ - ERROR - Error processing order 110558991: not all arguments converted during string formatting
+2025-05-15 11:16:56,180 - __main__ - ERROR - Error processing Order ID 110414057: not all arguments converted during string formatting
+2025-05-15 11:16:56,180 - __main__ - ERROR - Error processing order 110414057: not all arguments converted during string formatting
+2025-05-15 11:16:57,215 - __main__ - ERROR - Error processing Order ID 110335484: not all arguments converted during string formatting
+2025-05-15 11:16:57,215 - __main__ - ERROR - Error processing order 110335484: not all arguments converted during string formatting
+2025-05-15 11:16:57,728 - __main__ - ERROR - Error processing Order ID 110332227: not all arguments converted during string formatting
+2025-05-15 11:16:57,728 - __main__ - ERROR - Error processing order 110332227: not all arguments converted during string formatting
+2025-05-15 11:16:58,540 - __main__ - ERROR - Error processing Order ID 110326607: not all arguments converted during string formatting
+2025-05-15 11:16:58,540 - __main__ - ERROR - Error processing order 110326607: not all arguments converted during string formatting
+2025-05-15 11:16:59,467 - __main__ - ERROR - Error processing Order ID 110262172: not all arguments converted during string formatting
+2025-05-15 11:16:59,467 - __main__ - ERROR - Error processing order 110262172: not all arguments converted during string formatting
+2025-05-15 11:17:00,155 - __main__ - ERROR - Error processing Order ID 110108983: not all arguments converted during string formatting
+2025-05-15 11:17:00,155 - __main__ - ERROR - Error processing order 110108983: not all arguments converted during string formatting
+2025-05-15 11:17:00,929 - __main__ - ERROR - Error processing Order ID 110105433: not all arguments converted during string formatting
+2025-05-15 11:17:00,930 - __main__ - ERROR - Error processing order 110105433: not all arguments converted during string formatting
+2025-05-15 11:17:01,507 - __main__ - ERROR - Error processing Order ID 110042727: not all arguments converted during string formatting
+2025-05-15 11:17:01,507 - __main__ - ERROR - Error processing order 110042727: not all arguments converted during string formatting
+2025-05-15 11:17:02,393 - __main__ - ERROR - Error processing Order ID 110018727: not all arguments converted during string formatting
+2025-05-15 11:17:02,393 - __main__ - ERROR - Error processing order 110018727: not all arguments converted during string formatting
+2025-05-15 11:17:03,427 - __main__ - ERROR - Error processing Order ID 110008992: not all arguments converted during string formatting
+2025-05-15 11:17:03,427 - __main__ - ERROR - Error processing order 110008992: not all arguments converted during string formatting
+2025-05-15 11:17:04,321 - __main__ - ERROR - Error processing Order ID 110003220: not all arguments converted during string formatting
+2025-05-15 11:17:04,321 - __main__ - ERROR - Error processing order 110003220: not all arguments converted during string formatting
+2025-05-15 11:17:05,245 - __main__ - ERROR - Error processing Order ID 107270986: not all arguments converted during string formatting
+2025-05-15 11:17:05,245 - __main__ - ERROR - Error processing order 107270986: not all arguments converted during string formatting
+2025-05-15 11:17:06,367 - __main__ - ERROR - Error processing Order ID 107239867: not all arguments converted during string formatting
+2025-05-15 11:17:06,367 - __main__ - ERROR - Error processing order 107239867: not all arguments converted during string formatting
+2025-05-15 11:17:07,110 - __main__ - ERROR - Error processing Order ID 107145900: not all arguments converted during string formatting
+2025-05-15 11:17:07,111 - __main__ - ERROR - Error processing order 107145900: not all arguments converted during string formatting
+2025-05-15 11:17:08,080 - __main__ - ERROR - Error processing Order ID 107139863: not all arguments converted during string formatting
+2025-05-15 11:17:08,080 - __main__ - ERROR - Error processing order 107139863: not all arguments converted during string formatting
+2025-05-15 11:17:08,731 - __main__ - ERROR - Error processing Order ID 107137697: not all arguments converted during string formatting
+2025-05-15 11:17:08,732 - __main__ - ERROR - Error processing order 107137697: not all arguments converted during string formatting
+2025-05-15 11:17:09,488 - __main__ - ERROR - Error processing Order ID 107136618: not all arguments converted during string formatting
+2025-05-15 11:17:09,488 - __main__ - ERROR - Error processing order 107136618: not all arguments converted during string formatting
+2025-05-15 11:17:10,349 - __main__ - ERROR - Error processing Order ID 107079053: not all arguments converted during string formatting
+2025-05-15 11:17:10,349 - __main__ - ERROR - Error processing order 107079053: not all arguments converted during string formatting
+2025-05-15 11:38:19,212 - __main__ - INFO - Database connection established.
+2025-05-15 11:38:19,213 - __main__ - INFO - Total de lotes a processar: 19
+2025-05-15 11:38:19,213 - __main__ - INFO - Buscando ordens de 2017-01-01 a 2017-06-30...
+2025-05-15 11:38:20,265 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:22,138 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:23,281 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:24,797 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:25,856 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:27,588 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:28,683 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:30,311 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:31,785 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:33,481 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:34,573 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:35,938 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:37,377 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:38,668 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:39,988 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:41,600 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:42,889 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:43,970 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:45,160 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-15 11:38:46,531 - __main__ - INFO - Fetched 38 orders. Processing...
+2025-05-15 11:38:46,531 - __main__ - INFO - Total de 1938 ordens encontradas para processamento.
+2025-05-15 11:38:46,531 - __main__ - INFO - Processando lote de 50 ordens (1-50 de 1938)...
+2025-05-15 11:38:47,165 - __main__ - ERROR - Error processing Order ID 508090154: invalid input syntax for type date: ""
+LINE 11:                 508090154, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:47,323 - __main__ - ERROR - Error processing order 508090154: invalid input syntax for type date: ""
+LINE 11:                 508090154, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:48,346 - __main__ - ERROR - Error processing Order ID 504433724: invalid input syntax for type date: ""
+LINE 11:                 504433724, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:48,505 - __main__ - ERROR - Error processing order 504433724: invalid input syntax for type date: ""
+LINE 11:                 504433724, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:49,670 - __main__ - ERROR - Error processing Order ID 496364036: invalid input syntax for type date: ""
+LINE 11:                 496364036, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:49,828 - __main__ - ERROR - Error processing order 496364036: invalid input syntax for type date: ""
+LINE 11:                 496364036, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:51,255 - __main__ - ERROR - Error processing Order ID 493615474: invalid input syntax for type date: ""
+LINE 11:                 493615474, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:51,413 - __main__ - ERROR - Error processing order 493615474: invalid input syntax for type date: ""
+LINE 11:                 493615474, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:52,409 - __main__ - ERROR - Error processing Order ID 472646549: invalid input syntax for type date: ""
+LINE 11:                 472646549, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:52,568 - __main__ - ERROR - Error processing order 472646549: invalid input syntax for type date: ""
+LINE 11:                 472646549, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:53,526 - __main__ - ERROR - Error processing Order ID 472629566: invalid input syntax for type date: ""
+LINE 11:                 472629566, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:53,685 - __main__ - ERROR - Error processing order 472629566: invalid input syntax for type date: ""
+LINE 11:                 472629566, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:54,729 - __main__ - ERROR - Error processing Order ID 472626452: invalid input syntax for type date: ""
+LINE 11:                 472626452, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:54,888 - __main__ - ERROR - Error processing order 472626452: invalid input syntax for type date: ""
+LINE 11:                 472626452, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:56,192 - __main__ - ERROR - Error processing Order ID 472626050: invalid input syntax for type date: ""
+LINE 11:                 472626050, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:56,351 - __main__ - ERROR - Error processing order 472626050: invalid input syntax for type date: ""
+LINE 11:                 472626050, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:57,237 - __main__ - ERROR - Error processing Order ID 472624886: invalid input syntax for type date: ""
+LINE 11:                 472624886, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:57,395 - __main__ - ERROR - Error processing order 472624886: invalid input syntax for type date: ""
+LINE 11:                 472624886, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:58,742 - __main__ - ERROR - Error processing Order ID 472622010: invalid input syntax for type date: ""
+LINE 11:                 472622010, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:58,901 - __main__ - ERROR - Error processing order 472622010: invalid input syntax for type date: ""
+LINE 11:                 472622010, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:59,816 - __main__ - ERROR - Error processing Order ID 472620060: invalid input syntax for type date: ""
+LINE 11:                 472620060, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:38:59,974 - __main__ - ERROR - Error processing order 472620060: invalid input syntax for type date: ""
+LINE 11:                 472620060, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:01,158 - __main__ - ERROR - Error processing Order ID 472617347: invalid input syntax for type date: ""
+LINE 11:                 472617347, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:01,317 - __main__ - ERROR - Error processing order 472617347: invalid input syntax for type date: ""
+LINE 11:                 472617347, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:02,301 - __main__ - ERROR - Error processing Order ID 472616499: invalid input syntax for type date: ""
+LINE 11:                 472616499, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:02,460 - __main__ - ERROR - Error processing order 472616499: invalid input syntax for type date: ""
+LINE 11:                 472616499, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:03,390 - __main__ - ERROR - Error processing Order ID 472611949: invalid input syntax for type date: ""
+LINE 11:                 472611949, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:03,548 - __main__ - ERROR - Error processing order 472611949: invalid input syntax for type date: ""
+LINE 11:                 472611949, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:04,922 - __main__ - ERROR - Error processing Order ID 472595918: invalid input syntax for type date: ""
+LINE 11:                 472595918, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:05,081 - __main__ - ERROR - Error processing order 472595918: invalid input syntax for type date: ""
+LINE 11:                 472595918, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:06,243 - __main__ - ERROR - Error processing Order ID 472593667: invalid input syntax for type date: ""
+LINE 11:                 472593667, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:06,402 - __main__ - ERROR - Error processing order 472593667: invalid input syntax for type date: ""
+LINE 11:                 472593667, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:09,220 - __main__ - ERROR - Error processing Order ID 472565591: invalid input syntax for type date: ""
+LINE 11:                 472565591, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:09,382 - __main__ - ERROR - Error processing order 472565591: invalid input syntax for type date: ""
+LINE 11:                 472565591, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:10,733 - __main__ - ERROR - Error processing Order ID 472560673: invalid input syntax for type date: ""
+LINE 11:                 472560673, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:10,891 - __main__ - ERROR - Error processing order 472560673: invalid input syntax for type date: ""
+LINE 11:                 472560673, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:12,157 - __main__ - ERROR - Error processing Order ID 472559279: invalid input syntax for type date: ""
+LINE 11:                 472559279, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:12,314 - __main__ - ERROR - Error processing order 472559279: invalid input syntax for type date: ""
+LINE 11:                 472559279, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:13,689 - __main__ - ERROR - Error processing Order ID 472558947: invalid input syntax for type date: ""
+LINE 11:                 472558947, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:13,847 - __main__ - ERROR - Error processing order 472558947: invalid input syntax for type date: ""
+LINE 11:                 472558947, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:14,799 - __main__ - ERROR - Error processing Order ID 472547408: invalid input syntax for type date: ""
+LINE 11:                 472547408, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:14,958 - __main__ - ERROR - Error processing order 472547408: invalid input syntax for type date: ""
+LINE 11:                 472547408, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:16,259 - __main__ - ERROR - Error processing Order ID 472547217: invalid input syntax for type date: ""
+LINE 11:                 472547217, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:16,418 - __main__ - ERROR - Error processing order 472547217: invalid input syntax for type date: ""
+LINE 11:                 472547217, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:17,396 - __main__ - ERROR - Error processing Order ID 472546132: invalid input syntax for type date: ""
+LINE 11:                 472546132, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:17,568 - __main__ - ERROR - Error processing order 472546132: invalid input syntax for type date: ""
+LINE 11:                 472546132, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:18,629 - __main__ - ERROR - Error processing Order ID 472542627: invalid input syntax for type date: ""
+LINE 11:                 472542627, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:18,788 - __main__ - ERROR - Error processing order 472542627: invalid input syntax for type date: ""
+LINE 11:                 472542627, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:20,237 - __main__ - ERROR - Error processing Order ID 472540690: invalid input syntax for type date: ""
+LINE 11:                 472540690, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:20,397 - __main__ - ERROR - Error processing order 472540690: invalid input syntax for type date: ""
+LINE 11:                 472540690, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:21,726 - __main__ - ERROR - Error processing Order ID 472537944: invalid input syntax for type date: ""
+LINE 11:                 472537944, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:21,884 - __main__ - ERROR - Error processing order 472537944: invalid input syntax for type date: ""
+LINE 11:                 472537944, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:23,024 - __main__ - ERROR - Error processing Order ID 472536030: invalid input syntax for type date: ""
+LINE 11:                 472536030, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:23,188 - __main__ - ERROR - Error processing order 472536030: invalid input syntax for type date: ""
+LINE 11:                 472536030, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:24,130 - __main__ - ERROR - Error processing Order ID 472535907: invalid input syntax for type date: ""
+LINE 11:                 472535907, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:24,289 - __main__ - ERROR - Error processing order 472535907: invalid input syntax for type date: ""
+LINE 11:                 472535907, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:25,632 - __main__ - ERROR - Error processing Order ID 472532815: invalid input syntax for type date: ""
+LINE 11:                 472532815, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:25,792 - __main__ - ERROR - Error processing order 472532815: invalid input syntax for type date: ""
+LINE 11:                 472532815, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:27,207 - __main__ - ERROR - Error processing Order ID 472532654: invalid input syntax for type date: ""
+LINE 11:                 472532654, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:27,365 - __main__ - ERROR - Error processing order 472532654: invalid input syntax for type date: ""
+LINE 11:                 472532654, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:28,615 - __main__ - ERROR - Error processing Order ID 472530331: invalid input syntax for type date: ""
+LINE 11:                 472530331, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:28,775 - __main__ - ERROR - Error processing order 472530331: invalid input syntax for type date: ""
+LINE 11:                 472530331, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:30,117 - __main__ - ERROR - Error processing Order ID 472516799: invalid input syntax for type date: ""
+LINE 11:                 472516799, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:30,287 - __main__ - ERROR - Error processing order 472516799: invalid input syntax for type date: ""
+LINE 11:                 472516799, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:31,628 - __main__ - ERROR - Error processing Order ID 472508830: invalid input syntax for type date: ""
+LINE 11:                 472508830, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:31,787 - __main__ - ERROR - Error processing order 472508830: invalid input syntax for type date: ""
+LINE 11:                 472508830, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:33,037 - __main__ - ERROR - Error processing Order ID 472488800: invalid input syntax for type date: ""
+LINE 11:                 472488800, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:33,197 - __main__ - ERROR - Error processing order 472488800: invalid input syntax for type date: ""
+LINE 11:                 472488800, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:34,158 - __main__ - ERROR - Error processing Order ID 472487899: invalid input syntax for type date: ""
+LINE 11:                 472487899, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:34,317 - __main__ - ERROR - Error processing order 472487899: invalid input syntax for type date: ""
+LINE 11:                 472487899, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:35,258 - __main__ - ERROR - Error processing Order ID 472469225: invalid input syntax for type date: ""
+LINE 11:                 472469225, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:35,418 - __main__ - ERROR - Error processing order 472469225: invalid input syntax for type date: ""
+LINE 11:                 472469225, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:36,747 - __main__ - ERROR - Error processing Order ID 472464385: invalid input syntax for type date: ""
+LINE 11:                 472464385, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:36,905 - __main__ - ERROR - Error processing order 472464385: invalid input syntax for type date: ""
+LINE 11:                 472464385, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:37,847 - __main__ - ERROR - Error processing Order ID 472462377: invalid input syntax for type date: ""
+LINE 11:                 472462377, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:38,006 - __main__ - ERROR - Error processing order 472462377: invalid input syntax for type date: ""
+LINE 11:                 472462377, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:39,001 - __main__ - ERROR - Error processing Order ID 472461718: invalid input syntax for type date: ""
+LINE 11:                 472461718, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:39,160 - __main__ - ERROR - Error processing order 472461718: invalid input syntax for type date: ""
+LINE 11:                 472461718, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:39,964 - __main__ - ERROR - Error processing Order ID 472458653: invalid input syntax for type date: ""
+LINE 11:                 472458653, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:40,124 - __main__ - ERROR - Error processing order 472458653: invalid input syntax for type date: ""
+LINE 11:                 472458653, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:41,250 - __main__ - ERROR - Error processing Order ID 472456669: invalid input syntax for type date: ""
+LINE 11:                 472456669, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:41,410 - __main__ - ERROR - Error processing order 472456669: invalid input syntax for type date: ""
+LINE 11:                 472456669, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:42,838 - __main__ - ERROR - Error processing Order ID 472438708: invalid input syntax for type date: ""
+LINE 11:                 472438708, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:42,997 - __main__ - ERROR - Error processing order 472438708: invalid input syntax for type date: ""
+LINE 11:                 472438708, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:43,955 - __main__ - ERROR - Error processing Order ID 472438659: invalid input syntax for type date: ""
+LINE 11:                 472438659, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:44,113 - __main__ - ERROR - Error processing order 472438659: invalid input syntax for type date: ""
+LINE 11:                 472438659, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:45,363 - __main__ - ERROR - Error processing Order ID 472406762: invalid input syntax for type date: ""
+LINE 11:                 472406762, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:45,521 - __main__ - ERROR - Error processing order 472406762: invalid input syntax for type date: ""
+LINE 11:                 472406762, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:46,334 - __main__ - ERROR - Error processing Order ID 472400575: invalid input syntax for type date: ""
+LINE 11:                 472400575, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:46,495 - __main__ - ERROR - Error processing order 472400575: invalid input syntax for type date: ""
+LINE 11:                 472400575, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:47,519 - __main__ - ERROR - Error processing Order ID 472365632: invalid input syntax for type date: ""
+LINE 11:                 472365632, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:47,679 - __main__ - ERROR - Error processing order 472365632: invalid input syntax for type date: ""
+LINE 11:                 472365632, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:49,006 - __main__ - ERROR - Error processing Order ID 472363887: invalid input syntax for type date: ""
+LINE 11:                 472363887, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:49,166 - __main__ - ERROR - Error processing order 472363887: invalid input syntax for type date: ""
+LINE 11:                 472363887, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:50,405 - __main__ - ERROR - Error processing Order ID 472356699: invalid input syntax for type date: ""
+LINE 11:                 472356699, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:50,575 - __main__ - ERROR - Error processing order 472356699: invalid input syntax for type date: ""
+LINE 11:                 472356699, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:51,656 - __main__ - ERROR - Error processing Order ID 472348828: invalid input syntax for type date: ""
+LINE 11:                 472348828, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:51,814 - __main__ - ERROR - Error processing order 472348828: invalid input syntax for type date: ""
+LINE 11:                 472348828, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:52,936 - __main__ - ERROR - Error processing Order ID 472342218: invalid input syntax for type date: ""
+LINE 11:                 472342218, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:53,098 - __main__ - ERROR - Error processing order 472342218: invalid input syntax for type date: ""
+LINE 11:                 472342218, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:54,829 - __main__ - INFO - Processando lote de 50 ordens (51-100 de 1938)...
+2025-05-15 11:39:55,429 - __main__ - ERROR - Error processing Order ID 472289790: invalid input syntax for type date: ""
+LINE 11:                 472289790, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:55,594 - __main__ - ERROR - Error processing order 472289790: invalid input syntax for type date: ""
+LINE 11:                 472289790, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:56,679 - __main__ - ERROR - Error processing Order ID 472284454: invalid input syntax for type date: ""
+LINE 11:                 472284454, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:56,839 - __main__ - ERROR - Error processing order 472284454: invalid input syntax for type date: ""
+LINE 11:                 472284454, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:57,922 - __main__ - ERROR - Error processing Order ID 472283512: invalid input syntax for type date: ""
+LINE 11:                 472283512, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:58,081 - __main__ - ERROR - Error processing order 472283512: invalid input syntax for type date: ""
+LINE 11:                 472283512, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:59,438 - __main__ - ERROR - Error processing Order ID 472279457: invalid input syntax for type date: ""
+LINE 11:                 472279457, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:39:59,597 - __main__ - ERROR - Error processing order 472279457: invalid input syntax for type date: ""
+LINE 11:                 472279457, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:00,648 - __main__ - ERROR - Error processing Order ID 472276600: invalid input syntax for type date: ""
+LINE 11:                 472276600, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:00,806 - __main__ - ERROR - Error processing order 472276600: invalid input syntax for type date: ""
+LINE 11:                 472276600, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:02,147 - __main__ - ERROR - Error processing Order ID 472274625: invalid input syntax for type date: ""
+LINE 11:                 472274625, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:02,307 - __main__ - ERROR - Error processing order 472274625: invalid input syntax for type date: ""
+LINE 11:                 472274625, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:03,431 - __main__ - ERROR - Error processing Order ID 472258433: invalid input syntax for type date: ""
+LINE 11:                 472258433, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:03,590 - __main__ - ERROR - Error processing order 472258433: invalid input syntax for type date: ""
+LINE 11:                 472258433, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:05,000 - __main__ - ERROR - Error processing Order ID 472251744: invalid input syntax for type date: ""
+LINE 11:                 472251744, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:05,170 - __main__ - ERROR - Error processing order 472251744: invalid input syntax for type date: ""
+LINE 11:                 472251744, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:06,393 - __main__ - ERROR - Error processing Order ID 472246536: invalid input syntax for type date: ""
+LINE 11:                 472246536, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:06,554 - __main__ - ERROR - Error processing order 472246536: invalid input syntax for type date: ""
+LINE 11:                 472246536, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:07,733 - __main__ - ERROR - Error processing Order ID 472244438: invalid input syntax for type date: ""
+LINE 11:                 472244438, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:07,893 - __main__ - ERROR - Error processing order 472244438: invalid input syntax for type date: ""
+LINE 11:                 472244438, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:09,299 - __main__ - ERROR - Error processing Order ID 472244418: invalid input syntax for type date: ""
+LINE 11:                 472244418, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:09,459 - __main__ - ERROR - Error processing order 472244418: invalid input syntax for type date: ""
+LINE 11:                 472244418, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:10,805 - __main__ - ERROR - Error processing Order ID 472242163: invalid input syntax for type date: ""
+LINE 11:                 472242163, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:10,964 - __main__ - ERROR - Error processing order 472242163: invalid input syntax for type date: ""
+LINE 11:                 472242163, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:12,444 - __main__ - ERROR - Error processing Order ID 472209414: invalid input syntax for type date: ""
+LINE 11:                 472209414, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:12,606 - __main__ - ERROR - Error processing order 472209414: invalid input syntax for type date: ""
+LINE 11:                 472209414, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:13,852 - __main__ - ERROR - Error processing Order ID 472207950: invalid input syntax for type date: ""
+LINE 11:                 472207950, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:14,012 - __main__ - ERROR - Error processing order 472207950: invalid input syntax for type date: ""
+LINE 11:                 472207950, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:15,134 - __main__ - ERROR - Error processing Order ID 472204445: invalid input syntax for type date: ""
+LINE 11:                 472204445, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:15,294 - __main__ - ERROR - Error processing order 472204445: invalid input syntax for type date: ""
+LINE 11:                 472204445, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:17,597 - __main__ - ERROR - Error processing Order ID 472179351: invalid input syntax for type date: ""
+LINE 11:                 472179351, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:17,757 - __main__ - ERROR - Error processing order 472179351: invalid input syntax for type date: ""
+LINE 11:                 472179351, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:18,607 - __main__ - ERROR - Error processing Order ID 472179005: invalid input syntax for type date: ""
+LINE 11:                 472179005, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:18,767 - __main__ - ERROR - Error processing order 472179005: invalid input syntax for type date: ""
+LINE 11:                 472179005, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:19,972 - __main__ - ERROR - Error processing Order ID 472178156: invalid input syntax for type date: ""
+LINE 11:                 472178156, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:20,132 - __main__ - ERROR - Error processing order 472178156: invalid input syntax for type date: ""
+LINE 11:                 472178156, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:20,957 - __main__ - ERROR - Error processing Order ID 472178012: invalid input syntax for type date: ""
+LINE 11:                 472178012, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:21,115 - __main__ - ERROR - Error processing order 472178012: invalid input syntax for type date: ""
+LINE 11:                 472178012, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:21,952 - __main__ - ERROR - Error processing Order ID 472175524: invalid input syntax for type date: ""
+LINE 11:                 472175524, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:22,112 - __main__ - ERROR - Error processing order 472175524: invalid input syntax for type date: ""
+LINE 11:                 472175524, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:23,716 - __main__ - ERROR - Error processing Order ID 472174548: invalid input syntax for type date: ""
+LINE 11:                 472174548, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:23,874 - __main__ - ERROR - Error processing order 472174548: invalid input syntax for type date: ""
+LINE 11:                 472174548, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:24,871 - __main__ - ERROR - Error processing Order ID 472174130: invalid input syntax for type date: ""
+LINE 11:                 472174130, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:25,051 - __main__ - ERROR - Error processing order 472174130: invalid input syntax for type date: ""
+LINE 11:                 472174130, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:26,780 - __main__ - ERROR - Error processing Order ID 472168003: invalid input syntax for type date: ""
+LINE 11:                 472168003, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:26,941 - __main__ - ERROR - Error processing order 472168003: invalid input syntax for type date: ""
+LINE 11:                 472168003, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:28,387 - __main__ - ERROR - Error processing Order ID 472166375: invalid input syntax for type date: ""
+LINE 11:                 472166375, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:28,548 - __main__ - ERROR - Error processing order 472166375: invalid input syntax for type date: ""
+LINE 11:                 472166375, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:29,685 - __main__ - ERROR - Error processing Order ID 472165426: invalid input syntax for type date: ""
+LINE 11:                 472165426, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:29,852 - __main__ - ERROR - Error processing order 472165426: invalid input syntax for type date: ""
+LINE 11:                 472165426, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:30,735 - __main__ - ERROR - Error processing Order ID 472163144: invalid input syntax for type date: ""
+LINE 11:                 472163144, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:30,894 - __main__ - ERROR - Error processing order 472163144: invalid input syntax for type date: ""
+LINE 11:                 472163144, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:32,235 - __main__ - ERROR - Error processing Order ID 472160870: invalid input syntax for type date: ""
+LINE 11:                 472160870, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:32,395 - __main__ - ERROR - Error processing order 472160870: invalid input syntax for type date: ""
+LINE 11:                 472160870, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:33,299 - __main__ - ERROR - Error processing Order ID 472160768: invalid input syntax for type date: ""
+LINE 11:                 472160768, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:33,458 - __main__ - ERROR - Error processing order 472160768: invalid input syntax for type date: ""
+LINE 11:                 472160768, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:34,811 - __main__ - ERROR - Error processing Order ID 472149012: invalid input syntax for type date: ""
+LINE 11:                 472149012, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:34,969 - __main__ - ERROR - Error processing order 472149012: invalid input syntax for type date: ""
+LINE 11:                 472149012, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:36,259 - __main__ - ERROR - Error processing Order ID 472142555: invalid input syntax for type date: ""
+LINE 11:                 472142555, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:36,418 - __main__ - ERROR - Error processing order 472142555: invalid input syntax for type date: ""
+LINE 11:                 472142555, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:37,492 - __main__ - ERROR - Error processing Order ID 472138881: invalid input syntax for type date: ""
+LINE 11:                 472138881, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:37,653 - __main__ - ERROR - Error processing order 472138881: invalid input syntax for type date: ""
+LINE 11:                 472138881, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:38,973 - __main__ - ERROR - Error processing Order ID 472136615: invalid input syntax for type date: ""
+LINE 11:                 472136615, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:39,133 - __main__ - ERROR - Error processing order 472136615: invalid input syntax for type date: ""
+LINE 11:                 472136615, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:40,440 - __main__ - ERROR - Error processing Order ID 472123028: invalid input syntax for type date: ""
+LINE 11:                 472123028, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:40,599 - __main__ - ERROR - Error processing order 472123028: invalid input syntax for type date: ""
+LINE 11:                 472123028, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:41,771 - __main__ - ERROR - Error processing Order ID 472120791: invalid input syntax for type date: ""
+LINE 11:                 472120791, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:41,929 - __main__ - ERROR - Error processing order 472120791: invalid input syntax for type date: ""
+LINE 11:                 472120791, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:42,720 - __main__ - ERROR - Error processing Order ID 472117314: invalid input syntax for type date: ""
+LINE 11:                 472117314, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:42,886 - __main__ - ERROR - Error processing order 472117314: invalid input syntax for type date: ""
+LINE 11:                 472117314, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:44,020 - __main__ - ERROR - Error processing Order ID 472086746: invalid input syntax for type date: ""
+LINE 11:                 472086746, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:44,178 - __main__ - ERROR - Error processing order 472086746: invalid input syntax for type date: ""
+LINE 11:                 472086746, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:44,995 - __main__ - ERROR - Error processing Order ID 472084277: invalid input syntax for type date: ""
+LINE 11:                 472084277, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:45,156 - __main__ - ERROR - Error processing order 472084277: invalid input syntax for type date: ""
+LINE 11:                 472084277, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:46,560 - __main__ - ERROR - Error processing Order ID 472084155: invalid input syntax for type date: ""
+LINE 11:                 472084155, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:46,718 - __main__ - ERROR - Error processing order 472084155: invalid input syntax for type date: ""
+LINE 11:                 472084155, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:47,817 - __main__ - ERROR - Error processing Order ID 472084149: invalid input syntax for type date: ""
+LINE 11:                 472084149, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:47,976 - __main__ - ERROR - Error processing order 472084149: invalid input syntax for type date: ""
+LINE 11:                 472084149, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:49,234 - __main__ - ERROR - Error processing Order ID 472084085: invalid input syntax for type date: ""
+LINE 11:                 472084085, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:49,393 - __main__ - ERROR - Error processing order 472084085: invalid input syntax for type date: ""
+LINE 11:                 472084085, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:50,648 - __main__ - ERROR - Error processing Order ID 472082950: invalid input syntax for type date: ""
+LINE 11:                 472082950, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:50,807 - __main__ - ERROR - Error processing order 472082950: invalid input syntax for type date: ""
+LINE 11:                 472082950, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:52,016 - __main__ - ERROR - Error processing Order ID 472076331: invalid input syntax for type date: ""
+LINE 11:                 472076331, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:52,175 - __main__ - ERROR - Error processing order 472076331: invalid input syntax for type date: ""
+LINE 11:                 472076331, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:53,496 - __main__ - ERROR - Error processing Order ID 472069551: invalid input syntax for type date: ""
+LINE 11:                 472069551, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:53,655 - __main__ - ERROR - Error processing order 472069551: invalid input syntax for type date: ""
+LINE 11:                 472069551, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:54,650 - __main__ - ERROR - Error processing Order ID 472065404: invalid input syntax for type date: ""
+LINE 11:                 472065404, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:54,809 - __main__ - ERROR - Error processing order 472065404: invalid input syntax for type date: ""
+LINE 11:                 472065404, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:55,747 - __main__ - ERROR - Error processing Order ID 472061968: invalid input syntax for type date: ""
+LINE 11:                 472061968, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:55,906 - __main__ - ERROR - Error processing order 472061968: invalid input syntax for type date: ""
+LINE 11:                 472061968, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:57,116 - __main__ - ERROR - Error processing Order ID 472060753: invalid input syntax for type date: ""
+LINE 11:                 472060753, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:57,276 - __main__ - ERROR - Error processing order 472060753: invalid input syntax for type date: ""
+LINE 11:                 472060753, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:58,626 - __main__ - ERROR - Error processing Order ID 472052709: invalid input syntax for type date: ""
+LINE 11:                 472052709, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:58,787 - __main__ - ERROR - Error processing order 472052709: invalid input syntax for type date: ""
+LINE 11:                 472052709, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:40:59,972 - __main__ - ERROR - Error processing Order ID 472048933: invalid input syntax for type date: ""
+LINE 11:                 472048933, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:00,132 - __main__ - ERROR - Error processing order 472048933: invalid input syntax for type date: ""
+LINE 11:                 472048933, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:00,975 - __main__ - ERROR - Error processing Order ID 472045723: invalid input syntax for type date: ""
+LINE 11:                 472045723, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:01,133 - __main__ - ERROR - Error processing order 472045723: invalid input syntax for type date: ""
+LINE 11:                 472045723, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:02,103 - __main__ - ERROR - Error processing Order ID 472043984: invalid input syntax for type date: ""
+LINE 11:                 472043984, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:02,263 - __main__ - ERROR - Error processing order 472043984: invalid input syntax for type date: ""
+LINE 11:                 472043984, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:03,862 - __main__ - INFO - Processando lote de 50 ordens (101-150 de 1938)...
+2025-05-15 11:41:04,679 - __main__ - ERROR - Error processing Order ID 472041759: invalid input syntax for type date: ""
+LINE 11:                 472041759, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:04,837 - __main__ - ERROR - Error processing order 472041759: invalid input syntax for type date: ""
+LINE 11:                 472041759, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:06,122 - __main__ - ERROR - Error processing Order ID 472039084: invalid input syntax for type date: ""
+LINE 11:                 472039084, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:06,282 - __main__ - ERROR - Error processing order 472039084: invalid input syntax for type date: ""
+LINE 11:                 472039084, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:07,833 - __main__ - ERROR - Error processing Order ID 471995103: invalid input syntax for type date: ""
+LINE 11:                 471995103, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:07,994 - __main__ - ERROR - Error processing order 471995103: invalid input syntax for type date: ""
+LINE 11:                 471995103, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:09,227 - __main__ - ERROR - Error processing Order ID 471995081: invalid input syntax for type date: ""
+LINE 11:                 471995081, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-15 11:41:09,386 - __main__ - ERROR - Error processing order 471995081: invalid input syntax for type date: ""
+LINE 11:                 471995081, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:25:49,834 - __main__ - INFO - Database connection established.
+2025-05-16 12:25:49,836 - __main__ - INFO - Total de lotes a processar: 19
+2025-05-16 12:25:49,837 - __main__ - INFO - Buscando ordens de 2017-01-01 a 2017-06-30...
+2025-05-16 12:25:50,429 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:52,012 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:52,957 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:53,944 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:55,201 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:56,102 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:57,059 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:58,261 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:25:59,660 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:00,978 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:02,897 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:04,797 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:06,454 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:08,893 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:09,812 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:11,360 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:13,254 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:14,268 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:15,758 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 12:26:17,276 - __main__ - INFO - Fetched 38 orders. Processing...
+2025-05-16 12:26:17,276 - __main__ - INFO - Total de 1938 ordens encontradas para processamento.
+2025-05-16 12:26:17,276 - __main__ - INFO - Processando lote de 50 ordens (1-50 de 1938)...
+2025-05-16 12:26:17,882 - __main__ - ERROR - Error processing Order ID 508090154: invalid input syntax for type date: ""
+LINE 11:                 508090154, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:18,041 - __main__ - ERROR - Error processing order 508090154: invalid input syntax for type date: ""
+LINE 11:                 508090154, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:19,191 - __main__ - ERROR - Error processing Order ID 504433724: invalid input syntax for type date: ""
+LINE 11:                 504433724, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:19,350 - __main__ - ERROR - Error processing order 504433724: invalid input syntax for type date: ""
+LINE 11:                 504433724, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:20,680 - __main__ - ERROR - Error processing Order ID 496364036: invalid input syntax for type date: ""
+LINE 11:                 496364036, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:20,840 - __main__ - ERROR - Error processing order 496364036: invalid input syntax for type date: ""
+LINE 11:                 496364036, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:21,849 - __main__ - ERROR - Error processing Order ID 493615474: invalid input syntax for type date: ""
+LINE 11:                 493615474, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:22,008 - __main__ - ERROR - Error processing order 493615474: invalid input syntax for type date: ""
+LINE 11:                 493615474, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:22,969 - __main__ - ERROR - Error processing Order ID 472646549: invalid input syntax for type date: ""
+LINE 11:                 472646549, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:23,128 - __main__ - ERROR - Error processing order 472646549: invalid input syntax for type date: ""
+LINE 11:                 472646549, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:24,170 - __main__ - ERROR - Error processing Order ID 472629566: invalid input syntax for type date: ""
+LINE 11:                 472629566, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:24,329 - __main__ - ERROR - Error processing order 472629566: invalid input syntax for type date: ""
+LINE 11:                 472629566, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:25,294 - __main__ - ERROR - Error processing Order ID 472626452: invalid input syntax for type date: ""
+LINE 11:                 472626452, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:25,454 - __main__ - ERROR - Error processing order 472626452: invalid input syntax for type date: ""
+LINE 11:                 472626452, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:26,583 - __main__ - ERROR - Error processing Order ID 472626050: invalid input syntax for type date: ""
+LINE 11:                 472626050, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:26,741 - __main__ - ERROR - Error processing order 472626050: invalid input syntax for type date: ""
+LINE 11:                 472626050, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:27,736 - __main__ - ERROR - Error processing Order ID 472624886: invalid input syntax for type date: ""
+LINE 11:                 472624886, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:27,896 - __main__ - ERROR - Error processing order 472624886: invalid input syntax for type date: ""
+LINE 11:                 472624886, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:28,944 - __main__ - ERROR - Error processing Order ID 472622010: invalid input syntax for type date: ""
+LINE 11:                 472622010, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:29,103 - __main__ - ERROR - Error processing order 472622010: invalid input syntax for type date: ""
+LINE 11:                 472622010, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:30,217 - __main__ - ERROR - Error processing Order ID 472620060: invalid input syntax for type date: ""
+LINE 11:                 472620060, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:30,378 - __main__ - ERROR - Error processing order 472620060: invalid input syntax for type date: ""
+LINE 11:                 472620060, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:31,759 - __main__ - ERROR - Error processing Order ID 472617347: invalid input syntax for type date: ""
+LINE 11:                 472617347, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:31,920 - __main__ - ERROR - Error processing order 472617347: invalid input syntax for type date: ""
+LINE 11:                 472617347, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:33,058 - __main__ - ERROR - Error processing Order ID 472616499: invalid input syntax for type date: ""
+LINE 11:                 472616499, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:33,219 - __main__ - ERROR - Error processing order 472616499: invalid input syntax for type date: ""
+LINE 11:                 472616499, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:34,069 - __main__ - ERROR - Error processing Order ID 472611949: invalid input syntax for type date: ""
+LINE 11:                 472611949, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:34,229 - __main__ - ERROR - Error processing order 472611949: invalid input syntax for type date: ""
+LINE 11:                 472611949, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:35,356 - __main__ - ERROR - Error processing Order ID 472595918: invalid input syntax for type date: ""
+LINE 11:                 472595918, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:35,517 - __main__ - ERROR - Error processing order 472595918: invalid input syntax for type date: ""
+LINE 11:                 472595918, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:36,675 - __main__ - ERROR - Error processing Order ID 472593667: invalid input syntax for type date: ""
+LINE 11:                 472593667, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:36,835 - __main__ - ERROR - Error processing order 472593667: invalid input syntax for type date: ""
+LINE 11:                 472593667, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:38,029 - __main__ - ERROR - Error processing Order ID 472565591: invalid input syntax for type date: ""
+LINE 11:                 472565591, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 12:26:38,189 - __main__ - ERROR - Error processing order 472565591: invalid input syntax for type date: ""
+LINE 11:                 472565591, '', '3', '', '', '', 0.0, 0.0, 0....
+                                             ^
+
+2025-05-16 14:34:33,835 - __main__ - INFO - Database connection established.
+2025-05-16 14:34:33,836 - __main__ - INFO - Total de lotes a processar: 19
+2025-05-16 14:34:33,836 - __main__ - INFO - Buscando ordens de 2017-01-01 a 2017-06-30...
+2025-05-16 14:34:34,992 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:36,105 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:37,579 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:39,418 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:40,392 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:41,566 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:43,440 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:44,913 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:46,614 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:48,417 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:49,502 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:51,120 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:52,757 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:54,293 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:56,240 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:57,158 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:34:58,900 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:35:00,068 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:35:01,255 - __main__ - INFO - Fetched 100 orders. Processing...
+2025-05-16 14:35:02,792 - __main__ - INFO - Fetched 38 orders. Processing...
+2025-05-16 14:35:02,792 - __main__ - INFO - Total de 1938 ordens encontradas para processamento.
+2025-05-16 14:35:02,793 - __main__ - INFO - Processando lote de 50 ordens (1-50 de 1938)...
+2025-05-16 14:35:03,513 - __main__ - ERROR - Error processing Order ID 508090154: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Matheus', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:03,669 - __main__ - ERROR - Error processing order 508090154: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Matheus', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:04,948 - __main__ - ERROR - Error processing Order ID 504433724: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:05,106 - __main__ - ERROR - Error processing order 504433724: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:06,008 - __main__ - ERROR - Error processing Order ID 496364036: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato ', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:06,166 - __main__ - ERROR - Error processing order 496364036: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato ', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:07,450 - __main__ - ERROR - Error processing Order ID 493615474: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:07,616 - __main__ - ERROR - Error processing order 493615474: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:08,974 - __main__ - ERROR - Error processing Order ID 472646549: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:09,132 - __main__ - ERROR - Error processing order 472646549: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:10,324 - __main__ - ERROR - Error processing Order ID 472629566: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:10,481 - __main__ - ERROR - Error processing order 472629566: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:11,919 - __main__ - ERROR - Error processing Order ID 472626452: invalid input syntax for type integer: ""
+LINE 13:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:12,081 - __main__ - ERROR - Error processing order 472626452: invalid input syntax for type integer: ""
+LINE 13:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:13,153 - __main__ - ERROR - Error processing Order ID 472626050: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:13,309 - __main__ - ERROR - Error processing order 472626050: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:14,884 - __main__ - ERROR - Error processing Order ID 472624886: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:15,041 - __main__ - ERROR - Error processing order 472624886: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:15,999 - __main__ - ERROR - Error processing Order ID 472622010: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:16,156 - __main__ - ERROR - Error processing order 472622010: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:17,494 - __main__ - ERROR - Error processing Order ID 472620060: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:17,652 - __main__ - ERROR - Error processing order 472620060: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:18,998 - __main__ - ERROR - Error processing Order ID 472617347: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:19,157 - __main__ - ERROR - Error processing order 472617347: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:19,981 - __main__ - ERROR - Error processing Order ID 472616499: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:20,138 - __main__ - ERROR - Error processing order 472616499: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:21,104 - __main__ - ERROR - Error processing Order ID 472611949: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:21,260 - __main__ - ERROR - Error processing order 472611949: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:22,239 - __main__ - ERROR - Error processing Order ID 472595918: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:22,398 - __main__ - ERROR - Error processing order 472595918: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:23,210 - __main__ - ERROR - Error processing Order ID 472593667: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:23,370 - __main__ - ERROR - Error processing order 472593667: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:24,703 - __main__ - ERROR - Error processing Order ID 472565591: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:24,860 - __main__ - ERROR - Error processing order 472565591: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:26,141 - __main__ - ERROR - Error processing Order ID 472560673: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:26,303 - __main__ - ERROR - Error processing order 472560673: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:27,237 - __main__ - ERROR - Error processing Order ID 472559279: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:27,396 - __main__ - ERROR - Error processing order 472559279: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:28,327 - __main__ - ERROR - Error processing Order ID 472558947: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:28,492 - __main__ - ERROR - Error processing order 472558947: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:29,938 - __main__ - ERROR - Error processing Order ID 472547408: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Raphael', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:30,099 - __main__ - ERROR - Error processing order 472547408: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Raphael', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:31,433 - __main__ - ERROR - Error processing Order ID 472547217: invalid input syntax for type integer: ""
+LINE 13:                 0.0, 0.0, 0.0, '', 'Raphael', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:31,594 - __main__ - ERROR - Error processing order 472547217: invalid input syntax for type integer: ""
+LINE 13:                 0.0, 0.0, 0.0, '', 'Raphael', '', '', '', ''...
+                                        ^
+
+2025-05-16 14:35:32,570 - __main__ - ERROR - Error processing Order ID 472546132: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:32,728 - __main__ - ERROR - Error processing order 472546132: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:33,760 - __main__ - ERROR - Error processing Order ID 472542627: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:33,921 - __main__ - ERROR - Error processing order 472542627: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:35,209 - __main__ - ERROR - Error processing Order ID 472540690: invalid input syntax for type integer: ""
+LINE 13:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:35,368 - __main__ - ERROR - Error processing order 472540690: invalid input syntax for type integer: ""
+LINE 13:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:36,416 - __main__ - ERROR - Error processing Order ID 472537944: invalid input syntax for type integer: ""
+LINE 14:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:36,573 - __main__ - ERROR - Error processing order 472537944: invalid input syntax for type integer: ""
+LINE 14:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:37,994 - __main__ - ERROR - Error processing Order ID 472536030: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'RENATO', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:38,152 - __main__ - ERROR - Error processing order 472536030: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'RENATO', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:39,494 - __main__ - ERROR - Error processing Order ID 472535907: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:39,651 - __main__ - ERROR - Error processing order 472535907: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:40,662 - __main__ - ERROR - Error processing Order ID 472532815: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:40,819 - __main__ - ERROR - Error processing order 472532815: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:41,595 - __main__ - ERROR - Error processing Order ID 472532654: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:41,753 - __main__ - ERROR - Error processing order 472532654: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:42,942 - __main__ - ERROR - Error processing Order ID 472530331: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:43,100 - __main__ - ERROR - Error processing order 472530331: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Renato', '', '', '', '',...
+                                        ^
+
+2025-05-16 14:35:44,453 - __main__ - ERROR - Error processing Order ID 472516799: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:44,612 - __main__ - ERROR - Error processing order 472516799: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:45,782 - __main__ - ERROR - Error processing Order ID 472508830: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:45,940 - __main__ - ERROR - Error processing order 472508830: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:47,142 - __main__ - ERROR - Error processing Order ID 472488800: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:47,300 - __main__ - ERROR - Error processing order 472488800: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:48,582 - __main__ - ERROR - Error processing Order ID 472487899: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:48,743 - __main__ - ERROR - Error processing order 472487899: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', 'Marilton', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:49,930 - __main__ - ERROR - Error processing Order ID 472469225: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:50,102 - __main__ - ERROR - Error processing order 472469225: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:51,176 - __main__ - ERROR - Error processing Order ID 472464385: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:51,333 - __main__ - ERROR - Error processing order 472464385: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:52,154 - __main__ - ERROR - Error processing Order ID 472462377: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+
+2025-05-16 14:35:52,311 - __main__ - ERROR - Error processing order 472462377: invalid input syntax for type integer: ""
+LINE 12:                 0.0, 0.0, 0.0, '', '', '', '', '', '', '', '...
+                                        ^
+

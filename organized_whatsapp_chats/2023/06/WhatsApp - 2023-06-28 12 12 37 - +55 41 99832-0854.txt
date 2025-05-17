@@ -1,0 +1,232 @@
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:12:37 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:12:37 from COWb8aQGIABIAQ== (+554198320854) - Lida
+
+Olá, gostaria de ver quanto custa para arrumar meu aparelho APPLE
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:13:18 to +55 41 99832-0854 - Lida
+
+Olá, bom dia!!
+Me chamo Bruna, vou dar continuidade no seu atendimento 😄
+Qual seu nome?
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:13:20 to +55 41 99832-0854 - Lida
+
+Para que eu possa passar as melhores opções, por favor me informa o modelo e o problema do seu aparelho 🙂
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:13:54 from CLKc8aQGIABIAQ== (+554198320854) - Lida
+
+Meu nome é Érico
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:14:13 from CMWc8aQGIABIAQ== (+554198320854) - Lida
+
+Tenho um iPhone 13 pro Max
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:14:29 from CNWc8aQGIABIAQ== (+554198320854) - Lida
+
+Mas ele é dos ESTADOS UNIDOS
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:14:51 from COuc8aQGIABIAQ== (+554198320854) - Lida
+
+Preciso desbloquear a linha dele
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:14:58 from CPKc8aQGIABIAQ== (+554198320854) - Lida
+
+Vcs fazem isso?
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:20:00 to +55 41 99832-0854 - Lida
+
+então, em alguns casos conseguimos desbloquear.  Depende da forma que esta bloqueado. 
+
+Neste caso, cobramos uma taxa de consulta do IMEI do aparelho para verificar a possibilidade, esta taxa é de R$ 30,00. Podendo ser pago via PIX
+
+Somente após esta consulta, saberemos informar se é possivel o desbloqueio e o valor.
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:54:45 from CMWv8aQGIABIAQ== (+554198320854) - Lida
+
+Então pago 30 só pra saber se é possível o desbloqueio
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:55:07 from CNuv8aQGIABIAQ== (+554198320854) - Lida
+
+E não tem um valor fixo?
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 12:55:36 from CPiv8aQGIABIAQ== (+554198320854) - Lida
+
+Pq somente dps da consulta que o valor é informado ?
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 13:16:21 to +55 41 99832-0854 - Lida
+
+o valor varia de acordo com o tipo de bloqueio
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 13:21:13 from CPm78aQGIABIAQ== (+554198320854) - Lida
+
+Entendi
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 13:24:16 from CLC98aQGIABIAQ== (+554198320854) - Lida
+
+Passa o Pix que vou mandar o IMEI
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 13:31:05 to +55 41 99832-0854 - Lida
+
+é nosso CNPJ 18568511000170
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:12:18 from CILw8aQGIABIAQ== (+554198320854) - Lida
+
+e94974dd-12a6-49f1-8e51-337e2e42de53.jpg (Imagem)
+160.67 KB
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:12:34 from CJLw8aQGIABIAQ== (+554198320854) - Lida
+
+f5aa386c-f953-4772-90e5-e27ec6dd598d.jpg (Imagem)
+49.79 KB
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:13:26 from CMbw8aQGIABIAQ== (+554198320854) - Lida
+
+Pronto
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:26:48 to +55 41 99832-0854 - Lida
+
+Ok, vamos verificar
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:27:02 from CPb28aQGIABIAQ== (+554198320854) - Lida
+
+Obrigado
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:35:59 to +55 41 99832-0854 - Lida
+
+Model Description: IPHONE 13 PRO MAX SR BLU 128GB-USA
+Model: iPhone 13 Pro Max 128GB Sierra Blue A2484 US
+IMEI Number: 356370165933422
+IMEI2 Number: 356370165440691
+MEID Number: 35637016593342
+Serial Number: NK6W5M99Q9
+Activation Status: Activated
+Warranty Status: AppleCare Services
+Estimated Purchase Date: 19 Jan 2022
+Purchase Country: United States
+Telephone Technical Support: Active
+Repairs and Service Coverage: Active
+AppleCare Eligible: No
+Valid Purchase Date: Yes
+Registered Device: Yes
+Replaced by Apple: No
+Replacement Device: No
+Refurbished: No
+Demo Unit: No
+Loaner Device: No
+MDM Lock: OFF
+Find My iPhone: ON
+iCloud Status: Clean
+US Block Status: Reported lost by a T-Mobile customer
+Blacklist Status: Clean
+Blacklist Records: 0
+Next Activation Policy ID: 2408
+Locked Carrier: US Sprint/T-Mobile Locked Policy
+Country: United States
+SIM-Lock Status: Locked
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:37:48 to +55 41 99832-0854 - Lida
+
+Ele esta bloqueado na T-mobile, declarado perdido. 
+Estarei verificando se neste caso será possivel liberar o SIM, ou não.  POis não trata-se de bloqueio da compra, e sim, pagamento de seguro/substituiçao.  
+
+Mas meu servidor principal deste serviço esta fora do ar no momento.  Assim que retornar eu volto a passar innformações
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:38:25 from CKH88aQGIABIAQ== (+554198320854) - Lida
+
+Okay
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-28 15:38:34 from CKr88aQGIABIAQ== (+554198320854) - Lida
+
+Obrigado no aguardo
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-29 08:35:40 from CIzZ9aQGIABIAQ== (+554198320854) - Lida
+
+Bom dia
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-29 08:59:50 from CLbk9aQGIABIAQ== (+554198320854) - Lida
+
+Eu quero saber se é possível desbloquear o celular?
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-29 09:13:10 to +55 41 99832-0854 - Lida
+
+Bom dia, ontem o servidor estava fora do ar.
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-29 09:13:48 to +55 41 99832-0854 - Lida
+
+Assim que o teénico chegar e verificar eu passo pra você
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-30 11:55:40 to +55 41 99832-0854 - Lida
+
+Bom dia
+
+----------------------------------------------------
++55 41 99832-0854
+2023-06-30 11:56:01 to +55 41 99832-0854 - Lida
+
+infelizmente para este bloqueio, o meu servidor desabilitou a possibilidade
+

@@ -1,0 +1,62 @@
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:14:48 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:14:48 to Cliente Pedro - Recebida
+
+Olá boa tarde tudo bem? Sobre a cotação da bateria do iPad
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:15:26 from Cliente Pedro (+554184272259) - Lida
+
+Olá
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:15:27 to Cliente Pedro - Recebida
+
+A troca da bateria para esse modelo de iPad é:
+💳 -  R$730,00 em até 10x no crédito
+💵 - com desconto à vista R$640,00 no débito, pix ou dinheiro
+
+⏰  - A troca leva 1 dia útil. 
+🥇- Esta peça tem garantia de 06 meses.
+
+** tela não pode estar trincada. Se estiver, a tela vai quebrar na hora de abrir, nesse caso já passar orçamento da tela nova também.
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:17:40 from Cliente Pedro (+554184272259) - Lida
+
+Maravilha, já vou passar pro dono do parelho, dai te aviso entao!
+Obrigado
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:17:49 to Cliente Pedro - Recebida
+
+Disponha :)
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:17:56 to Cliente Pedro - Recebida
+
+estamos á disposição
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 12:18:28 to Cliente Pedro - Recebida
+
+Acho que consigo uma película de brinde pra você caso realize a troca da bateria
+
+----------------------------------------------------
+Cliente Pedro
+2023-05-29 13:40:25 from Cliente Pedro (+554184272259) - Lida
+
+Maravilha
+

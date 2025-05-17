@@ -1,0 +1,1150 @@
+[
+  {
+    "numero_ordem": 30406,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-01-02",
+    "valor": null,
+    "detalhes": {
+      "id": 581931199,
+      "data_emissao": "2025-01-02",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30422,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-01-04",
+    "valor": null,
+    "detalhes": {
+      "id": 581939041,
+      "data_emissao": "2025-01-04",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30441,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-06",
+    "valor": null,
+    "detalhes": {
+      "id": 581945822,
+      "data_emissao": "2025-01-06",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30429,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-01-06",
+    "valor": null,
+    "detalhes": {
+      "id": 581943151,
+      "data_emissao": "2025-01-06",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30428,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-06",
+    "valor": null,
+    "detalhes": {
+      "id": 581943017,
+      "data_emissao": "2025-01-06",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30451,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-07",
+    "valor": null,
+    "detalhes": {
+      "id": 581954001,
+      "data_emissao": "2025-01-07",
+      "data_prevista": "2025-01-10 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30507,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-15",
+    "valor": null,
+    "detalhes": {
+      "id": 582000164,
+      "data_emissao": "2025-01-15",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30520,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-01-18",
+    "valor": null,
+    "detalhes": {
+      "id": 582012938,
+      "data_emissao": "2025-01-18",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30551,
+    "encontrada": true,
+    "status": "1",
+    "data": "2025-01-24",
+    "valor": null,
+    "detalhes": {
+      "id": 582041628,
+      "data_emissao": "2025-01-24",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30557,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-27",
+    "valor": null,
+    "detalhes": {
+      "id": 582050053,
+      "data_emissao": "2025-01-27",
+      "data_prevista": "2025-02-03 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30555,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-27",
+    "valor": null,
+    "detalhes": {
+      "id": 582048351,
+      "data_emissao": "2025-01-27",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30575,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-01-29",
+    "valor": null,
+    "detalhes": {
+      "id": 582064554,
+      "data_emissao": "2025-01-29",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30583,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-01-30",
+    "valor": null,
+    "detalhes": {
+      "id": 582072355,
+      "data_emissao": "2025-01-30",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30581,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-30",
+    "valor": null,
+    "detalhes": {
+      "id": 582071646,
+      "data_emissao": "2025-01-30",
+      "data_prevista": "2025-02-03 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30593,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-01-31",
+    "valor": null,
+    "detalhes": {
+      "id": 582082065,
+      "data_emissao": "2025-01-31",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30634,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-02-06",
+    "valor": null,
+    "detalhes": {
+      "id": 582111790,
+      "data_emissao": "2025-02-06",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31067,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-02-07",
+    "valor": null,
+    "detalhes": {
+      "id": 582489370,
+      "data_emissao": "2025-02-07",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30639,
+    "encontrada": true,
+    "status": "1",
+    "data": "2025-02-07",
+    "valor": null,
+    "detalhes": {
+      "id": 582116283,
+      "data_emissao": "2025-02-07",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30654,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-02-10",
+    "valor": null,
+    "detalhes": {
+      "id": 582125956,
+      "data_emissao": "2025-02-10",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30664,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-02-11",
+    "valor": null,
+    "detalhes": {
+      "id": 582135018,
+      "data_emissao": "2025-02-11",
+      "data_prevista": "2025-02-12 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30673,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-02-13",
+    "valor": null,
+    "detalhes": {
+      "id": 582148472,
+      "data_emissao": "2025-02-13",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30689,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-02-14",
+    "valor": null,
+    "detalhes": {
+      "id": 582160452,
+      "data_emissao": "2025-02-14",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30685,
+    "encontrada": true,
+    "status": "5",
+    "data": "2025-02-14",
+    "valor": null,
+    "detalhes": {
+      "id": 582156636,
+      "data_emissao": "2025-02-14",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30684,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-02-14",
+    "valor": null,
+    "detalhes": {
+      "id": 582156094,
+      "data_emissao": "2025-02-14",
+      "data_prevista": "2025-02-14 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30701,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-02-17",
+    "valor": null,
+    "detalhes": {
+      "id": 582166694,
+      "data_emissao": "2025-02-17",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30736,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-02-20",
+    "valor": null,
+    "detalhes": {
+      "id": 582188593,
+      "data_emissao": "2025-02-20",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30735,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-02-20",
+    "valor": null,
+    "detalhes": {
+      "id": 582188527,
+      "data_emissao": "2025-02-20",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30733,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-02-20",
+    "valor": null,
+    "detalhes": {
+      "id": 582187492,
+      "data_emissao": "2025-02-20",
+      "data_prevista": "2025-02-21 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30746,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-02-21",
+    "valor": null,
+    "detalhes": {
+      "id": 582196110,
+      "data_emissao": "2025-02-21",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30745,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-02-21",
+    "valor": null,
+    "detalhes": {
+      "id": 582195482,
+      "data_emissao": "2025-02-21",
+      "data_prevista": "2025-03-05 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30757,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30784,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30783,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30796,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30812,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30819,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30844,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30859,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30858,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30853,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30863,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30867,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30891,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30887,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30886,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30894,
+    "encontrada": false,
+    "status": "Não encontrada na API",
+    "data": null,
+    "valor": null,
+    "detalhes": null
+  },
+  {
+    "numero_ordem": 30892,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-03-18",
+    "valor": null,
+    "detalhes": {
+      "id": 582320298,
+      "data_emissao": "2025-03-18",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30907,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-03-20",
+    "valor": null,
+    "detalhes": {
+      "id": 582335743,
+      "data_emissao": "2025-03-20",
+      "data_prevista": "2025-03-17 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30910,
+    "encontrada": true,
+    "status": "5",
+    "data": "2025-03-22",
+    "valor": null,
+    "detalhes": {
+      "id": 582344587,
+      "data_emissao": "2025-03-22",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30937,
+    "encontrada": true,
+    "status": "1",
+    "data": "2025-03-26",
+    "valor": null,
+    "detalhes": {
+      "id": 582367087,
+      "data_emissao": "2025-03-26",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30955,
+    "encontrada": true,
+    "status": "1",
+    "data": "2025-03-29",
+    "valor": null,
+    "detalhes": {
+      "id": 582385743,
+      "data_emissao": "2025-03-29",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30977,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-04-01",
+    "valor": null,
+    "detalhes": {
+      "id": 582404689,
+      "data_emissao": "2025-04-01",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 30975,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-04-01",
+    "valor": null,
+    "detalhes": {
+      "id": 582404157,
+      "data_emissao": "2025-04-01",
+      "data_prevista": "2025-04-04 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31007,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-04-07",
+    "valor": null,
+    "detalhes": {
+      "id": 582441410,
+      "data_emissao": "2025-04-07",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31013,
+    "encontrada": true,
+    "status": "1",
+    "data": "2025-04-08",
+    "valor": null,
+    "detalhes": {
+      "id": 582446397,
+      "data_emissao": "2025-04-08",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31015,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-04-09",
+    "valor": null,
+    "detalhes": {
+      "id": 582451682,
+      "data_emissao": "2025-04-09",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31033,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-04-12",
+    "valor": null,
+    "detalhes": {
+      "id": 582465990,
+      "data_emissao": "2025-04-12",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31043,
+    "encontrada": true,
+    "status": "3",
+    "data": "2025-04-15",
+    "valor": null,
+    "detalhes": {
+      "id": 582475272,
+      "data_emissao": "2025-04-15",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31055,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-04-16",
+    "valor": null,
+    "detalhes": {
+      "id": 582486355,
+      "data_emissao": "2025-04-16",
+      "data_prevista": "2025-04-16 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31062,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-04-17",
+    "valor": null,
+    "detalhes": {
+      "id": 582488155,
+      "data_emissao": "2025-04-17",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31071,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-04-22",
+    "valor": null,
+    "detalhes": {
+      "id": 582498702,
+      "data_emissao": "2025-04-22",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31080,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-04-23",
+    "valor": null,
+    "detalhes": {
+      "id": 582506730,
+      "data_emissao": "2025-04-23",
+      "data_prevista": "2025-04-23 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31077,
+    "encontrada": true,
+    "status": "5",
+    "data": "2025-04-23",
+    "valor": null,
+    "detalhes": {
+      "id": 582505612,
+      "data_emissao": "2025-04-23",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31075,
+    "encontrada": true,
+    "status": "5",
+    "data": "2025-04-23",
+    "valor": null,
+    "detalhes": {
+      "id": 582504592,
+      "data_emissao": "2025-04-23",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31101,
+    "encontrada": true,
+    "status": "1",
+    "data": "2025-04-26",
+    "valor": null,
+    "detalhes": {
+      "id": 582517109,
+      "data_emissao": "2025-04-26",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31098,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-04-26",
+    "valor": null,
+    "detalhes": {
+      "id": 582516962,
+      "data_emissao": "2025-04-26",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31094,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-04-26",
+    "valor": null,
+    "detalhes": {
+      "id": 582516731,
+      "data_emissao": "2025-04-26",
+      "data_prevista": "2025-04-26 00:00:00",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31111,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-04-28",
+    "valor": null,
+    "detalhes": {
+      "id": 582523267,
+      "data_emissao": "2025-04-28",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31110,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-04-28",
+    "valor": null,
+    "detalhes": {
+      "id": 582523112,
+      "data_emissao": "2025-04-28",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31104,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-04-28",
+    "valor": null,
+    "detalhes": {
+      "id": 582521982,
+      "data_emissao": "2025-04-28",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31115,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-04-29",
+    "valor": null,
+    "detalhes": {
+      "id": 582527486,
+      "data_emissao": "2025-04-29",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31117,
+    "encontrada": true,
+    "status": "0",
+    "data": "2025-04-30",
+    "valor": null,
+    "detalhes": {
+      "id": 582530868,
+      "data_emissao": "2025-04-30",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31116,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-04-30",
+    "valor": null,
+    "detalhes": {
+      "id": 582530103,
+      "data_emissao": "2025-04-30",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31136,
+    "encontrada": true,
+    "status": "4",
+    "data": "2025-05-06",
+    "valor": null,
+    "detalhes": {
+      "id": 582550154,
+      "data_emissao": "2025-05-06",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31142,
+    "encontrada": true,
+    "status": "2",
+    "data": "2025-05-08",
+    "valor": null,
+    "detalhes": {
+      "id": 582564022,
+      "data_emissao": "2025-05-08",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  },
+  {
+    "numero_ordem": 31139,
+    "encontrada": true,
+    "status": "7",
+    "data": "2025-05-08",
+    "valor": null,
+    "detalhes": {
+      "id": 582561902,
+      "data_emissao": "2025-05-08",
+      "data_prevista": "",
+      "data_conclusao": null,
+      "nome_contato": null,
+      "total_servicos": null,
+      "total_pecas": null,
+      "total_ordem": null
+    }
+  }
+]

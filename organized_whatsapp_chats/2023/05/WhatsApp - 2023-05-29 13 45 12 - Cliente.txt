@@ -1,0 +1,41 @@
+----------------------------------------------------
+Cliente 
+2023-05-29 13:45:12 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Cliente 
+2023-05-29 13:45:12 from Cliente (+554191011913) - Lida
+
+Boa tarde! Td bem com vcs?
+
+----------------------------------------------------
+Cliente 
+2023-05-29 13:45:20 to Cliente  - Lida
+
+Olá boa tarde, tudo bem!? Como posso ajudar?
+
+----------------------------------------------------
+Cliente 
+2023-05-29 13:46:06 from Cliente (+554191011913) - Lida
+
+Por favor, bateria do iPhone 6 S
+
+----------------------------------------------------
+Cliente 
+2023-05-29 13:46:31 to Cliente  - Lida
+
+📱 - Bateria Premium de Alta qualidade, com 1 ano de garantia.
+⏰ - Trocas de bateria realizadas na hora, em cerca de 30min. 
+
+O valor da troca de bateria de seu iPhone é:
+💳 - R$ 230,00 em até 4x no crédito ou
+💵 - Com desconto à vista  R$ 199,00 no débito, pix ou dinheiro.
+
+----------------------------------------------------
+Cliente 
+2023-05-29 13:46:32 to Cliente  - Lida
+
+Rua João Negrão, 789, 80010-200 Curitiba, PR
+

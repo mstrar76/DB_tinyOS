@@ -1,0 +1,60 @@
+{
+  "id": 582517109,
+  "situacao": "1",
+  "data": "2025-04-26",
+  "dataPrevista": "",
+  "totalServicos": "0",
+  "totalOrdemServico": "0",
+  "totalPecas": "0",
+  "numeroOrdemServico": "31101",
+  "equipamento": "Ipad A1474",
+  "equipamentoSerie": "",
+  "descricaoProblema": "tela descolando e inativo",
+  "observacoes": "cliente pediu pra ver se da pra tirar do modo de inativo, trocou a tela conosco mas ta descolando\nsenha:0007",
+  "orcar": false,
+  "orcado": false,
+  "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+  "observacoesInternas": "28/04/25 - Luana - Aparelho entrou inativo e com a tela descolando, preciso apenas do icloud e senha do cliente para efetuar a restauraçao.\n28/04/25 - Luana - Foi efetuado a restauraçao e touch esta com toque fanstama (necessario trocar), aguardando codigo para dar continuidade.\n02/05/25 - Luana - Efetuado restauraçao, necessita da troca do touch e bateria , aparelho tem 16gb de memoria um pouco lento, alguns aplicativos ainda funcionam menos youtube, camera frontal embaçada, safari ainda em condiçoes de uso para outros sites.",
+  "alqComissao": 0,
+  "vlrComissao": 0,
+  "idForma": 1,
+  "idContaContabil": 0,
+  "desconto": "0,00",
+  "idListaPreco": 0,
+  "idLocalPrestacao": "0",
+  "idDeposito": 0,
+  "dataConclusao": "0000-00-00",
+  "vendedor": null,
+  "contato": {
+    "nome": "Silvestre Labiak Junior",
+    "codigo": "",
+    "fantasia": "",
+    "tipoPessoa": "F",
+    "cpfCnpj": "748.572.409-63",
+    "inscricaoEstadual": "",
+    "rg": "",
+    "telefone": "",
+    "celular": "(41) 99229-0007",
+    "email": "slabiakjr@gmail.com",
+    "endereco": {
+      "endereco": "Rua Alberto Wierbiski",
+      "numero": "209",
+      "complemento": "Casa",
+      "bairro": "São Lourenço",
+      "municipio": "Curitiba",
+      "cep": "82.210-150",
+      "uf": "PR",
+      "pais": "Brasil"
+    },
+    "id": 528336452
+  },
+  "tecnico": "Luana",
+  "categoria": {
+    "id": 84554620,
+    "descricao": "Instalação peças"
+  },
+  "formaPagamento": {
+    "id": 1,
+    "nome": ""
+  }
+}

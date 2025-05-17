@@ -1,0 +1,60 @@
+{
+  "id": 582367087,
+  "situacao": "1",
+  "data": "2025-03-26",
+  "dataPrevista": "",
+  "totalServicos": "0",
+  "totalOrdemServico": "0",
+  "totalPecas": "0",
+  "numeroOrdemServico": "30937",
+  "equipamento": "Apple watch série 3 42mm",
+  "equipamentoSerie": "",
+  "descricaoProblema": "Apple watch não liga mais. Chegou da tela verde com alguns chuvisco e não funcionou mais.",
+  "observacoes": "Algumas avarias no chassi perto botão crow. Pequenos riscos no vidro do relógio.Cliente ciente que ao abrir o display, o mesmo perde a vedação original.",
+  "orcar": false,
+  "orcado": false,
+  "observacoesServico": "- O serviço e/ou produto descritos no quadro acima, possuem o prazo de garantia legal de 90 (noventa) dias a partir da data de entrega ao(à) cliente, para que este(a) possa reclamar por possíveis vícios existentes, conforme a previsão do inciso II do artigo 26 do Código de Defesa do Consumidor. Tal garantia é oferecida  exclusivamente aos produtos e serviços relacionados na nota fiscal entregue, ou enviada ao(à) cliente na retirada do aparelho.\n- A iTelas oferece garantias contratuais adicionais, conforme previsto no artigo 50 do Código de defesa do Consumidor, sendo estas suplementares à garantia legal, especificadas em termo de garantia anexo.  Também disponível em https://www.itelas.com.br/home/termo-de-garantia\n- A iTelas devolverá integralmente o valor pago pelo conserto caso o aparelho apresente o mesmo defeito em até 90 dias e não tenha mais conserto, com exceção dos valores pagos para banho químico, pois não trata-se de um reparo, mas de um serviço de limpeza.\n- A iTelas orienta previamente o(a) cliente que aparelhos com resistência à água estão sujeitos a perder esta característica após manutenção, seja ele iPhone, Apple Watch ou iPads, ficando, portanto, isenta de responsabilidade quanto a perda de tal característica.\n- O contrato de manutenção firmado na aprovação desta ordem de serviço, não configura nenhuma forma de depósito.\n- A iTelas fica autorizada a vender o produto pelo valor do conserto se o mesmo não for retirado após 180 dias da data de aprovação. O valor será integralmente utilizado para custear o conserto do aparelho.\n- A iTelas não cobrará qualquer valor aos clientes que não aprovarem o orçamento e neste caso, o produto deverá ser retirado em até 6 meses após a assinatura deste termo. Findo este prazo, o consumidor autoriza prévia e expressamente a doação ou descarte do mesmo.\n- A iTelas não se responsabiliza por eventuais perdas de dados do aparelho. Fica o cliente responsável por efetuar backup dos dados antes do aparelho ser consertado.\n- O cliente ao autorizar os serviços na placa lógica, fica ciente dos riscos que possam vir a acontecer ao funcionamento do aparelho, pois tratas-se de um procedimento complexo, que pode ou não ser bem-sucedido. Tendo como resultado final: a correção dos problemas relatados, a perda de alguma das funcionalidades do aparelho, ou até o não funcionamento completo do mesmo.\n\nAo aceitar a emissão da Ordem de Serviço o consumidor concorda com os termos acima.",
+  "observacoesInternas": "27/03/25  - Luana - Aparelho entrou molhado e com muita oxidaçao espalhada, tela, flex de conexao da tela com a placa necessita trocar, entretanto há outros componentes oxidados que podem ser trocados tambem, nao compensa fazer o reparo.",
+  "alqComissao": 0,
+  "vlrComissao": 0,
+  "idForma": 1,
+  "idContaContabil": 0,
+  "desconto": "0,00",
+  "idListaPreco": 0,
+  "idLocalPrestacao": "0",
+  "idDeposito": 0,
+  "dataConclusao": "0000-00-00",
+  "vendedor": null,
+  "contato": {
+    "nome": "Marcelo Pinto",
+    "codigo": "2008",
+    "fantasia": "",
+    "tipoPessoa": "F",
+    "cpfCnpj": "030.859.009-00",
+    "inscricaoEstadual": "",
+    "rg": "",
+    "telefone": "",
+    "celular": "(xx) 99928-8765",
+    "email": "marcelovellinho@hotmail.com",
+    "endereco": {
+      "endereco": "Travessa Percy Withers",
+      "numero": "121",
+      "complemento": "",
+      "bairro": "Água Verde",
+      "municipio": "Curitiba",
+      "cep": "80.240-190",
+      "uf": "PR",
+      "pais": "Brasil"
+    },
+    "id": 579510290
+  },
+  "tecnico": "Luana",
+  "categoria": {
+    "id": 84554620,
+    "descricao": "Instalação peças"
+  },
+  "formaPagamento": {
+    "id": 1,
+    "nome": ""
+  }
+}

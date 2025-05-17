@@ -1,0 +1,24 @@
+----------------------------------------------------
+Damiana OS: 19336
+2025-05-09 14:39:43 notification
+
+As mensagens para este chat e as chamadas agora são protegidas com criptografia de ponta a ponta
+
+----------------------------------------------------
+Damiana OS: 19336
+2025-05-09 14:39:43 to Damiana OS: 19336 - Recebida
+
+Oi
+
+----------------------------------------------------
+Damiana OS: 19336
+2025-05-09 14:39:47 notification
+
+Chamada de voz perdida à(s) 14:39
+
+----------------------------------------------------
+Damiana OS: 19336
+2025-05-09 14:43:46 to Damiana OS: 19336 - Recebida
+
+qual senha dele?
+

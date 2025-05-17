@@ -1,21 +1,80 @@
 import json
+import sys
+import os
 from db_utils import get_db_connection, close_db_connection
 from datetime import datetime
 
-def process_order_data(json_file_path):
-    """Reads order data from a JSON file and processes it for database insertion."""
+# Configuração de logging estruturado
+def log_json(level, message, **kwargs):
+    log_data = {
+        "timestamp": datetime.now().isoformat(),
+        "level": level,
+        "service": "process_data_with_tags",
+        "message": message,
+        **kwargs
+    }
+    print(json.dumps(log_data, ensure_ascii=False))
+
+def validate_order_data(order):
+    """Valida se uma ordem tem todos os campos essenciais necessários."""
+    if not order or not isinstance(order, dict):
+        return False
+    
+    essential_fields = ["id", "numeroOrdemServico"]
+    for field in essential_fields:
+        if field not in order or not order[field]:
+            return False
+    return True
+
+def backup_database():
+    """Cria um backup do banco de dados antes de operações em massa."""
+    try:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        db_host = os.getenv("DB_HOST", "localhost")
+        db_name = os.getenv("DB_NAME", "tinyos")
+        db_user = os.getenv("DB_USER", "postgres")
+        backup_path = os.path.join(os.getcwd(), "backups")
+        os.makedirs(backup_path, exist_ok=True)
+        backup_file = os.path.join(backup_path, f"backup_{timestamp}.sql")
+        
+        cmd = f"pg_dump -h {db_host} -U {db_user} -d {db_name} -f {backup_file}"
+        log_json("INFO", f"Iniciando backup do banco de dados: {cmd}")
+        os.system(cmd)
+        log_json("INFO", f"Backup do banco de dados criado em: {backup_file}")
+        return True
+    except Exception as e:
+        log_json("ERROR", f"Erro ao criar backup: {e}")
+        return False
+
+def process_order_data(json_file_path, update_mode="safe", dry_run=False):
+    """Reads order data from a JSON file and processes it for database insertion.
+    
+    Args:
+        json_file_path: Caminho para o arquivo JSON com dados das ordens
+        update_mode: Modo de atualização ('safe', 'complete' ou 'append')
+        dry_run: Se True, simula o processamento sem modificar o banco
+    """
+    log_json("INFO", f"Iniciando processamento de dados", 
+             arquivo=json_file_path, 
+             modo=update_mode, 
+             simulacao=dry_run)
+             
     try:
         with open(json_file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
-        print(f"Error: JSON file not found at {json_file_path}")
+        log_json("ERROR", f"Arquivo JSON não encontrado", arquivo=json_file_path)
         return
     except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from {json_file_path}")
+        log_json("ERROR", f"Não foi possível decodificar o JSON", arquivo=json_file_path)
         return
     except Exception as e:
-        print(f"Error reading JSON file: {e}")
+        log_json("ERROR", f"Erro ao ler arquivo JSON: {e}", arquivo=json_file_path)
         return
+
+    # Criar backup antes de operações em massa, exceto no modo simulação
+    if not dry_run and update_mode != "append":
+        backup_database()
 
     conn = get_db_connection()
     if not conn:
@@ -250,60 +309,151 @@ def process_order_data(json_file_path):
                         origem_cliente = "site"
                         break
 
+                # Verificar se a ordem tem dados válidos antes de persistir
+                if not validate_order_data(order):
+                    log_json("WARNING", "Ordem com dados inválidos ignorada", order_id=order.get('id', 'desconhecido'))
+                    continue
+
                 # --- Database Insertion/Update for ordens_servico ---
-                upsert_sql = """
-                    INSERT INTO ordens_servico (
-                        id, numero_ordem_servico, situacao, data_emissao, data_prevista,
+                if update_mode == "append":
+                    # No modo append, só insere se não existir
+                    cur.execute("SELECT id FROM ordens_servico WHERE id = %s", (order_id,))
+                    if cur.fetchone():
+                        log_json("INFO", "Ordem já existe no banco, pulando no modo append", order_id=order_id)
+                        continue
+                    insert_sql = """
+                        INSERT INTO ordens_servico (
+                            id, numero_ordem_servico, situacao, data_emissao, data_prevista,
+                            data_conclusao, total_servicos, total_ordem_servico, total_pecas,
+                            equipamento, equipamento_serie, descricao_problema, observacoes,
+                            observacoes_internas, orcar, orcado, alq_comissao, vlr_comissao,
+                            desconto, id_lista_preco, tecnico, id_contato, id_vendedor,
+                            id_categoria_os, id_forma_pagamento, id_conta_contabil,
+                            linha_dispositivo, tipo_servico, origem_cliente, data_extracao
+                        ) VALUES (
+                            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
+                            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP
+                        )
+                    """
+                    cur.execute(insert_sql, (
+                        order_id, numero_ordem_servico, situacao, data_emissao, data_prevista,
                         data_conclusao, total_servicos, total_ordem_servico, total_pecas,
                         equipamento, equipamento_serie, descricao_problema, observacoes,
                         observacoes_internas, orcar, orcado, alq_comissao, vlr_comissao,
-                        desconto, id_lista_preco, tecnico, id_contato, id_vendedor,
+                        desconto, id_lista_preco, tecnico, contact_id, id_vendedor,
                         id_categoria_os, id_forma_pagamento, id_conta_contabil,
-                        linha_dispositivo, tipo_servico, origem_cliente, data_extracao
-                    ) VALUES (
-                        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP
-                    )
-                    ON CONFLICT (id) DO UPDATE SET
-                        numero_ordem_servico = EXCLUDED.numero_ordem_servico,
-                        situacao = EXCLUDED.situacao,
-                        data_emissao = EXCLUDED.data_emissao,
-                        data_prevista = EXCLUDED.data_prevista,
-                        data_conclusao = EXCLUDED.data_conclusao,
-                        total_servicos = EXCLUDED.total_servicos,
-                        total_ordem_servico = EXCLUDED.total_ordem_servico,
-                        total_pecas = EXCLUDED.total_pecas,
-                        equipamento = EXCLUDED.equipamento,
-                        equipamento_serie = EXCLUDED.equipamento_serie,
-                        descricao_problema = EXCLUDED.descricao_problema,
-                        observacoes = EXCLUDED.observacoes,
-                        observacoes_internas = EXCLUDED.observacoes_internas,
-                        orcar = EXCLUDED.orcar,
-                        orcado = EXCLUDED.orcado,
-                        alq_comissao = EXCLUDED.alq_comissao,
-                        vlr_comissao = EXCLUDED.vlr_comissao,
-                        desconto = EXCLUDED.desconto,
-                        id_lista_preco = EXCLUDED.id_lista_preco,
-                        tecnico = EXCLUDED.tecnico,
-                        id_contato = EXCLUDED.id_contato,
-                        id_vendedor = EXCLUDED.id_vendedor,
-                        id_categoria_os = EXCLUDED.id_categoria_os,
-                        id_forma_pagamento = EXCLUDED.id_forma_pagamento,
-                        id_conta_contabil = EXCLUDED.id_conta_contabil,
-                        linha_dispositivo = EXCLUDED.linha_dispositivo,
-                        tipo_servico = EXCLUDED.tipo_servico,
-                        origem_cliente = EXCLUDED.origem_cliente,
-                        data_extracao = CURRENT_TIMESTAMP;
-                """
-                cur.execute(upsert_sql, (
-                    order_id, numero_ordem_servico, situacao, data_emissao, data_prevista,
-                    data_conclusao, total_servicos, total_ordem_servico, total_pecas,
-                    equipamento, equipamento_serie, descricao_problema, observacoes,
-                    observacoes_internas, orcar, orcado, alq_comissao, vlr_comissao,
-                    desconto, id_lista_preco, tecnico, contact_id, id_vendedor,
-                    id_categoria_os, id_forma_pagamento, id_conta_contabil,
-                    linha_dispositivo, tipo_servico, origem_cliente
-                ))
+                        linha_dispositivo, tipo_servico, origem_cliente
+                    ))
+                elif update_mode == "complete":
+                    # Modo complete: substitui todos os valores, incluindo NULL (usar com cuidado)
+                    upsert_sql = """
+                        INSERT INTO ordens_servico (
+                            id, numero_ordem_servico, situacao, data_emissao, data_prevista,
+                            data_conclusao, total_servicos, total_ordem_servico, total_pecas,
+                            equipamento, equipamento_serie, descricao_problema, observacoes,
+                            observacoes_internas, orcar, orcado, alq_comissao, vlr_comissao,
+                            desconto, id_lista_preco, tecnico, id_contato, id_vendedor,
+                            id_categoria_os, id_forma_pagamento, id_conta_contabil,
+                            linha_dispositivo, tipo_servico, origem_cliente, data_extracao
+                        ) VALUES (
+                            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
+                            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP
+                        )
+                        ON CONFLICT (id) DO UPDATE SET
+                            numero_ordem_servico = EXCLUDED.numero_ordem_servico,
+                            situacao = EXCLUDED.situacao,
+                            data_emissao = EXCLUDED.data_emissao,
+                            data_prevista = EXCLUDED.data_prevista,
+                            data_conclusao = EXCLUDED.data_conclusao,
+                            total_servicos = EXCLUDED.total_servicos,
+                            total_ordem_servico = EXCLUDED.total_ordem_servico,
+                            total_pecas = EXCLUDED.total_pecas,
+                            equipamento = EXCLUDED.equipamento,
+                            equipamento_serie = EXCLUDED.equipamento_serie,
+                            descricao_problema = EXCLUDED.descricao_problema,
+                            observacoes = EXCLUDED.observacoes,
+                            observacoes_internas = EXCLUDED.observacoes_internas,
+                            orcar = EXCLUDED.orcar,
+                            orcado = EXCLUDED.orcado,
+                            alq_comissao = EXCLUDED.alq_comissao,
+                            vlr_comissao = EXCLUDED.vlr_comissao,
+                            desconto = EXCLUDED.desconto,
+                            id_lista_preco = EXCLUDED.id_lista_preco,
+                            tecnico = EXCLUDED.tecnico,
+                            id_contato = EXCLUDED.id_contato,
+                            id_vendedor = EXCLUDED.id_vendedor,
+                            id_categoria_os = EXCLUDED.id_categoria_os,
+                            id_forma_pagamento = EXCLUDED.id_forma_pagamento,
+                            id_conta_contabil = EXCLUDED.id_conta_contabil,
+                            linha_dispositivo = EXCLUDED.linha_dispositivo,
+                            tipo_servico = EXCLUDED.tipo_servico,
+                            origem_cliente = EXCLUDED.origem_cliente,
+                            data_extracao = CURRENT_TIMESTAMP;
+                    """
+                    cur.execute(upsert_sql, (
+                        order_id, numero_ordem_servico, situacao, data_emissao, data_prevista,
+                        data_conclusao, total_servicos, total_ordem_servico, total_pecas,
+                        equipamento, equipamento_serie, descricao_problema, observacoes,
+                        observacoes_internas, orcar, orcado, alq_comissao, vlr_comissao,
+                        desconto, id_lista_preco, tecnico, contact_id, id_vendedor,
+                        id_categoria_os, id_forma_pagamento, id_conta_contabil,
+                        linha_dispositivo, tipo_servico, origem_cliente
+                    ))
+                else:  # Modo "safe" (padrão)
+                    # Modo seguro: usa COALESCE para não sobrescrever dados existentes com NULL
+                    safe_update_sql = """
+                        INSERT INTO ordens_servico (
+                            id, numero_ordem_servico, situacao, data_emissao, data_prevista,
+                            data_conclusao, total_servicos, total_ordem_servico, total_pecas,
+                            equipamento, equipamento_serie, descricao_problema, observacoes,
+                            observacoes_internas, orcar, orcado, alq_comissao, vlr_comissao,
+                            desconto, id_lista_preco, tecnico, id_contato, id_vendedor,
+                            id_categoria_os, id_forma_pagamento, id_conta_contabil,
+                            linha_dispositivo, tipo_servico, origem_cliente, data_extracao
+                        ) VALUES (
+                            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
+                            %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP
+                        )
+                        ON CONFLICT (id) DO UPDATE SET
+                            numero_ordem_servico = EXCLUDED.numero_ordem_servico,
+                            situacao = EXCLUDED.situacao,
+                            data_emissao = EXCLUDED.data_emissao,
+                            data_prevista = EXCLUDED.data_prevista,
+                            data_conclusao = EXCLUDED.data_conclusao,
+                            total_servicos = EXCLUDED.total_servicos,
+                            total_ordem_servico = EXCLUDED.total_ordem_servico,
+                            total_pecas = EXCLUDED.total_pecas,
+                            equipamento = COALESCE(EXCLUDED.equipamento, ordens_servico.equipamento),
+                            equipamento_serie = COALESCE(EXCLUDED.equipamento_serie, ordens_servico.equipamento_serie),
+                            descricao_problema = COALESCE(EXCLUDED.descricao_problema, ordens_servico.descricao_problema),
+                            observacoes = COALESCE(EXCLUDED.observacoes, ordens_servico.observacoes),
+                            observacoes_internas = COALESCE(EXCLUDED.observacoes_internas, ordens_servico.observacoes_internas),
+                            orcar = EXCLUDED.orcar,
+                            orcado = EXCLUDED.orcado,
+                            alq_comissao = EXCLUDED.alq_comissao,
+                            vlr_comissao = EXCLUDED.vlr_comissao,
+                            desconto = EXCLUDED.desconto,
+                            id_lista_preco = EXCLUDED.id_lista_preco,
+                            tecnico = COALESCE(EXCLUDED.tecnico, ordens_servico.tecnico),
+                            id_contato = EXCLUDED.id_contato,
+                            id_vendedor = EXCLUDED.id_vendedor,
+                            id_categoria_os = EXCLUDED.id_categoria_os,
+                            id_forma_pagamento = EXCLUDED.id_forma_pagamento,
+                            id_conta_contabil = EXCLUDED.id_conta_contabil,
+                            linha_dispositivo = EXCLUDED.linha_dispositivo,
+                            tipo_servico = EXCLUDED.tipo_servico,
+                            origem_cliente = COALESCE(EXCLUDED.origem_cliente, ordens_servico.origem_cliente),
+                            data_extracao = CURRENT_TIMESTAMP;
+                    """
+                    cur.execute(safe_update_sql, (
+                        order_id, numero_ordem_servico, situacao, data_emissao, data_prevista,
+                        data_conclusao, total_servicos, total_ordem_servico, total_pecas,
+                        equipamento, equipamento_serie, descricao_problema, observacoes,
+                        observacoes_internas, orcar, orcado, alq_comissao, vlr_comissao,
+                        desconto, id_lista_preco, tecnico, contact_id, id_vendedor,
+                        id_categoria_os, id_forma_pagamento, id_conta_contabil,
+                        linha_dispositivo, tipo_servico, origem_cliente
+                    ))
 
                 # Processar marcadores
                 if marcadores:
@@ -355,25 +505,66 @@ def process_order_data(json_file_path):
                             valor_unitario, tipo, valor_total, desconto_item
                         ))
 
-                conn.commit()
-                print(f"Order ID {order_id} processed successfully.")
+                if dry_run:
+                    # Em modo simulação, desfaz as alterações
+                    conn.rollback()
+                    log_json("DEBUG", "[SIMULAÇÃO] Ordem processada com sucesso (rollback aplicado)", 
+                           order_id=order_id)
+                else:
+                    # Commit real em modo normal
+                    conn.commit()
+                    log_json("INFO", "Ordem processada com sucesso", order_id=order_id)
                 
             except Exception as e:
                 conn.rollback()
-                print(f"Error processing order ID {order.get('id', 'unknown')}: {e}")
+                log_json("ERROR", f"Erro ao processar ordem: {e}", 
+                        order_id=order.get('id', 'unknown'))
                 
-        print(f"Completed processing {len(orders)} orders.")
-        
+        log_json("INFO", "Processamento concluído", 
+                 total_ordens=len(orders), 
+                 modo=update_mode, 
+                 simulacao=dry_run)
     except Exception as e:
-        conn.rollback()
-        print(f"Error during database operations: {e}")
+        log_json("ERROR", f"Erro durante o processamento: {e}")
     finally:
         close_db_connection(conn)
 
+def show_help():
+    print("\nUso: python process_data_with_tags.py <arquivo_json> [--modo <modo>] [--simulacao]")
+    print("\nOpções:")
+    print("  <arquivo_json>      : Caminho para o arquivo JSON com os dados das ordens")
+    print("  --modo <modo>       : Modo de atualização (safe, complete, append)")
+    print("                        - safe: Não sobrescreve dados existentes com NULL (padrão)")
+    print("                        - complete: Substitui todos os valores, incluindo NULL")
+    print("                        - append: Adiciona apenas ordens novas, não modifica existentes")
+    print("  --simulacao         : Executa em modo simulação sem modificar o banco")
+    print("  --ajuda             : Mostra esta mensagem de ajuda")
+    print("\nExemplos:")
+    print("  python process_data_with_tags.py dados.json")
+    print("  python process_data_with_tags.py dados.json --modo safe")
+    print("  python process_data_with_tags.py dados.json --modo complete --simulacao")
+
 if __name__ == '__main__':
-    import sys
-    if len(sys.argv) > 1:
-        json_data_file = sys.argv[1]
-        process_order_data(json_data_file)
-    else:
-        print("Usage: python process_data_with_tags.py <json_file_path>")
+    if len(sys.argv) < 2 or '--ajuda' in sys.argv:
+        show_help()
+        sys.exit(0)
+        
+    json_data_file = sys.argv[1]
+    update_mode = "safe"
+    dry_run = False
+    
+    # Processar argumentos
+    if '--modo' in sys.argv:
+        mode_index = sys.argv.index('--modo')
+        if mode_index + 1 < len(sys.argv):
+            mode = sys.argv[mode_index + 1]
+            if mode in ["safe", "complete", "append"]:
+                update_mode = mode
+            else:
+                print(f"Modo inválido: {mode}. Usando modo 'safe' como padrão.")
+    
+    if '--simulacao' in sys.argv:
+        dry_run = True
+        print("Executando em modo de simulação (nenhuma alteração será salva)")
+    
+    process_order_data(json_data_file, update_mode=update_mode, dry_run=dry_run)

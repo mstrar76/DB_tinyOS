@@ -1,0 +1,2 @@
+{"timestamp": "2025-05-12T12:28:21.453788", "level": "INFO", "message": "Script started. Logs will be saved to logs/fetch_historical_20250512_122821.log", "module": "fetch_historical_orders", "service": "fetch_historical_orders", "correlation_id": "28b5b0a9-5b3d-4550-bd46-5b8c8c70462f"}
+{"timestamp": "2025-05-12T12:28:21.454189", "level": "ERROR", "message": "Database connection error", "module": "fetch_historical_orders", "service": "fetch_historical_orders", "correlation_id": "c0262ccf-8d4f-4ac1-8a0b-ccfcb3ad8901", "context": {"error": "name 'psycopg2' is not defined"}}

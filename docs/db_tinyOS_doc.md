@@ -1,73 +1,137 @@
-# Documentação de Acesso ao Banco de Dados Supabase - Ordens de Serviço (tinyOS)
+# Supabase Database Access Documentation — tinyOS Service Orders
 
-Este documento fornece instruções detalhadas para que outros aplicativos desenvolvidos possam acessar e consultar os dados de Ordens de Serviço armazenados no banco de dados Supabase do projeto tinyOS.
+This document provides detailed instructions for connecting to and querying the Supabase database used by the tinyOS project. It is intended as a reference for any application (backend, frontend, scripts, or external integrations) that needs to access the service order data.
 
-## 1. Credenciais de Conexão e Configuração
+## 1. Connection Credentials and Configuration
 
-Para conectar ao banco de dados Supabase, você precisará do **Supabase Project URL** e da **Supabase Public API Key (Anon Key)**.
+To connect to the Supabase database, you need the **Supabase Project URL** and the **Supabase Public API Key (Anon Key)**.
 
-**Localização das Credenciais:**
+### Where to Find Credentials in the Supabase Dashboard
 
-As credenciais de segurança para este projeto são armazenadas de forma segura em um arquivo `.env` na raiz do projeto (ou em um diretório específico, como `web_interface/` se aplicável, conforme configurado no projeto).
+- Acesse o [Supabase Dashboard](https://app.supabase.com/), selecione o projeto e navegue até:
+  - `Settings` ▸ `Project Settings` ▸ `API`
+- Lá você encontrará:
+  - **Project URL** (ex: `https://xxxx.supabase.co`)
+  - **Anon Public Key** (chave pública para clientes)
+  - **Service Role Key** (chave de serviço, uso restrito)
+  - **Connection string** para Postgres (exemplo abaixo)
 
-*   **Supabase Project URL:** Procure por uma variável de ambiente como `VITE_SUPABASE_URL` ou similar no arquivo `.env`.
-*   **Supabase Public API Key (Anon Key):** Procure por uma variável de ambiente como `VITE_SUPABASE_ANON_KEY` ou similar no arquivo `.env`.
+### Variáveis de ambiente recomendadas
 
-**Exemplo de arquivo `.env`:**
+- **Frontend (Vite, etc.):**
+  - `VITE_SUPABASE_URL`
+  - `VITE_SUPABASE_ANON_KEY`
+- **Backend/scripts (Python, Node.js):**
+  - `SUPABASE_URL`
+  - `SUPABASE_ANON_KEY`
+  - `SUPABASE_SERVICE_ROLE_KEY` (apenas para operações administrativas seguras)
+  - `SUPABASE_DB_URL` (string de conexão Postgres)
+
+**Example `.env` file:**
 
 ```dotenv
-VITE_SUPABASE_URL="SUA_URL_DO_PROJETO_SUPABASE"
-VITE_SUPABASE_ANON_KEY="SUA_CHAVE_ANON_DO_SUPABASE"
-# Outras variáveis de ambiente...
+# For frontend (Vite, etc.)
+VITE_SUPABASE_URL="YOUR_SUPABASE_PROJECT_URL"
+VITE_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
+
+# For backend or scripts
+SUPABASE_URL="YOUR_SUPABASE_PROJECT_URL"
+SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
+# Other environment variables...
 ```
 
-**Importante:** O arquivo `.env` **NÃO** deve ser versionado no controle de código (Git). Certifique-se de que ele está incluído no seu arquivo `.gitignore`.
+**Important:** The `.env` file **MUST NOT** be versioned in your code repository (Git). Always ensure it is listed in your `.gitignore`.
 
-**Configuração da Conexão (Exemplo em JavaScript com `supabase-js`):**
+## 2. Best Practices for Secrets and Environment Management
 
-Para aplicativos desenvolvidos em JavaScript/TypeScript, a biblioteca oficial `@supabase/supabase-js` é a forma recomendada de interagir com o banco de dados.
+- **Never expose the Service Role Key** in any client-side code or public repository. Only the Anon Key is safe for public use.
+- Use different environment files for development, staging, and production. Do not share secrets between environments.
+- For deployment, inject environment variables using your hosting platform’s secret management tools or environment configuration.
+- Rotate keys regularly and immediately if a leak is suspected.
 
-Instale a biblioteca:
+## 3. Example: Connecting from JavaScript (Frontend)
 
-```bash
-npm install @supabase/supabase-js
-# ou
-yarn add @supabase/supabase-js
-```
-
-Configure o cliente Supabase no seu aplicativo, lendo as variáveis de ambiente:
-
-```javascript
+```js
 import { createClient } from '@supabase/supabase-js';
 
-// Carrega as variáveis de ambiente.
-// O método exato para acessar variáveis de ambiente pode variar dependendo do seu framework (Vite, Next.js, Node.js, etc.)
-const supabaseUrl = process.env.VITE_SUPABASE_URL; // Exemplo para Vite/Node.js
-const supabaseAnonKey = process.env.VITE_SUPABASE_ANON_KEY; // Exemplo para Vite/Node.js
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-// Verifica se as variáveis de ambiente foram carregadas
-if (!supabaseUrl || !supabaseAnonKey) {
-  console.error('Variáveis de ambiente Supabase URL e Anon Key não estão configuradas.');
-  // Considere lançar um erro ou lidar com esta situação adequadamente
-  throw new Error("Supabase URL ou Anon Key está faltando. Verifique seu arquivo .env.");
-}
-
-// Cria uma única instância do cliente Supabase
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
-
-// Opcional: Verificação simples se o cliente foi criado
-if (supabase) {
-  console.log('Cliente Supabase inicializado com sucesso.');
-}
 ```
 
-Substitua `process.env.VITE_SUPABASE_URL` e `process.env.VITE_SUPABASE_ANON_KEY` pela forma correta de acessar variáveis de ambiente no seu ambiente de desenvolvimento (por exemplo, `import.meta.env` para Vite, `process.env` para Node.js/Next.js).
+## 4. Example: Connecting from Python (Backend or Script)
 
-## 2. Melhores Práticas de Segurança
+```python
+import os
+from supabase import create_client, Client
 
-*   **Não Hardcodar Segredos:** Conforme a regra `.clinerules/security_no_hardcoded_secrets.md`, nunca inclua suas chaves de API ou outras credenciais diretamente no código-fonte. Sempre use variáveis de ambiente ou um sistema de gerenciamento de segredos.
-*   **Row Level Security (RLS):** A chave pública `anon` respeita as políticas de Row Level Security (RLS) configuradas no seu projeto Supabase. Certifique-se de que as políticas de RLS estão configuradas corretamente para controlar quais dados cada usuário (ou a chave `anon`) pode acessar, inserir, atualizar ou deletar.
-*   **Princípio do Menor Privilégio:** Para aplicações que necessitam de acesso mais restrito ou permissões específicas, considere criar novas chaves de API com permissões limitadas ou configurar autenticação de usuário e RLS granular em vez de usar a chave `anon` para todas as operações.
+url = os.getenv("SUPABASE_URL")
+key = os.getenv("SUPABASE_ANON_KEY")
+supabase: Client = create_client(url, key)
+
+# Example query:
+result = supabase.table("ordens_servico").select("*").execute()
+print(result.data)
+```
+
+### Exemplo de uso seguro da Service Role Key (backend apenas)
+
+> **Atenção:** Nunca exponha a Service Role Key em código cliente, apenas em backends seguros!
+
+```python
+import os
+from supabase import create_client
+
+url = os.getenv("SUPABASE_URL")
+service_role = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+if not service_role:
+    raise Exception("Service Role Key não configurada!")
+supabase_admin = create_client(url, service_role)
+# Use supabase_admin para operações administrativas restritas
+```
+
+### Exemplo de conexão direta com o Postgres
+
+```dotenv
+SUPABASE_DB_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+```
+
+Exemplo de uso em Python:
+```python
+import os
+import psycopg2
+
+conn = psycopg2.connect(os.getenv("SUPABASE_DB_URL"))
+# ...
+```
+
+## 5. Additional Notes
+
+- The Anon Key is suitable for querying public tables and using Row Level Security (RLS) policies. For administrative actions, use the Service Role Key **only in secure backend environments**.
+- If you need direct Postgres access, consult the Supabase dashboard for connection details, and be aware of security implications.
+- Always validate and sanitize all inputs when writing data to the database.
+
+---
+
+*Last updated: 2025-05-14*
+
+## 1.1. Outras linguagens e SDKs
+
+Supabase oferece SDKs oficiais para várias linguagens e plataformas:
+- [JavaScript/TypeScript](https://supabase.com/docs/reference/javascript)
+- [Python](https://supabase.com/docs/reference/python)
+- [Dart/Flutter](https://supabase.com/docs/reference/dart)
+- [Kotlin (Android)](https://supabase.com/docs/reference/kotlin)
+- [Swift (iOS)](https://supabase.com/docs/reference/swift)
+
+Consulte a [documentação oficial](https://supabase.com/docs/reference) para exemplos de uso em cada stack.
+
+## 1.2. Políticas de Row Level Security (RLS)
+
+A chave pública `anon` respeita as políticas de Row Level Security (RLS) configuradas no seu projeto Supabase. Para controlar o acesso, ative e personalize as políticas em:
+- Dashboard: `Database` ▸ `Tables` ▸ selecione a tabela ▸ `RLS Policies`
+- Consulte [documentação oficial de RLS](https://supabase.com/docs/guides/auth/row-level-security) para exemplos e melhores práticas.
 
 ## 3. Esquema do Banco de Dados: Tabela `ordens_servico`
 
