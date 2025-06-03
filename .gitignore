@@ -1,0 +1,35 @@
+# Environment variables
+.env
+
+# Temporary files
+data/temp/
+
+# Large data files
+data/extracted/complete/*.json
+
+# Logs
+logs/**/*.log
+
+# Database backups
+backup_db/*.dump
+backup_db/*.sql
+
+# IDE and system files
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+
+# Cached Python files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.so
+**/*.dll
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Node.js dependencies
+web_interface/node_modules/

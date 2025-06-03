@@ -1,0 +1,129 @@
+id,numero_ordem_servico,situacao,data_emissao,equipamento,descricao_problema
+582606761,31175,3,2025-05-17,8 plus ,Bateria e tela
+582604485,31173,3,2025-05-16,iPhone 11,tela e bateria 
+582602687,31171,4,2025-05-16,Mac Mini ,Nao encontra o disco 
+582605282,31174,3,2025-05-16,iPhone 11,tela 
+582595453,31170,7,2025-05-14,MacBook Air A2337,Não da imagem
+582592357,31164,3,2025-05-14,MacBook A1466,sistema
+582594945,31169,3,2025-05-14,iPhone 13 mini ,nao para ligado
+582593920,31168,7,2025-05-14,Macbook A1708,nao liga
+582593829,31167,7,2025-05-14,iPhone 7 ,audio - microfone
+582593776,31166,3,2025-05-14,iPhone 14 Pro max,Traseira muito quebrada.
+582586891,31161,3,2025-05-13,MacBook Pro A2338,"Tela quebrada, sem imagem"
+582590057,31163,4,2025-05-13,MacBook A1466,não liga 
+582584766,31159,3,2025-05-12,iPhone 13 Pro Max ,tela branca 
+582584560,31158,3,2025-05-12,IPAD A2198 7 geração ,tela - vidro bem quebrado 
+582581646,31156,3,2025-05-12,iPhone 8 Plus ,bateria bem estufada 
+582583124,31157,7,2025-05-12,MacBook Pro M1 Pro ,"Tela com faixa vertical preta, quebrada internamente , devido a impacto ou queda"
+582576735,31153,3,2025-05-10,iPad A1893,BATERIA 
+582564022,31142,0,2025-05-08,MacBook A1932,cabo flex trackpad 
+582530868,31117,0,2025-04-30,iPhone 12 Pro Max,não liga
+582516962,31098,3,2025-04-26,iPad mini A1600,vidro touch 
+582506730,31080,4,2025-04-23,Iphone 13,Iphone fica reiniciando.
+582505612,31077,5,2025-04-23,MacBook Pro A1278,"Não liga, impossível checklist"
+582488155,31062,0,2025-04-17,Macbook A2141,nao liga
+582451682,31015,0,2025-04-09,Imac ,sistema
+582441410,31007,4,2025-04-07,MacBook Air M1 2020,tela 
+582404157,30975,2,2025-04-01,Apple Watch SE A2352,Apple Watch SE
+582367087,30937,1,2025-03-26,Apple watch série 3 42mm,Apple watch não liga mais. Chegou da tela verde com alguns chuvisco e não funcionou mais.
+582344587,30910,5,2025-03-22,Iphone 13,Lente da câmera traseira quebrada.
+582322033,30894,1,2025-03-18,Iphone 8 g,Iphone  chegou sem imagem.Com algumas avarias no chassi
+582317146,30891,7,2025-03-17,iPhone 13 Pro Max azul,"reiniciando na maça, impossivel checklist. 
+Foi trocado a tampa traseira, e depois de 3 dias, durante a atualização parou de ligar"
+582315322,30886,5,2025-03-17,MacBook A1278, nao liga
+582301855,30867,1,2025-03-14,iPad A2757,Botao power
+582289197,30859,1,2025-03-12,iPhone 11 ,molhou
+582276272,30844,1,2025-03-11,MacBook A2141,Não liga
+582259271,30819,7,2025-03-07,iPhone 11,"tela, bateria e traseira"
+582251163,30812,4,2025-03-05,iPad A1475,Tela
+582233973,30796,5,2025-02-28,iPhone 13 azul,"não liga, e não puxa carga no cabo. Estava carregando e simplesmente apagou."
+582226770,30783,1,2025-02-27,Apple watch SE rose A2351,Após ter entrado na piscina com o relógio aparelho parou de funcionar
+582187492,30733,2,2025-02-20,Apple watch série 7 45mm,Apple Watch A2474
+582156636,30685,5,2025-02-14,Macbook Air,"NãO LIGA, 
+Molhou bem pouco em novembro, ontem ele fechou a tela, e hoje fez o som de ligar fechado e não ligou mais."
+582148472,30673,2,2025-02-13,Apple watch serie 3,nao sei da tela da maça e molhou
+582125956,30654,2,2025-02-10,Ipad A2270,"curvado, display danificado"
+582116283,30639,1,2025-02-07,Ipad  4 geração A2316,Ipad com falha no touch.Impossivel checklist de entrada.
+582072355,30583,2,2025-01-30,iPad A2567,Nao liga
+582071646,30581,4,2025-01-30,Macbook Pro  A1708,Macbook não liga
+582050053,30557,4,2025-01-27,MacBook a1502,mouse e trackpad congelado
+582048351,30555,4,2025-01-27,iPhone 13,nao liga
+581954001,30451,4,2025-01-07,Iphone 14 pro max,Aparelho ficou com tela verde aptos mergulhar na piscina
+581943017,30428,4,2025-01-06,iPhone 11,caiu no rio
+581939041,30422,2,2025-01-04,iPhone 13 Pro ,molhou no mar
+581921765,30392,7,2024-12-30,iPhone 16 pro ,tela riscada
+581897410,30369,1,2024-12-21,Apple Watch serie 3,bateria
+581897171,30367,7,2024-12-21,iPhone 13,conector acusando que está ''molhado''
+581897068,30365,2,2024-12-21,iPhone 11 ,Não da tela
+581882680,30347,0,2024-12-18,Apple watch SE 44mm,Watch não carrega
+581791406,30287,7,2024-12-05,MacBook Pro 2018 -  A1889,display vazou o cristal 
+581771601,30272,2,2024-12-03,iphone 14 pro max,tudo
+581765687,30269,4,2024-12-02,iPad Air 2 - A1566,Tela com chuvisco
+581739783,30242,4,2024-11-27,Apple Watch s7 45mm,não da tela
+581726948,30236,7,2024-11-25,MacBook Pro A1706,Tela não acende backlight
+581707550,30211,2,2024-11-21,Macbook A1534,"Aparelho, com problema na bateria   9998255535 Eduardo"
+581692327,30193,1,2024-11-18,iPhone 12 Pro,quebrado
+581647162,30175,4,2024-11-11,iPhone 13 Pro max,Tela branca
+581625195,30159,4,2024-11-06,MacBook Pro 2019 - A1989,não liga 
+581628311,30161,6,2024-11-06,Macbook  Air  A1466,Aparelho não liga e nem da sinal de carregamento.
+581593651,30139,1,2024-10-31,iPhone,iPhone 7
+581592946,30138,7,2024-10-31,Iphone x,"display queimado
+
+"
+581577357,30130,7,2024-10-30,iPhone 13 Pro Max,tela piscando
+581560812,30112,4,2024-10-26,13 pro max,problema no touch
+581507264,30053,7,2024-10-15,iPhone 12 Pro ,A camera traseira nao abre
+581464240,30033,4,2024-10-08,Apple Watch serie 4 40mm,Tela chuviscada 
+581449437,30021,4,2024-10-05,iPad Air 2,"Sem imagem, não carrega. 
+FAZER CHECLIST E MONTAR NOVA TELA. 
+"
+581428409,30002,4,2024-10-03,Iphone 14,Aparelho não carrega com o cabo. carrega somente por carregador indução.
+581373059,29959,4,2024-09-25,Iphone13,Display quebrado. Chassi amassado no canto.
+581373075,29960,4,2024-09-25,Iphone XSmax,Display  frontal  e traseira quebrado. Aparelho chegou resetado.
+581375110,29970,4,2024-09-25,Iphone X traseira branca,"Display quebrado, chegou sem imagem. Impossivel checklist de entrada"
+581375106,29969,7,2024-09-25,Macbook A1286,Ele nao liga 
+581356573,29940,4,2024-09-23,Iphone 14 pro max,"Tela quebrada, somente o vidro. checklist de entrada ok."
+581351996,29936,4,2024-09-21,Iphone 12 ,"Colocou pra carregar, telefone apagou e começou a cheira queimado."
+581351646,29934,7,2024-09-21,Iphone 12,"botao volume nao funciona, bateria pedindo manutenção "
+581336874,29921,7,2024-09-18,iPhone 6s,Ele nao liga
+581331976,29917,7,2024-09-17,MacBook Air m1  SpaceGrey,"Tela não da imagem. 
+"
+581333417,29918,4,2024-09-17,MacBook A2159,"As duas USB-Cs pararam de funcionar, não carregam e o Mac não funciona ligado a energia. consegui usar ele até acabar a bateria, entrou para analise"
+581315385,29903,4,2024-09-13,iPad Air 2 (A1567),Touch não funciona.
+581173888,29794,7,2024-08-19,Iphone 13 pro max,"Display quebrado, impossível checklist de entrada."
+581168439,29788,7,2024-08-17,iPhone XS max,"Não funciona o flash, ou camera traseira inteira. e Gps estranho, esta congelando o touch
+Contato com 996018128 - André (esposo)"
+581157519,29778,7,2024-08-15,iPhone 13 Red,Traseira quebrada
+581142158,29764,7,2024-08-12,14 pro max,parou de funcionar o esim
+581116302,29736,7,2024-08-06,Iphone 11,Display quebrado
+581096983,29713,7,2024-08-01,Apple Watch S3 42mm,Loop infinito (problema software)
+581034154,29664,7,2024-07-22,iPhone 13,vidro quebrada
+581019429,29651,7,2024-07-18,iPhone 12 ,"Não conecta no Wi-fi ou Bluetooth.
+Cliente relara que esquentou e reiniciou algumas vezes antes de dar o problema.
+Cliente deixou pra avaliação."
+580954568,29585,7,2024-07-05,Apple Watch S3 ,Sem touch 
+580826844,29488,7,2024-06-07,Iphone 13 pro max,Aparelho com histórico de danos com agua salgada. Tela branca
+580814836,29476,7,2024-06-05,iPhone 8,"Não liga, 
+Estava reiniciando, e esquentando, depois apagou"
+580809295,29471,7,2024-06-04,Ipad pro 12.9 A2089,senha 1303
+580789380,29449,7,2024-05-29,Iphone 7g,Senha.281626
+580744700,29406,7,2024-05-20,Iphone 12 red,"Aparelho  não liga, parou do nada"
+580706202,29370,7,2024-05-10,iMac 27 A1312,"Aparelho trava, apresenta tela branca, e aparecem artefatos na tela."
+580591007,29276,7,2024-05-06,iPhone 12 mini,aparelho não da imagem 
+580665055,29332,7,2024-04-30,iPhone 11 ,"Traseira quebrada, película trincada do lado direito inferior da tela, sem som, molhou. Aparelho reiniciando., reiniciando. 
+Cliente Isabel no Wpp"
+580548455,29236,7,2024-04-04,Apple Watch SE A2722 cor  Starlight.,"Cliente relatou, que o aparelho entrou no modo da maçã e logo  começou a piscar. Não tem marca de trincado externamente. Impossivel checklist de entrada."
+580469312,29169,7,2024-03-15,Macbook 1502,"Não liga
+carregador não funciona
+"
+580457648,29153,7,2024-03-13,iPhone 13 Pro Max,"Iphone caiu no chão, após, ficou na tela branca."
+580379599,29079,7,2024-02-23,iPhone 14 Pro Max ,Vidro da tela quebrado
+580312597,29029,7,2024-02-08,iPhone XS,Sem sinal de rede após queda
+580235585,28986,7,2024-01-22,iPhone 11 branco ,"FaceID nao esta funcionando 
+"
+580193992,28959,7,2024-01-12,ch suprimentos ,
+580178528,28946,7,2024-01-09,iPhone 6S Rose,Não liga
+580178501,28945,7,2024-01-09,iPhone 8 Plus Red,Tela quebrada
+580152022,28935,7,2024-01-04,iPhone 13 mini,Tela quebrada 
+580146760,28929,7,2024-01-03,iPhone 7 Plus ,Nao esta ligando 
+580142235,28923,7,2024-01-02,iPhone SE 2G Branco ,Touch Falhando 

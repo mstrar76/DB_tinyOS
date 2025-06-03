@@ -54,8 +54,8 @@
 | observacoesInternas | string | Observações de uso interno | 
 | tecnico | string | Nome do técnico responsável | 
 | marcadores | string |  Tags da Ordem de serviço | 
-| orcar | string | Indicador se precisa orçamento | 
-| orcado | string | Indicador se já foi orçado | 
+| orcar | string | Indicador se precisa orçamento | ##IGNORAR
+| orcado | string | Indicador se já foi orçado | ##IGNORAR
 | alqComissao | number | Alíquota de comissão | 
 | vlrComissao | number | Valor da comissão | 
 | idForma | integer | ID da forma de pagamento | 
